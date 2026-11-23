@@ -1,0 +1,192 @@
+@layer ui-sdk;
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+}
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color-scheme: light;
+  --background: #f3f5f8;
+  --surface: #ffffff;
+  --foreground: #273449;
+  --muted-foreground: #617087;
+  --border: #dce2ea;
+  --primary: #2459c4;
+  --selection: #dce8ff;
+  --hover: #e9edf4;
+  --radius: 8px;
+}
+
+[data-slot="list"][data-layout="spatial"] {
+  background-image: radial-gradient(var(--border) 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
+
+.desktop-item {
+  border-radius: var(--radius);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+  .desktop-item:hover {
+    background-color: var(--hover);
+  }
+}
+
+.desktop-item[aria-selected="true"],
+.desktop-item[data-lassoed] {
+  z-index: 1;
+  border-color: var(--primary);
+  background-color: var(--selection);
+}
+
+[data-slot="list"][data-lasso-active]
+  [aria-selected="true"]:not([data-lassoed]) {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.desktop-item[data-dragging] {
+  z-index: 2;
+}
+
+.desktop-item[data-drag-preview] {
+  opacity: 0.75;
+}
+
+.desktop-item:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.file-actions {
+  inset: auto;
+  max-height: var(--available-height);
+  border-radius: var(--radius);
+  box-shadow:
+    0 0 0 1px rgb(0 0 0 / 6%),
+    0 4px 6px -2px rgb(0 0 0 / 8%),
+    0 12px 24px -6px rgb(0 0 0 / 12%);
+}
+
+.file-actions [data-slot="menu-item"] {
+  border-radius: 3px;
+}
+
+.file-actions [data-slot="menu-item"][data-highlighted] {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
+  background-color: var(--selection);
+}
+
+kbd {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: var(--background);
+  padding: 2px 5px;
+  font: inherit;
+  color: var(--foreground);
+}
+
+@media (forced-colors: active) {
+  .desktop-item[aria-selected="true"],
+  .desktop-item[data-lassoed] {
+    border-color: Highlight;
+  }
+
+  .desktop-item:focus-visible,
+  .file-actions [data-slot="menu-item"][data-highlighted] {
+    outline-color: Highlight;
+  }
+}
+
+.window-control {
+  position: relative;
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  place-items: center;
+  border-radius: 4px;
+  color: var(--muted-foreground);
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color 150ms ease-out,
+    color 150ms ease-out;
+}
+
+.window-control:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
+}
+
+@media (hover: hover) {
+  .window-control:hover {
+    background-color: var(--hover);
+    color: var(--foreground);
+  }
+}
+
+.window-control-icon {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  pointer-events: none;
+  transition: opacity 300ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.window-restore-icon,
+[data-slot="window"][data-maximized] .window-maximize-icon {
+  opacity: 0;
+}
+
+[data-slot="window"][data-maximized] .window-restore-icon {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .window-control {
+    transition:
+      background-color 150ms ease-out,
+      color 150ms ease-out,
+      scale 150ms ease-out;
+  }
+
+  .window-control:not(:disabled):not([aria-disabled="true"]):active {
+    scale: 0.96;
+  }
+
+  .window-control-icon {
+    transition-property: opacity, scale, filter;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  .window-restore-icon,
+  [data-slot="window"][data-maximized] .window-maximize-icon {
+    scale: 0.25;
+    filter: blur(4px);
+  }
+
+  [data-slot="window"][data-maximized] .window-restore-icon {
+    scale: 1;
+    filter: blur(0);
+  }
+}
+
+.folder-view-controls [data-checked] {
+  background-color: var(--selection);
+  color: var(--primary);
+}
+
+.folder-view-controls [data-disabled] {
+  opacity: 0.4;
+}

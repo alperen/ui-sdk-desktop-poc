@@ -1,0 +1,195 @@
+{
+  "environment": {
+    "react": "19.3.1",
+    "sdk": "0.1.0-beta.5",
+    "agentBrowser": "agent-browser 0.43.0",
+    "viewport": [
+      1000,
+      700
+    ],
+    "browser": "Chromium 158",
+    "compiler": "1.0.0"
+  },
+  "results": [
+    {
+      "round": 1,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2478551,
+      "folder": 3294758,
+      "closed": 3110655,
+      "openFrameMs": 15.959999993443487
+    },
+    {
+      "round": 1,
+      "size": 4,
+      "app": "react",
+      "desktop": 1617217,
+      "folder": 1976945,
+      "closed": 1960702,
+      "openFrameMs": 15.21500000357628
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2485903,
+      "folder": 6461562,
+      "closed": 3513006,
+      "openFrameMs": 16.350000008940697
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "react",
+      "desktop": 1636056,
+      "folder": 2862526,
+      "closed": 2221699,
+      "openFrameMs": 17.195000007748604
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "react",
+      "desktop": 1636057,
+      "folder": 2862527,
+      "closed": 2221700,
+      "openFrameMs": 15.769999995827677
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2485902,
+      "folder": 6461433,
+      "closed": 3513001,
+      "openFrameMs": 16.365000009536743
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "react",
+      "desktop": 1617216,
+      "folder": 1976944,
+      "closed": 1960701,
+      "openFrameMs": 14.810000002384186
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2478550,
+      "folder": 3294753,
+      "closed": 3111210,
+      "openFrameMs": 14.385000005364418
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2478558,
+      "folder": 3294833,
+      "closed": 3110730,
+      "openFrameMs": 15.199999988079073
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "react",
+      "desktop": 1617217,
+      "folder": 1976945,
+      "closed": 1960702,
+      "openFrameMs": 14.510000005364418
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2485951,
+      "folder": 6461278,
+      "closed": 3513010,
+      "openFrameMs": 16.195000007748604
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "react",
+      "desktop": 1636057,
+      "folder": 2862527,
+      "closed": 2221700,
+      "openFrameMs": 16.160000011324883
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "react",
+      "desktop": 1636056,
+      "folder": 2862526,
+      "closed": 2233007,
+      "openFrameMs": 16.125
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2485927,
+      "folder": 6460494,
+      "closed": 3512926,
+      "openFrameMs": 16.439999997615814
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "react",
+      "desktop": 1617216,
+      "folder": 1976944,
+      "closed": 1960981,
+      "openFrameMs": 15.680000007152556
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2478558,
+      "folder": 3294881,
+      "closed": 3111574,
+      "openFrameMs": 14.929999992251396
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2478542,
+      "folder": 3294685,
+      "closed": 3110582,
+      "openFrameMs": 14.299999997019768
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "react",
+      "desktop": 1617216,
+      "folder": 1976944,
+      "closed": 1960757,
+      "openFrameMs": 14.849999994039536
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2485918,
+      "folder": 6460733,
+      "closed": 3512889,
+      "openFrameMs": 16.185000002384186
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "react",
+      "desktop": 1636057,
+      "folder": 2861175,
+      "closed": 2221700,
+      "openFrameMs": 16.65999999642372
+    }
+  ]
+}

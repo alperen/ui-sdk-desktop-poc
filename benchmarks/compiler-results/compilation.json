@@ -1,0 +1,391 @@
+{
+  "version": "1.0.0",
+  "target": "19",
+  "mode": "infer",
+  "functions": [
+    {
+      "file": "only-react/src/agent.ts",
+      "line": 12,
+      "kind": "CompileSuccess",
+      "name": "useAgent",
+      "blocks": 1,
+      "slots": 3
+    },
+    {
+      "file": "only-react/src/App.tsx",
+      "line": 6,
+      "kind": "CompileSuccess",
+      "name": "Desktop",
+      "blocks": 12,
+      "slots": 36
+    },
+    {
+      "file": "only-react/src/App.tsx",
+      "line": 81,
+      "kind": "CompileSuccess",
+      "name": "App",
+      "blocks": 1,
+      "slots": 1
+    },
+    {
+      "file": "only-react/src/ColumnView.tsx",
+      "line": 15,
+      "kind": "CompileSuccess",
+      "name": "ColumnView",
+      "blocks": 1,
+      "slots": 2
+    },
+    {
+      "file": "only-react/src/ColumnView.tsx",
+      "line": 18,
+      "kind": "CompileError",
+      "reason": "Cannot access refs during render"
+    },
+    {
+      "file": "only-react/src/FileListView.tsx",
+      "line": 38,
+      "kind": "CompileSuccess",
+      "name": "FileListView",
+      "blocks": 12,
+      "slots": 53
+    },
+    {
+      "file": "only-react/src/FileListView.tsx",
+      "line": 142,
+      "kind": "CompileSuccess",
+      "name": "ContextMenu",
+      "blocks": 10,
+      "slots": 28
+    },
+    {
+      "file": "only-react/src/gesture.ts",
+      "line": 4,
+      "kind": "CompileSuccess",
+      "name": "useGesture",
+      "blocks": 2,
+      "slots": 3
+    },
+    {
+      "file": "only-react/src/Icon.tsx",
+      "line": 4,
+      "kind": "CompileSuccess",
+      "name": "FileIcon",
+      "blocks": 1,
+      "slots": 2
+    },
+    {
+      "file": "only-react/src/Icon.tsx",
+      "line": 38,
+      "kind": "CompileSuccess",
+      "name": "ControlIcon",
+      "blocks": 2,
+      "slots": 7
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 24,
+      "kind": "CompileError",
+      "reason": "This value cannot be modified"
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 24,
+      "kind": "CompileError",
+      "reason": "This value cannot be modified"
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 82,
+      "kind": "CompileSuccess",
+      "name": "useEdit",
+      "blocks": 0,
+      "slots": 0
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 88,
+      "kind": "CompileSuccess",
+      "name": "ItemIcon",
+      "blocks": 1,
+      "slots": 3
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 95,
+      "kind": "CompileSuccess",
+      "name": "ItemLabel",
+      "blocks": 1,
+      "slots": 3
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 101,
+      "kind": "CompileSuccess",
+      "name": "ItemStatus",
+      "blocks": 3,
+      "slots": 10
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 118,
+      "kind": "CompileSuccess",
+      "name": "ItemInput",
+      "blocks": 1,
+      "slots": 3
+    },
+    {
+      "file": "only-react/src/item/item-parts.tsx",
+      "line": 123,
+      "kind": "CompileSuccess",
+      "name": "Editor",
+      "blocks": 5,
+      "slots": 14
+    },
+    {
+      "file": "only-react/src/item/item-view.tsx",
+      "line": 11,
+      "kind": "CompileSuccess",
+      "name": "Item",
+      "blocks": 7,
+      "slots": 23
+    },
+    {
+      "file": "only-react/src/list/list-parts.tsx",
+      "line": 42,
+      "kind": "CompileSuccess",
+      "name": "useList",
+      "blocks": 0,
+      "slots": 0
+    },
+    {
+      "file": "only-react/src/list/list-parts.tsx",
+      "line": 57,
+      "kind": "CompileError",
+      "reason": "(BuildHIR::lowerExpression) Handle ??= operators in AssignmentExpression"
+    },
+    {
+      "file": "only-react/src/list/list-parts.tsx",
+      "line": 508,
+      "kind": "CompileSuccess",
+      "name": "FileListItem",
+      "blocks": 9,
+      "slots": 42
+    },
+    {
+      "file": "only-react/src/list/list-parts.tsx",
+      "line": 561,
+      "kind": "CompileSuccess",
+      "name": "FileListLasso",
+      "blocks": 1,
+      "slots": 5
+    },
+    {
+      "file": "only-react/src/model.tsx",
+      "line": 50,
+      "kind": "CompileSuccess",
+      "name": "useItems",
+      "blocks": 1,
+      "slots": 2
+    },
+    {
+      "file": "only-react/src/model.tsx",
+      "line": 89,
+      "kind": "CompileSuccess",
+      "name": "useFileList",
+      "blocks": 0,
+      "slots": 0
+    },
+    {
+      "file": "only-react/src/model.tsx",
+      "line": 95,
+      "kind": "CompileSuccess",
+      "name": "FileListProvider",
+      "blocks": 2,
+      "slots": 6
+    },
+    {
+      "file": "only-react/src/model.tsx",
+      "line": 104,
+      "kind": "CompileSuccess",
+      "name": "useWindows",
+      "blocks": 7,
+      "slots": 13
+    },
+    {
+      "file": "only-react/src/Window.tsx",
+      "line": 44,
+      "kind": "CompileSuccess",
+      "name": "Window",
+      "blocks": 31,
+      "slots": 104
+    },
+    {
+      "file": "only-react/src/window/view-layout-control.tsx",
+      "line": 7,
+      "kind": "CompileSuccess",
+      "name": "ViewLayoutControl",
+      "blocks": 4,
+      "slots": 13
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 17,
+      "kind": "CompileSuccess",
+      "name": "Workspace",
+      "blocks": 7,
+      "slots": 21
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 68,
+      "kind": "CompileSuccess",
+      "name": "App",
+      "blocks": 1,
+      "slots": 1
+    },
+    {
+      "file": "src/AppLayout.tsx",
+      "line": 7,
+      "kind": "CompileSuccess",
+      "name": "AppLayout",
+      "blocks": 8,
+      "slots": 10
+    },
+    {
+      "file": "src/ColumnView.tsx",
+      "line": 15,
+      "kind": "CompileSuccess",
+      "name": "ColumnView",
+      "blocks": 2,
+      "slots": 10
+    },
+    {
+      "file": "src/FileIcon.tsx",
+      "line": 7,
+      "kind": "CompileSuccess",
+      "name": "FileIcon",
+      "blocks": 1,
+      "slots": 2
+    },
+    {
+      "file": "src/FileListContext.tsx",
+      "line": 13,
+      "kind": "CompileSuccess",
+      "name": "FileListProvider",
+      "blocks": 2,
+      "slots": 6
+    },
+    {
+      "file": "src/FileListView.tsx",
+      "line": 36,
+      "kind": "CompileSuccess",
+      "name": "FileListView",
+      "blocks": 16,
+      "slots": 59
+    },
+    {
+      "file": "src/item/item-view.tsx",
+      "line": 24,
+      "kind": "CompileError",
+      "reason": "This value cannot be modified"
+    },
+    {
+      "file": "src/list/list-parts.tsx",
+      "line": 18,
+      "kind": "CompileSuccess",
+      "name": "FileListItem",
+      "blocks": 4,
+      "slots": 10
+    },
+    {
+      "file": "src/useItems.ts",
+      "line": 36,
+      "kind": "CompileSuccess",
+      "name": "useItems",
+      "blocks": 1,
+      "slots": 2
+    },
+    {
+      "file": "src/useWindows.ts",
+      "line": 14,
+      "kind": "CompileSuccess",
+      "name": "useWindows",
+      "blocks": 7,
+      "slots": 13
+    },
+    {
+      "file": "src/Window.tsx",
+      "line": 19,
+      "kind": "CompileSuccess",
+      "name": "Window",
+      "blocks": 3,
+      "slots": 20
+    },
+    {
+      "file": "src/window/view-layout-control.tsx",
+      "line": 15,
+      "kind": "CompileSuccess",
+      "name": "ViewLayoutControl",
+      "blocks": 5,
+      "slots": 9
+    },
+    {
+      "file": "src/window/window-view.tsx",
+      "line": 56,
+      "kind": "CompileSuccess",
+      "name": "FileWindow",
+      "blocks": 14,
+      "slots": 46
+    },
+    {
+      "file": "src/WindowManagerContext.tsx",
+      "line": 9,
+      "kind": "CompileSuccess",
+      "name": "WindowManagerProvider",
+      "blocks": 1,
+      "slots": 3
+    }
+  ],
+  "guards": {
+    "only-react/src/main.tsx": 0,
+    "src/main.tsx": 0,
+    "only-react/src/agent.ts": 1,
+    "only-react/src/App.tsx": 13,
+    "src/agent.ts": 0,
+    "src/App.tsx": 8,
+    "only-react/src/model.tsx": 10,
+    "only-react/src/FileListView.tsx": 22,
+    "only-react/src/item/item-view.tsx": 7,
+    "only-react/src/Window.tsx": 31,
+    "src/AppLayout.tsx": 8,
+    "src/FileListContext.tsx": 2,
+    "src/Window.tsx": 3,
+    "src/WindowManagerContext.tsx": 1,
+    "src/item/item-view.tsx": 0,
+    "src/FileListView.tsx": 16,
+    "only-react/src/list/list.ts": 0,
+    "only-react/src/list/list-parts.tsx": 10,
+    "only-react/src/typeahead.ts": 0,
+    "only-react/src/gesture.ts": 2,
+    "src/useRenameItems.ts": 0,
+    "src/ColumnView.tsx": 2,
+    "src/window/window-view.tsx": 14,
+    "src/useItems.ts": 1,
+    "only-react/src/item/item-parts.tsx": 11,
+    "only-react/src/Icon.tsx": 3,
+    "src/useWindows.ts": 7,
+    "only-react/src/window/view-layout-control.tsx": 4,
+    "only-react/src/ColumnView.tsx": 1,
+    "src/FileIcon.tsx": 1,
+    "src/item/item-edit-context.ts": 0,
+    "src/item/item-parts.ts": 0,
+    "src/item/item.ts": 0,
+    "src/list/list.ts": 0,
+    "src/list/list-parts.tsx": 4,
+    "src/columns/columns-parts.ts": 0,
+    "src/window/view-layout-control.tsx": 5,
+    "src/window/window-parts.ts": 0,
+    "src/columns/columns.ts": 0,
+    "src/window/window.ts": 0
+  }
+}

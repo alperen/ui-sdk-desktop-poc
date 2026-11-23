@@ -1,0 +1,195 @@
+{
+  "environment": {
+    "react": "19.3.1",
+    "sdk": "0.1.0-beta.5",
+    "agentBrowser": "agent-browser 0.43.0",
+    "viewport": [
+      1000,
+      700
+    ],
+    "browser": "Chromium 158",
+    "compiler": "off"
+  },
+  "results": [
+    {
+      "round": 1,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2457832,
+      "folder": 3351439,
+      "closed": 3186008,
+      "openFrameMs": 12.375
+    },
+    {
+      "round": 1,
+      "size": 4,
+      "app": "react",
+      "desktop": 1585185,
+      "folder": 1982769,
+      "closed": 1971954,
+      "openFrameMs": 16.75500001013279
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2465198,
+      "folder": 6445485,
+      "closed": 3563633,
+      "openFrameMs": 16.149999991059303
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "react",
+      "desktop": 1602093,
+      "folder": 2983399,
+      "closed": 2223868,
+      "openFrameMs": 16.469999998807907
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "react",
+      "desktop": 1602093,
+      "folder": 2982631,
+      "closed": 2212428,
+      "openFrameMs": 14.870000004768372
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2465247,
+      "folder": 6444974,
+      "closed": 3561186,
+      "openFrameMs": 15.84000000357628
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "react",
+      "desktop": 1585185,
+      "folder": 1982809,
+      "closed": 1971994,
+      "openFrameMs": 15.865000009536743
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2457832,
+      "folder": 3351439,
+      "closed": 3186008,
+      "openFrameMs": 13.049999997019768
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2457808,
+      "folder": 3351527,
+      "closed": 3186052,
+      "openFrameMs": 14.060000002384186
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "react",
+      "desktop": 1585184,
+      "folder": 1982768,
+      "closed": 1971953,
+      "openFrameMs": 15.09000000357628
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2465264,
+      "folder": 6445295,
+      "closed": 3552307,
+      "openFrameMs": 16.344999998807907
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "react",
+      "desktop": 1602093,
+      "folder": 2981651,
+      "closed": 2212048,
+      "openFrameMs": 16.390000000596046
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "react",
+      "desktop": 1602053,
+      "folder": 2982839,
+      "closed": 2212216,
+      "openFrameMs": 15.875
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2465256,
+      "folder": 6445207,
+      "closed": 3561387,
+      "openFrameMs": 15.939999997615814
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "react",
+      "desktop": 1585184,
+      "folder": 1982768,
+      "closed": 1971953,
+      "openFrameMs": 15.20499999821186
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2457839,
+      "folder": 3351434,
+      "closed": 3186003,
+      "openFrameMs": 12.21500000357628
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2457855,
+      "folder": 3351438,
+      "closed": 3186007,
+      "openFrameMs": 13.009999990463257
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "react",
+      "desktop": 1585184,
+      "folder": 1982768,
+      "closed": 1971953,
+      "openFrameMs": 16.12999999523163
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2465271,
+      "folder": 6444946,
+      "closed": 3561406,
+      "openFrameMs": 16.34500001370907
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "react",
+      "desktop": 1602052,
+      "folder": 2985130,
+      "closed": 2212567,
+      "openFrameMs": 16.450000002980232
+    }
+  ]
+}

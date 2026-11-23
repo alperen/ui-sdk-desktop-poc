@@ -1,0 +1,149 @@
+Round 1 · pnpm test
+
+$ node --test scripts/agent-stop.test.mjs only-react/isolation.test.mjs && vitest run
+✔ only-react runtime imports are React or local files inside only-react (18.05875ms)
+✔ Stop hook validates changes, reports failures, and avoids retry loops (266.855625ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 297.828083
+
+ RUN  v5.1.1 .
+
+
+ Test Files  18 passed (18)
+      Tests  294 passed (294)
+   Duration  8.71s (tests 89%, worker 7%, import 4%)
+
+
+Round 2 · pnpm test
+
+$ node --test scripts/agent-stop.test.mjs only-react/isolation.test.mjs && vitest run
+✔ only-react runtime imports are React or local files inside only-react (18.137583ms)
+✔ Stop hook validates changes, reports failures, and avoids retry loops (266.931542ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 298.935417
+
+ RUN  v5.1.1 .
+
+
+ Test Files  18 passed (18)
+      Tests  294 passed (294)
+   Duration  8.72s (tests 89%, worker 7%, import 3%)
+
+
+Round 3 · pnpm test
+
+$ node --test scripts/agent-stop.test.mjs only-react/isolation.test.mjs && vitest run
+✔ only-react runtime imports are React or local files inside only-react (19.363208ms)
+✔ Stop hook validates changes, reports failures, and avoids retry loops (518.847875ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 551.397375
+
+ RUN  v5.1.1 .
+
+
+ Test Files  18 passed (18)
+      Tests  294 passed (294)
+   Duration  8.65s (tests 90%, worker 7%, import 3%)
+
+
+Round 4 · pnpm test
+
+$ node --test scripts/agent-stop.test.mjs only-react/isolation.test.mjs && vitest run
+✔ only-react runtime imports are React or local files inside only-react (19.852792ms)
+✔ Stop hook validates changes, reports failures, and avoids retry loops (272.403042ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 305.24025
+
+ RUN  v5.1.1 .
+
+
+ Test Files  18 passed (18)
+      Tests  294 passed (294)
+   Duration  8.68s (tests 89%, worker 8%, import 3%)
+
+
+Round 5 · pnpm validate
+
+$ lefthook run validate
+$ biome lint .
+src/main.tsx:8:12 lint/style/noNonNullAssertion ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ! Forbidden non-null assertion.
+
+     6 │ import "./styles.css";
+     7 │
+   > 8 │ createRoot(document.getElementById("root")!).render(
+       │            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     9 │   <StrictMode>
+    10 │     <App />
+
+  i A non-null assertion tells TypeScript to ignore a possible null or undefined value. If the value is missing at runtime, the code fails with an error that the compiler could not catch.
+
+  i Check that the value is defined before using it, for example with an if statement or optional chaining, instead of asserting it.
+
+
+Checked 79 files in 18ms. No fixes applied.
+Found 1 warning.
+
+$ tsc --noEmit
+
+$ node --test scripts/agent-stop.test.mjs only-react/isolation.test.mjs && vitest run
+✔ only-react runtime imports are React or local files inside only-react (17.77975ms)
+✔ Stop hook validates changes, reports failures, and avoids retry loops (315.620084ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 345.564333
+
+ RUN  v5.1.1 .
+
+
+ Test Files  18 passed (18)
+      Tests  294 passed (294)
+   Duration  8.70s (tests 89%, worker 8%, import 3%)
+
+
+$ tsc --noEmit && vite build
+vite v6.4.6 building for production...
+transforming...
+✓ 2363 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/only-react/index.html                    0.44 kB │ gzip:  0.29 kB
+dist/index.html                               0.46 kB │ gzip:  0.29 kB
+dist/.vite/manifest.json                      1.18 kB │ gzip:  0.35 kB
+dist/assets/react-dhNeKw4x.css                8.82 kB │ gzip:  2.44 kB
+dist/assets/sdk-h1nxNhUQ.css                 23.84 kB │ gzip:  5.68 kB
+dist/assets/react-nT5JGd7B.js                29.67 kB │ gzip: 10.34 kB
+dist/assets/sheet-presentation-CTzCV_aU.js   38.72 kB │ gzip: 14.15 kB
+dist/assets/index-Cjgm9AoL.js               223.84 kB │ gzip: 69.50 kB
+dist/assets/sdk-K60cP9km.js                 228.90 kB │ gzip: 80.56 kB
+✓ built in 940ms

@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Benchmark measurements</title><style>body{font:16px/1.55 system-ui;max-width:76rem;margin:2rem auto;padding:0 1rem;color:#19342c}section{overflow-x:auto}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{padding:.45rem;text-align:right;border-bottom:1px solid #ccd5cf}th:first-child,td:first-child{text-align:left}a{color:#00654d}</style><h1>Benchmark measurements</h1>
+<p>Times are in milliseconds and memory is in MiB. The rounds table shows individual runs. Other tables show five-run medians. Interaction totals exclude the initial desktop mount.</p>
+<section><h2>Paired rounds</h2><table><thead><tr><th scope="col">Round</th><th scope="col">Items</th><th scope="col">First to run</th><th scope="col">SDK render</th><th scope="col">React render</th><th scope="col">Faster render</th><th scope="col">SDK input processing</th><th scope="col">React input processing</th></tr></thead><tbody>
+<tr><td>1</td><td>4</td><td>UI SDK</td><td>9.76</td><td>4.51</td><td>React only</td><td>26.13</td><td>16.67</td></tr>
+<tr><td>2</td><td>4</td><td>React only</td><td>13.12</td><td>5.97</td><td>React only</td><td>36.49</td><td>18.39</td></tr>
+<tr><td>3</td><td>4</td><td>UI SDK</td><td>10.15</td><td>5.27</td><td>React only</td><td>28.01</td><td>16.85</td></tr>
+<tr><td>4</td><td>4</td><td>React only</td><td>10.55</td><td>4.87</td><td>React only</td><td>28.40</td><td>16.49</td></tr>
+<tr><td>5</td><td>4</td><td>UI SDK</td><td>10.96</td><td>4.79</td><td>React only</td><td>28.44</td><td>16.80</td></tr>
+<tr><td>1</td><td>100</td><td>UI SDK</td><td>34.50</td><td>16.28</td><td>React only</td><td>68.34</td><td>39.37</td></tr>
+<tr><td>2</td><td>100</td><td>React only</td><td>38.53</td><td>16.60</td><td>React only</td><td>80.31</td><td>43.03</td></tr>
+<tr><td>3</td><td>100</td><td>UI SDK</td><td>34.95</td><td>15.05</td><td>React only</td><td>68.60</td><td>39.77</td></tr>
+<tr><td>4</td><td>100</td><td>React only</td><td>35.74</td><td>15.49</td><td>React only</td><td>72.01</td><td>39.67</td></tr>
+<tr><td>5</td><td>100</td><td>UI SDK</td><td>34.88</td><td>15.47</td><td>React only</td><td>71.34</td><td>40.80</td></tr>
+</tbody></table></section>
+<section><h2>Full interaction sequence</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">Render</th><th scope="col">React commit</th><th scope="col">Function body calls</th><th scope="col">agent-browser render records</th><th scope="col">Recorded mounts / updates</th><th scope="col">Input processing</th><th scope="col">Style, layout and paint</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>10.55</td><td>29</td><td>1,731</td><td>4,004</td><td>612 / 3,392</td><td>28.40</td><td>13.50</td></tr>
+<tr><td>4</td><td>React only</td><td>4.87</td><td>38</td><td>1,948</td><td>3,394</td><td>282 / 3,112</td><td>16.80</td><td>12.27</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>34.95</td><td>29</td><td>15,555</td><td>25,892</td><td>4,068 / 21,824</td><td>71.34</td><td>22.58</td></tr>
+<tr><td>100</td><td>React only</td><td>15.49</td><td>38</td><td>17,500</td><td>23,362</td><td>1,818 / 21,544</td><td>39.77</td><td>27.00</td></tr>
+</tbody></table></section>
+<section><h2>React render time by interaction</h2><table><thead><tr><th scope="col">Step</th><th scope="col">SDK · 4</th><th scope="col">React · 4</th><th scope="col">SDK · 100</th><th scope="col">React · 100</th></tr></thead><tbody>
+<tr><td>Initial desktop mount</td><td>1.230</td><td>0.625</td><td>1.275</td><td>0.640</td></tr>
+<tr><td>Select all desktop items and clear selection</td><td>0.545</td><td>0.185</td><td>0.550</td><td>0.195</td></tr>
+<tr><td>Marquee selection</td><td>0.230</td><td>0.165</td><td>0.230</td><td>0.165</td></tr>
+<tr><td>Drag the selected file</td><td>0.050</td><td>0.050</td><td>0.050</td><td>0.045</td></tr>
+<tr><td>Open and close the context menu</td><td>0.490</td><td>0.355</td><td>0.470</td><td>0.350</td></tr>
+<tr><td>Open the Photos folder</td><td>1.620</td><td>0.615</td><td>6.660</td><td>2.890</td></tr>
+<tr><td>Select all folder items and clear selection</td><td>0.440</td><td>0.160</td><td>4.915</td><td>1.155</td></tr>
+<tr><td>Rename a file with the keyboard and save</td><td>1.070</td><td>0.440</td><td>4.055</td><td>1.465</td></tr>
+<tr><td>Switch to grid view</td><td>0.485</td><td>0.125</td><td>2.520</td><td>0.510</td></tr>
+<tr><td>Switch to column view</td><td>0.805</td><td>0.310</td><td>3.495</td><td>1.525</td></tr>
+<tr><td>Open five nested folders and select the file</td><td>4.355</td><td>1.970</td><td>12.105</td><td>5.885</td></tr>
+<tr><td>Maximize and restore the window</td><td>0.265</td><td>0.435</td><td>0.295</td><td>1.255</td></tr>
+<tr><td>Close the window</td><td>0.235</td><td>0.100</td><td>0.245</td><td>0.100</td></tr>
+</tbody></table></section>
+<section><h2>Memoization</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">useMemo calls</th><th scope="col">Hits</th><th scope="col">Calculations</th><th scope="col">useMemo ms</th><th scope="col">Calculation time (ms)</th><th scope="col">useCallback calls</th><th scope="col">Hits</th><th scope="col">useCallback ms</th><th scope="col">React.memo comparisons</th><th scope="col">Comparison time (ms)</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>1,202</td><td>955</td><td>247</td><td>0.340</td><td>0.050</td><td>1,009</td><td>819</td><td>0.230</td><td>0</td><td>0.000</td></tr>
+<tr><td>4</td><td>React only</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0.000</td><td>14</td><td>12</td><td>0.020</td><td>0</td><td>0.000</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>10,418</td><td>8,539</td><td>1,879</td><td>2.285</td><td>0.285</td><td>9,073</td><td>7,539</td><td>1.565</td><td>0</td><td>0.000</td></tr>
+<tr><td>100</td><td>React only</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0.000</td><td>14</td><td>12</td><td>0.010</td><td>0</td><td>0.000</td></tr>
+</tbody></table></section>
+<section><h2>Component calls and body time with 100 items</h2><table><thead><tr><th scope="col">Component</th><th scope="col">SDK calls</th><th scope="col">SDK ms</th><th scope="col">React calls</th><th scope="col">React ms</th></tr></thead><tbody>
+<tr><td>App.Item</td><td>1,255</td><td>0.700</td><td>2,112</td><td>0.590</td></tr>
+<tr><td>FileListItem</td><td>1,266</td><td>5.540</td><td>2,328</td><td>1.160</td></tr>
+<tr><td>FileListView</td><td>35</td><td>0.380</td><td>74</td><td>0.540</td></tr>
+<tr><td>FileIcon</td><td>1,255</td><td>0.285</td><td>2,112</td><td>0.395</td></tr>
+<tr><td>ItemIcon</td><td>1,255</td><td>3.190</td><td>2,113</td><td>0.305</td></tr>
+<tr><td>ItemLabel</td><td>1,256</td><td>2.820</td><td>2,113</td><td>0.315</td></tr>
+<tr><td>ItemInput</td><td>1,256</td><td>2.110</td><td>2,113</td><td>0.245</td></tr>
+<tr><td>App.Window</td><td>4</td><td>0.050</td><td>7</td><td>0.315</td></tr>
+<tr><td>ColumnView</td><td>1</td><td>0.005</td><td>3</td><td>0.000</td></tr>
+<tr><td>HandleScope</td><td>1,290</td><td>0.645</td><td>—</td><td>—</td></tr>
+<tr><td>ContextTriggerPart</td><td>1,257</td><td>3.995</td><td>—</td><td>—</td></tr>
+</tbody></table></section>
+<section><h2>Memory and folder opening in the production build</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">Desktop heap</th><th scope="col">Open-folder heap</th><th scope="col">Heap increase on open</th><th scope="col">Heap after closing</th><th scope="col">Double-click to first paint opportunity (ms)</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>2.34</td><td>3.20</td><td>0.85</td><td>3.04</td><td>13.01</td></tr>
+<tr><td>4</td><td>React only</td><td>1.51</td><td>1.89</td><td>0.38</td><td>1.88</td><td>15.87</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>2.35</td><td>6.15</td><td>3.80</td><td>3.40</td><td>16.15</td></tr>
+<tr><td>100</td><td>React only</td><td>1.53</td><td>2.84</td><td>1.32</td><td>2.11</td><td>16.39</td></tr>
+</tbody></table></section>
+<p><a href="components.csv">Component data (CSV)</a> · <a href="../index.html">Methodology</a></p></html>

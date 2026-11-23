@@ -1,0 +1,36 @@
+min_version: 2.2.2
+lefthook: pnpm exec lefthook
+no_auto_install: true
+
+# Stop hooks must emit JSON without decorative output.
+output:
+  - execution_out
+
+ai:
+  claude:
+    Stop: agent-stop
+  codex:
+    Stop: agent-stop
+
+pre-commit:
+  jobs:
+    - name: tests
+      run: pnpm test
+
+validate:
+  piped: true
+  jobs:
+    - name: lint
+      run: pnpm lint
+    - name: types
+      run: pnpm check-types
+    - name: tests
+      run: pnpm test
+    - name: build
+      run: pnpm build
+
+agent-stop:
+  jobs:
+    - name: validation
+      use_stdin: true
+      run: node scripts/agent-stop.mjs

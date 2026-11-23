@@ -1,0 +1,5774 @@
+{
+  "environment": {
+    "react": "19.3.1",
+    "sdk": "0.1.0-beta.5",
+    "agentBrowser": "agent-browser 0.43.0",
+    "viewport": [
+      1000,
+      700
+    ],
+    "browser": "Chromium 158"
+  },
+  "results": [
+    {
+      "round": 1,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.2149999886751175,
+          "base": 0.9150000065565108,
+          "commit": 10.510000005364418,
+          "phase": "mount",
+          "start": 9.234999999403954,
+          "step": "mount"
+        },
+        {
+          "actual": 0.3200000077486038,
+          "base": 0.3850000202655792,
+          "commit": 55.62000000476837,
+          "phase": "update",
+          "start": 55.26000000536442,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.20000000298023224,
+          "base": 0.2800000160932541,
+          "commit": 64.06500001251698,
+          "phase": "update",
+          "start": 63.82500000298023,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.21500001847743988,
+          "base": 0.2900000363588333,
+          "commit": 128.3800000101328,
+          "phase": "update",
+          "start": 128.14000000059605,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.04499998688697815,
+          "base": 0.310000017285347,
+          "commit": 211.74500000476837,
+          "phase": "update",
+          "start": 211.6650000065565,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.375,
+          "base": 0.5000000298023224,
+          "commit": 262.0050000101328,
+          "phase": "update",
+          "start": 261.6050000041723,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06499999761581421,
+          "base": 0.3100000321865082,
+          "commit": 275.1550000011921,
+          "phase": "update",
+          "start": 275.07500000298023,
+          "step": "menu"
+        },
+        {
+          "actual": 0.05500000715255737,
+          "base": 0.33000002801418304,
+          "commit": 324.690000012517,
+          "phase": "update",
+          "start": 324.6050000041723,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.30000002682209015,
+          "commit": 324.9950000047684,
+          "phase": "update",
+          "start": 324.9650000035763,
+          "step": "open-folder"
+        },
+        {
+          "actual": 1.540000021457672,
+          "base": 1.165000006556511,
+          "commit": 326.90000000596046,
+          "phase": "update",
+          "start": 325.30500000715256,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0,
+          "base": 1.165000006556511,
+          "commit": 328.07500000298023,
+          "phase": "nested-update",
+          "start": 328.065000012517,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.2300000041723251,
+          "base": 1.1200000196695328,
+          "commit": 365.7349999994039,
+          "phase": "update",
+          "start": 365.4750000089407,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.20999999344348907,
+          "base": 1.1000000089406967,
+          "commit": 373.3850000053644,
+          "phase": "update",
+          "start": 373.1650000065565,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.2849999964237213,
+          "base": 1.1700000166893003,
+          "commit": 424.90000000596046,
+          "phase": "update",
+          "start": 424.5900000035763,
+          "step": "rename"
+        },
+        {
+          "actual": 0.10000000894069672,
+          "base": 1.2100000381469729,
+          "commit": 429.46000000834465,
+          "phase": "update",
+          "start": 429.33500000834465,
+          "step": "rename"
+        },
+        {
+          "actual": 0.6899999976158142,
+          "base": 0.6700000166893005,
+          "commit": 447.4350000023842,
+          "phase": "update",
+          "start": 446.70000000298023,
+          "step": "rename"
+        },
+        {
+          "actual": 0.4649999886751175,
+          "base": 0.7300000190734863,
+          "commit": 492.4350000023842,
+          "phase": "update",
+          "start": 491.9450000077486,
+          "step": "grid"
+        },
+        {
+          "actual": 0.7400000095367432,
+          "base": 0.9050000011920928,
+          "commit": 542.765000000596,
+          "phase": "update",
+          "start": 542,
+          "step": "columns"
+        },
+        {
+          "actual": 0.5499999821186066,
+          "base": 1.0099999904632568,
+          "commit": 592.2250000089407,
+          "phase": "update",
+          "start": 591.6300000101328,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 1.0049999952316284,
+          "commit": 592.8550000041723,
+          "phase": "update",
+          "start": 592.8200000077486,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.6749999970197678,
+          "base": 1.14000004529953,
+          "commit": 608.9650000035763,
+          "phase": "update",
+          "start": 608.265000000596,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 1.1350000202655792,
+          "commit": 609.6050000041723,
+          "phase": "update",
+          "start": 609.5750000029802,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.6549999862909317,
+          "base": 1.1199999898672104,
+          "commit": 625.6350000053644,
+          "phase": "update",
+          "start": 624.940000012517,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.7950000166893005,
+          "base": 1.2450000494718552,
+          "commit": 642.2550000101328,
+          "phase": "update",
+          "start": 641.4250000119209,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.7849999964237213,
+          "base": 1.2650000303983688,
+          "commit": 659.0600000023842,
+          "phase": "update",
+          "start": 658.2150000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.304999977350235,
+          "base": 1.3150000274181366,
+          "commit": 674.5200000107288,
+          "phase": "update",
+          "start": 674.190000012517,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.09000000357627869,
+          "base": 1.3150000423192978,
+          "commit": 725.2550000101328,
+          "phase": "update",
+          "start": 725.1500000059605,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.16500000655651093,
+          "base": 1.345000073313713,
+          "commit": 742.4150000065565,
+          "phase": "update",
+          "start": 742.234999999404,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.1899999976158142,
+          "base": 0.20500001311302185,
+          "commit": 792.1000000089407,
+          "phase": "update",
+          "start": 791.8800000101328,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.20500001311302185,
+          "commit": 793.234999999404,
+          "phase": "nested-update",
+          "start": 793.2199999988079,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5600000023841858,
+          "base": 0.2600000202655792,
+          "commit": 7.50500001013279,
+          "phase": "mount",
+          "start": 6.875,
+          "step": "mount"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.2550000250339508,
+          "commit": 8.365000009536743,
+          "phase": "update",
+          "start": 8.275000005960464,
+          "step": "mount"
+        },
+        {
+          "actual": 0.10500000417232512,
+          "base": 0.1600000262260437,
+          "commit": 72.53500001132488,
+          "phase": "update",
+          "start": 72.39500001072884,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.14000001549720764,
+          "commit": 79.9050000011921,
+          "phase": "update",
+          "start": 79.80000001192093,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.06499998271465302,
+          "base": 0.14500001072883606,
+          "commit": 140.5,
+          "phase": "update",
+          "start": 140.41000001132488,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.13500000536441803,
+          "commit": 144.375,
+          "phase": "update",
+          "start": 144.27500000596046,
+          "step": "lasso"
+        },
+        {
+          "actual": 0,
+          "base": 0.13500000536441803,
+          "commit": 194.1550000011921,
+          "phase": "update",
+          "start": 194.11500000953671,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.05499999225139618,
+          "base": 0.1549999862909317,
+          "commit": 227.82500000298023,
+          "phase": "update",
+          "start": 227.75,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.314999982714653,
+          "base": 0.20999999344348907,
+          "commit": 277.6300000101328,
+          "phase": "update",
+          "start": 277.29500000178814,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06999997794628143,
+          "base": 0.125,
+          "commit": 288.90000000596046,
+          "phase": "update",
+          "start": 288.815000012517,
+          "step": "menu"
+        },
+        {
+          "actual": 0.030000001192092896,
+          "base": 0.12999999523162842,
+          "commit": 340.7250000089407,
+          "phase": "update",
+          "start": 340.6600000113249,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.024999991059303284,
+          "base": 0.1249999850988388,
+          "commit": 341.17500001192093,
+          "phase": "update",
+          "start": 341.14000000059605,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4599999934434891,
+          "base": 0.24000000953674316,
+          "commit": 341.7250000089407,
+          "phase": "update",
+          "start": 341.24000000953674,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.07000000774860382,
+          "base": 0.1599999964237213,
+          "commit": 342.3700000047684,
+          "phase": "nested-update",
+          "start": 342.2600000053644,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.08499999344348907,
+          "base": 0.20000000298023224,
+          "commit": 381.7450000047684,
+          "phase": "update",
+          "start": 381.6350000053644,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.06499999761581421,
+          "base": 0.17999999225139618,
+          "commit": 389.5350000113249,
+          "phase": "update",
+          "start": 389.4450000077486,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.1850000023841858,
+          "commit": 440.675000011921,
+          "phase": "update",
+          "start": 440.580000013113,
+          "step": "rename"
+        },
+        {
+          "actual": 0.03000001609325409,
+          "base": 0.18000000715255737,
+          "commit": 441.1550000011921,
+          "phase": "update",
+          "start": 441.1099999994039,
+          "step": "rename"
+        },
+        {
+          "actual": 0.14000000059604645,
+          "base": 0.2199999988079071,
+          "commit": 445.1950000077486,
+          "phase": "update",
+          "start": 445.050000011921,
+          "step": "rename"
+        },
+        {
+          "actual": 0.1900000274181366,
+          "base": 0.17500002682209015,
+          "commit": 462.425000011921,
+          "phase": "update",
+          "start": 462.1950000077486,
+          "step": "rename"
+        },
+        {
+          "actual": 0.11499999463558196,
+          "base": 0.21000000834465027,
+          "commit": 507.96000000834465,
+          "phase": "update",
+          "start": 507.8100000023842,
+          "step": "grid"
+        },
+        {
+          "actual": 0.29500000178813934,
+          "base": 0.23500001430511477,
+          "commit": 558.1850000023842,
+          "phase": "update",
+          "start": 557.8650000095367,
+          "step": "columns"
+        },
+        {
+          "actual": 0.23500001430511477,
+          "base": 0.32500001788139343,
+          "commit": 607.8200000077486,
+          "phase": "update",
+          "start": 607.5550000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.014999985694885254,
+          "base": 0.3050000071525574,
+          "commit": 608.6050000041723,
+          "phase": "update",
+          "start": 608.5750000029802,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08499997854232788,
+          "base": 0.25,
+          "commit": 624.1650000065565,
+          "phase": "update",
+          "start": 624.065000012517,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1300000101327896,
+          "base": 0.2350000292062759,
+          "commit": 624.4600000083447,
+          "phase": "update",
+          "start": 624.3100000023842,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.009999990463256836,
+          "base": 0.2350000292062759,
+          "commit": 625.1300000101328,
+          "phase": "update",
+          "start": 625.1050000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.2450000196695328,
+          "commit": 640.765000000596,
+          "phase": "update",
+          "start": 640.6650000065565,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1300000101327896,
+          "base": 0.2350000292062759,
+          "commit": 641.065000012517,
+          "phase": "update",
+          "start": 640.8950000107288,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.11500000953674316,
+          "base": 0.26000000536441803,
+          "commit": 657.4750000089407,
+          "phase": "update",
+          "start": 657.3200000077486,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.20000000298023224,
+          "base": 0.2550000101327896,
+          "commit": 657.875,
+          "phase": "update",
+          "start": 657.6550000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.11499999463558196,
+          "base": 0.2600000351667404,
+          "commit": 674.1700000017881,
+          "phase": "update",
+          "start": 674.0200000107288,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.16499997675418854,
+          "base": 0.2499999701976776,
+          "commit": 674.5600000023842,
+          "phase": "update",
+          "start": 674.3500000089407,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1250000149011612,
+          "base": 0.27000002562999725,
+          "commit": 690.8350000083447,
+          "phase": "update",
+          "start": 690.6650000065565,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.2850000262260437,
+          "commit": 691.0400000065565,
+          "phase": "update",
+          "start": 691.0100000053644,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.29500003159046173,
+          "commit": 691.3650000095367,
+          "phase": "update",
+          "start": 691.3400000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1850000023841858,
+          "base": 0.27000002562999725,
+          "commit": 741.4100000113249,
+          "phase": "update",
+          "start": 741.1850000023842,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.17000000178813934,
+          "base": 0.23500004410743713,
+          "commit": 758.190000012517,
+          "phase": "update",
+          "start": 757.9650000035763,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.07499998807907104,
+          "base": 0.08499999344348907,
+          "commit": 807.9650000035763,
+          "phase": "update",
+          "start": 807.8800000101328,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.08499999344348907,
+          "commit": 808.5300000011921,
+          "phase": "nested-update",
+          "start": 808.5100000053644,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.215000033378601,
+          "base": 0.925000011920929,
+          "commit": 8.480000004172325,
+          "phase": "mount",
+          "start": 7.185000002384186,
+          "step": "mount"
+        },
+        {
+          "actual": 0.3100000023841858,
+          "base": 0.3699999749660492,
+          "commit": 72.92500001192093,
+          "phase": "update",
+          "start": 72.57500000298023,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.18000000715255737,
+          "base": 0.25,
+          "commit": 80.54000000655651,
+          "phase": "update",
+          "start": 80.3449999988079,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.21000000834465027,
+          "base": 0.2749999910593033,
+          "commit": 144.21000000834465,
+          "phase": "update",
+          "start": 143.9750000089407,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.040000006556510925,
+          "base": 0.3049999922513962,
+          "commit": 228.06500001251695,
+          "phase": "update",
+          "start": 227.99000000953671,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3900000005960465,
+          "base": 0.494999960064888,
+          "commit": 277.9350000023842,
+          "phase": "update",
+          "start": 277.5300000011921,
+          "step": "menu"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.3099999874830246,
+          "commit": 291.2800000011921,
+          "phase": "update",
+          "start": 291.20000000298023,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.32499997317790985,
+          "commit": 339.86500000953674,
+          "phase": "update",
+          "start": 339.7800000011921,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.29999998211860657,
+          "commit": 340.1550000011921,
+          "phase": "update",
+          "start": 340.1200000047684,
+          "step": "open-folder"
+        },
+        {
+          "actual": 5.025000050663948,
+          "base": 3.5399999767541885,
+          "commit": 345.75,
+          "phase": "update",
+          "start": 340.52000001072884,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 3.5399999767541885,
+          "commit": 350.5600000023842,
+          "phase": "nested-update",
+          "start": 350.54500000178814,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.080000028014183,
+          "base": 2.8300000578165054,
+          "commit": 400.2900000065565,
+          "phase": "update",
+          "start": 397.9950000047684,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.6200000792741776,
+          "base": 2.3850001394748688,
+          "commit": 410.79500000178814,
+          "phase": "update",
+          "start": 408.9350000023842,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.695000022649765,
+          "base": 2.4850000888109207,
+          "commit": 459.0050000101328,
+          "phase": "update",
+          "start": 457.07500000298023,
+          "step": "rename"
+        },
+        {
+          "actual": 0.125,
+          "base": 2.540000095963478,
+          "commit": 464.24000000953674,
+          "phase": "update",
+          "start": 464.08500000834465,
+          "step": "rename"
+        },
+        {
+          "actual": 2.07499997317791,
+          "base": 1.954999923706055,
+          "commit": 483.5350000113249,
+          "phase": "update",
+          "start": 481.2550000101328,
+          "step": "rename"
+        },
+        {
+          "actual": 2.4300000220537186,
+          "base": 2.5400000363588333,
+          "commit": 544.3800000101328,
+          "phase": "update",
+          "start": 541.6550000011921,
+          "step": "grid"
+        },
+        {
+          "actual": 3.749999955296517,
+          "base": 2.9549999833106995,
+          "commit": 612.3650000095367,
+          "phase": "update",
+          "start": 608.3850000053644,
+          "step": "columns"
+        },
+        {
+          "actual": 2.085000053048134,
+          "base": 2.3599999994039536,
+          "commit": 693.7900000065565,
+          "phase": "update",
+          "start": 691.4500000029802,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.03999999165534973,
+          "base": 2.375,
+          "commit": 695.625,
+          "phase": "update",
+          "start": 695.5550000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.005000039935112,
+          "base": 2.314999997615814,
+          "commit": 726.6600000113249,
+          "phase": "update",
+          "start": 724.4050000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.009999990463256836,
+          "base": 2.3099999874830246,
+          "commit": 728.2800000011921,
+          "phase": "update",
+          "start": 728.2550000101328,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.0650000125169754,
+          "base": 2.3649999797344208,
+          "commit": 759.9100000113249,
+          "phase": "update",
+          "start": 757.5750000029802,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 1.8850000202655792,
+          "base": 2.1749999821186066,
+          "commit": 792.9600000083447,
+          "phase": "update",
+          "start": 790.8400000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 1.9300000220537183,
+          "base": 2.189999982714653,
+          "commit": 826.0850000083447,
+          "phase": "update",
+          "start": 823.9150000065565,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.2200000137090683,
+          "base": 2.2049999982118607,
+          "commit": 857.375,
+          "phase": "update",
+          "start": 857.140000000596,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.09999999403953552,
+          "base": 2.2249999940395355,
+          "commit": 908.5900000035764,
+          "phase": "update",
+          "start": 908.469999998808,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.1550000011920929,
+          "base": 2.2249999791383743,
+          "commit": 924.530000001192,
+          "phase": "update",
+          "start": 924.3700000047684,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.2150000035762787,
+          "base": 0.2449999898672104,
+          "commit": 975.280000001192,
+          "phase": "update",
+          "start": 975.0350000113248,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.2449999898672104,
+          "commit": 978.6850000023842,
+          "phase": "nested-update",
+          "start": 978.670000001788,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5299999564886093,
+          "base": 0.2549999952316284,
+          "commit": 9.844999998807909,
+          "phase": "mount",
+          "start": 9.265000000596046,
+          "step": "mount"
+        },
+        {
+          "actual": 0.05499999225139618,
+          "base": 0.23500001430511477,
+          "commit": 10.620000004768372,
+          "phase": "update",
+          "start": 10.53499999642372,
+          "step": "mount"
+        },
+        {
+          "actual": 0.09000000357627869,
+          "base": 0.15000000596046448,
+          "commit": 73.875,
+          "phase": "update",
+          "start": 73.75,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.08499999344348907,
+          "base": 0.1449999958276749,
+          "commit": 81.5,
+          "phase": "update",
+          "start": 81.39499999582767,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.1599999964237213,
+          "commit": 141.5400000065565,
+          "phase": "update",
+          "start": 141.4450000077486,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.07499998807907104,
+          "base": 0.125,
+          "commit": 145.02500000596046,
+          "phase": "update",
+          "start": 144.9350000023842,
+          "step": "lasso"
+        },
+        {
+          "actual": 0,
+          "base": 0.125,
+          "commit": 194.9899999946356,
+          "phase": "update",
+          "start": 194.95000000298023,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.05499999225139618,
+          "base": 0.1549999862909317,
+          "commit": 228.7199999988079,
+          "phase": "update",
+          "start": 228.62999999523163,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.2900000065565109,
+          "base": 0.20000001788139343,
+          "commit": 278.5949999988079,
+          "phase": "update",
+          "start": 278.2800000011921,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06499998271465302,
+          "base": 0.125,
+          "commit": 289.6200000047684,
+          "phase": "update",
+          "start": 289.5300000011921,
+          "step": "menu"
+        },
+        {
+          "actual": 0.034999996423721313,
+          "base": 0.13500000536441803,
+          "commit": 341.67000000178814,
+          "phase": "update",
+          "start": 341.60999999940395,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.125,
+          "commit": 342.05500000715256,
+          "phase": "update",
+          "start": 342.02500000596046,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.0050000697374344,
+          "base": 0.6750000268220901,
+          "commit": 344.3100000023842,
+          "phase": "update",
+          "start": 342.1149999946356,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4449999928474426,
+          "base": 0.4299999922513962,
+          "commit": 346.8100000023842,
+          "phase": "nested-update",
+          "start": 346.1599999964237,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4450000375509262,
+          "base": 0.47499996423721313,
+          "commit": 400.2399999946356,
+          "phase": "update",
+          "start": 399.57999999821186,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.3550000339746475,
+          "base": 0.4050000160932541,
+          "commit": 409.1350000053644,
+          "phase": "update",
+          "start": 408.5600000023842,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.43999990820884705,
+          "base": 0.4599999040365219,
+          "commit": 459.0300000011921,
+          "phase": "update",
+          "start": 458.3799999952316,
+          "step": "rename"
+        },
+        {
+          "actual": 0.09000001847743988,
+          "base": 0.47499993443489075,
+          "commit": 459.9150000065565,
+          "phase": "update",
+          "start": 459.75,
+          "step": "rename"
+        },
+        {
+          "actual": 0.1549999862909317,
+          "base": 0.5049999356269836,
+          "commit": 464.4399999976158,
+          "phase": "update",
+          "start": 464.2699999958277,
+          "step": "rename"
+        },
+        {
+          "actual": 0.5249999761581421,
+          "base": 0.3849999904632568,
+          "commit": 483.1950000077486,
+          "phase": "update",
+          "start": 482.4899999946356,
+          "step": "rename"
+        },
+        {
+          "actual": 0.4100000113248825,
+          "base": 0.4300000071525574,
+          "commit": 525.25,
+          "phase": "update",
+          "start": 524.6950000077486,
+          "step": "grid"
+        },
+        {
+          "actual": 1.5150000303983688,
+          "base": 0.6349999755620956,
+          "commit": 576.9300000071526,
+          "phase": "update",
+          "start": 575.2600000053644,
+          "step": "columns"
+        },
+        {
+          "actual": 0.555000051856041,
+          "base": 0.5849999785423279,
+          "commit": 626.2150000035763,
+          "phase": "update",
+          "start": 625.4399999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08999998867511749,
+          "base": 0.5300000011920929,
+          "commit": 628.6899999976158,
+          "phase": "update",
+          "start": 628.5199999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4649999886751175,
+          "base": 0.5350000113248825,
+          "commit": 659.1200000047684,
+          "phase": "update",
+          "start": 658.4650000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.47499996423721313,
+          "base": 0.5150000154972076,
+          "commit": 660.3050000071526,
+          "phase": "update",
+          "start": 659.625,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.5250000059604645,
+          "commit": 662.7450000047684,
+          "phase": "update",
+          "start": 662.7150000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.46999992430210114,
+          "base": 0.5749999433755875,
+          "commit": 692.4099999964237,
+          "phase": "update",
+          "start": 691.75,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4849999397993088,
+          "base": 0.4849999397993088,
+          "commit": 693.5799999982119,
+          "phase": "update",
+          "start": 692.8799999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4750000387430191,
+          "base": 0.5850000381469727,
+          "commit": 725.6149999946356,
+          "phase": "update",
+          "start": 724.9300000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5350000262260437,
+          "base": 0.5850000083446503,
+          "commit": 726.8449999988079,
+          "phase": "update",
+          "start": 726.109999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5250000059604645,
+          "base": 0.6000000387430191,
+          "commit": 758.5799999982119,
+          "phase": "update",
+          "start": 757.8499999940395,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4700000137090683,
+          "base": 0.5150000005960464,
+          "commit": 759.8449999988079,
+          "phase": "update",
+          "start": 759.125,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5400000214576721,
+          "base": 0.5900000482797623,
+          "commit": 792.3700000047684,
+          "phase": "update",
+          "start": 791.6149999946356,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.5900000482797623,
+          "commit": 792.9099999964237,
+          "phase": "update",
+          "start": 792.875,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.009999990463256836,
+          "base": 0.5900000482797623,
+          "commit": 793.2900000065565,
+          "phase": "update",
+          "start": 793.2699999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5600000768899918,
+          "base": 0.5300000607967377,
+          "commit": 843.3799999952316,
+          "phase": "update",
+          "start": 842.640000000596,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.5999999195337296,
+          "base": 0.5699999779462814,
+          "commit": 859.9300000071526,
+          "phase": "update",
+          "start": 859.1950000077486,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.07500001788139343,
+          "base": 0.09000001847743988,
+          "commit": 909.2100000083448,
+          "phase": "update",
+          "start": 909.109999999404,
+          "step": "close"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.09000001847743988,
+          "commit": 910.640000000596,
+          "phase": "nested-update",
+          "start": 910.6200000047684,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5399999916553497,
+          "base": 0.25999997556209564,
+          "commit": 6.454999998211861,
+          "phase": "mount",
+          "start": 5.865000009536743,
+          "step": "mount"
+        },
+        {
+          "actual": 0.054999977350234985,
+          "base": 0.2449999749660492,
+          "commit": 7.174999997019768,
+          "phase": "update",
+          "start": 7.100000008940697,
+          "step": "mount"
+        },
+        {
+          "actual": 0.09000000357627869,
+          "base": 0.16499999165534973,
+          "commit": 56.480000004172325,
+          "phase": "update",
+          "start": 56.34499999880791,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.07499998807907104,
+          "base": 0.14499996602535248,
+          "commit": 64.08500000834465,
+          "phase": "update",
+          "start": 63.9750000089407,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.08500002324581146,
+          "base": 0.17499998211860657,
+          "commit": 124.64499999582767,
+          "phase": "update",
+          "start": 124.53499999642372,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.07000000774860382,
+          "base": 0.13999998569488523,
+          "commit": 128.10500000417233,
+          "phase": "update",
+          "start": 128.01500000059605,
+          "step": "lasso"
+        },
+        {
+          "actual": 0,
+          "base": 0.13999998569488523,
+          "commit": 178.29500000178814,
+          "phase": "update",
+          "start": 178.26000000536442,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.0599999874830246,
+          "base": 0.1549999713897705,
+          "commit": 211.29999999701977,
+          "phase": "update",
+          "start": 211.2199999988079,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3049999922513962,
+          "base": 0.19999997317790985,
+          "commit": 262.29999999701977,
+          "phase": "update",
+          "start": 261.9699999988079,
+          "step": "menu"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.14999999105930328,
+          "commit": 274.7250000089407,
+          "phase": "update",
+          "start": 274.6300000101328,
+          "step": "menu"
+        },
+        {
+          "actual": 0.034999996423721313,
+          "base": 0.14499998092651367,
+          "commit": 324.4800000041723,
+          "phase": "update",
+          "start": 324.42000000178814,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.030000001192092896,
+          "base": 0.1449999958276749,
+          "commit": 324.8800000101328,
+          "phase": "update",
+          "start": 324.8449999988079,
+          "step": "open-folder"
+        },
+        {
+          "actual": 1.9699999392032623,
+          "base": 0.7150000929832458,
+          "commit": 327.11500000953674,
+          "phase": "update",
+          "start": 324.95000000298023,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.41999998688697815,
+          "base": 0.439999982714653,
+          "commit": 329.7450000047684,
+          "phase": "nested-update",
+          "start": 329.11500000953674,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4349999725818634,
+          "base": 0.4400000125169754,
+          "commit": 383.1200000047684,
+          "phase": "update",
+          "start": 382.4750000089407,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.35999998450279236,
+          "base": 0.40999992191791534,
+          "commit": 391.9800000041723,
+          "phase": "update",
+          "start": 391.4350000023842,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.42500002682209015,
+          "base": 0.4549999684095382,
+          "commit": 441.99000000953674,
+          "phase": "update",
+          "start": 441.40000000596046,
+          "step": "rename"
+        },
+        {
+          "actual": 0.09999999403953552,
+          "base": 0.4249999672174454,
+          "commit": 442.7699999958277,
+          "phase": "update",
+          "start": 442.6200000047684,
+          "step": "rename"
+        },
+        {
+          "actual": 0.1599999964237213,
+          "base": 0.4599999487400055,
+          "commit": 446.8700000047684,
+          "phase": "update",
+          "start": 446.6899999976158,
+          "step": "rename"
+        },
+        {
+          "actual": 0.5,
+          "base": 0.3649999797344208,
+          "commit": 465.2800000011921,
+          "phase": "update",
+          "start": 464.57999999821186,
+          "step": "rename"
+        },
+        {
+          "actual": 0.3999999463558197,
+          "base": 0.41499996185302734,
+          "commit": 508.57500000298023,
+          "phase": "update",
+          "start": 508,
+          "step": "grid"
+        },
+        {
+          "actual": 1.4399999976158142,
+          "base": 0.5300000160932541,
+          "commit": 559.7300000041723,
+          "phase": "update",
+          "start": 558.1650000065565,
+          "step": "columns"
+        },
+        {
+          "actual": 0.5349999815225601,
+          "base": 0.5099999904632568,
+          "commit": 609.0250000059605,
+          "phase": "update",
+          "start": 608.3050000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.07499998807907104,
+          "base": 0.5199999809265137,
+          "commit": 611.6150000095367,
+          "phase": "update",
+          "start": 611.4450000077486,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.3749999701976776,
+          "base": 0.4650000035762787,
+          "commit": 642.0850000083447,
+          "phase": "update",
+          "start": 641.4950000047684,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4849999994039535,
+          "base": 0.4950000047683716,
+          "commit": 643.2600000053644,
+          "phase": "update",
+          "start": 642.6200000047684,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.009999990463256836,
+          "base": 0.5,
+          "commit": 645.8650000095367,
+          "phase": "update",
+          "start": 645.8400000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.42499999701976776,
+          "base": 0.48500001430511475,
+          "commit": 675.4099999964237,
+          "phase": "update",
+          "start": 674.8050000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5,
+          "base": 0.4650000035762787,
+          "commit": 676.5550000071526,
+          "phase": "update",
+          "start": 675.9000000059605,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4150000065565109,
+          "base": 0.48500002920627594,
+          "commit": 708.6300000101328,
+          "phase": "update",
+          "start": 708,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4650000035762787,
+          "base": 0.4699999988079071,
+          "commit": 709.7800000011921,
+          "phase": "update",
+          "start": 709.1150000095367,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4599999487400055,
+          "base": 0.5549999624490738,
+          "commit": 742.015000000596,
+          "phase": "update",
+          "start": 741.359999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5250000208616257,
+          "base": 0.5099999904632568,
+          "commit": 743.234999999404,
+          "phase": "update",
+          "start": 742.5349999964237,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4150000363588333,
+          "base": 0.4900000244379043,
+          "commit": 775.265000000596,
+          "phase": "update",
+          "start": 774.609999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.4900000244379043,
+          "commit": 775.7849999964237,
+          "phase": "update",
+          "start": 775.75,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.5000000298023224,
+          "commit": 776.25,
+          "phase": "update",
+          "start": 776.2300000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4799999296665192,
+          "base": 0.4699999541044235,
+          "commit": 826.1800000071526,
+          "phase": "update",
+          "start": 825.4800000041723,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.5999999791383743,
+          "base": 0.5599999725818634,
+          "commit": 843.1500000059605,
+          "phase": "update",
+          "start": 842.4000000059605,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.09499998390674592,
+          "commit": 892.0450000017881,
+          "phase": "update",
+          "start": 891.9500000029802,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.09499998390674592,
+          "commit": 893.375,
+          "phase": "nested-update",
+          "start": 893.3550000041723,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.1450000256299973,
+          "base": 0.8650000393390656,
+          "commit": 10.899999991059303,
+          "phase": "mount",
+          "start": 9.699999988079073,
+          "step": "mount"
+        },
+        {
+          "actual": 0.3099999874830246,
+          "base": 0.3749999701976776,
+          "commit": 72.69999998807907,
+          "phase": "update",
+          "start": 72.35499998927116,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.2199999988079071,
+          "base": 0.2800000011920929,
+          "commit": 80.97499999403954,
+          "phase": "update",
+          "start": 80.72499999403954,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.23499998450279236,
+          "base": 0.29499998688697815,
+          "commit": 144.63499999046326,
+          "phase": "update",
+          "start": 144.375,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.03999999165534973,
+          "base": 0.3099999874830246,
+          "commit": 228.63499999046329,
+          "phase": "update",
+          "start": 228.5649999976158,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3900000005960465,
+          "base": 0.494999960064888,
+          "commit": 277.35999999940395,
+          "phase": "update",
+          "start": 276.95499999821186,
+          "step": "menu"
+        },
+        {
+          "actual": 0.05500000715255737,
+          "base": 0.3099999874830246,
+          "commit": 289.919999986887,
+          "phase": "update",
+          "start": 289.8449999988079,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.3349999785423279,
+          "commit": 341.1599999964237,
+          "phase": "update",
+          "start": 341.06999999284744,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.024999991059303284,
+          "base": 0.29999998211860657,
+          "commit": 341.47499999403954,
+          "phase": "update",
+          "start": 341.4399999976158,
+          "step": "open-folder"
+        },
+        {
+          "actual": 5.005000025033951,
+          "base": 3.474999964237213,
+          "commit": 347.10999999940395,
+          "phase": "update",
+          "start": 341.8349999934435,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0,
+          "base": 3.474999964237213,
+          "commit": 352.04999999701977,
+          "phase": "nested-update",
+          "start": 352.0349999964237,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.2299999743700027,
+          "base": 2.9849999845027924,
+          "commit": 400.8949999958277,
+          "phase": "update",
+          "start": 398.419999986887,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.7650000900030136,
+          "base": 2.560000032186508,
+          "commit": 413.574999988079,
+          "phase": "update",
+          "start": 411.5849999934435,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.7550000101327896,
+          "base": 2.5400000512599945,
+          "commit": 459.7299999892712,
+          "phase": "update",
+          "start": 457.75,
+          "step": "rename"
+        },
+        {
+          "actual": 0.10999999940395357,
+          "base": 2.575000047683716,
+          "commit": 464.9099999964237,
+          "phase": "update",
+          "start": 464.7649999856949,
+          "step": "rename"
+        },
+        {
+          "actual": 2.0700000673532486,
+          "base": 1.970000043511391,
+          "commit": 484.4099999964237,
+          "phase": "update",
+          "start": 482.059999987483,
+          "step": "rename"
+        },
+        {
+          "actual": 2.2299999445676804,
+          "base": 2.304999992251396,
+          "commit": 544.0549999922514,
+          "phase": "update",
+          "start": 541.625,
+          "step": "grid"
+        },
+        {
+          "actual": 3.424999967217446,
+          "base": 2.544999986886978,
+          "commit": 612.3499999940395,
+          "phase": "update",
+          "start": 608.7399999946356,
+          "step": "columns"
+        },
+        {
+          "actual": 1.8700000792741776,
+          "base": 2.1000000685453415,
+          "commit": 677.0999999940395,
+          "phase": "update",
+          "start": 674.9699999988079,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.034999996423721313,
+          "base": 2.10500006377697,
+          "commit": 678.8249999880791,
+          "phase": "update",
+          "start": 678.7699999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.1350000202655792,
+          "base": 2.3749999552965164,
+          "commit": 710.1599999964237,
+          "phase": "update",
+          "start": 707.8299999982119,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 2.379999950528145,
+          "commit": 711.75,
+          "phase": "update",
+          "start": 711.7249999940395,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.165000006556511,
+          "base": 2.4300000220537186,
+          "commit": 743.6449999958277,
+          "phase": "update",
+          "start": 741.1899999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.4000000655651093,
+          "base": 2.645000085234642,
+          "commit": 777.0399999916553,
+          "phase": "update",
+          "start": 774.3899999856949,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.2300000190734863,
+          "base": 2.440000057220459,
+          "commit": 810.0649999976158,
+          "phase": "update",
+          "start": 807.5399999916553,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.2250000238418579,
+          "base": 2.4850000888109207,
+          "commit": 841.1349999904633,
+          "phase": "update",
+          "start": 840.8799999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 2.4900000989437103,
+          "commit": 893.0049999952316,
+          "phase": "update",
+          "start": 892.8849999904633,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.14000001549720764,
+          "base": 2.4900000989437103,
+          "commit": 909.0549999922514,
+          "phase": "update",
+          "start": 908.8849999904633,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.2150000035762787,
+          "base": 0.2250000238418579,
+          "commit": 958.8399999886752,
+          "phase": "update",
+          "start": 958.594999998808,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.2250000238418579,
+          "commit": 962.3399999886752,
+          "phase": "nested-update",
+          "start": 962.3199999928474,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5500000417232513,
+          "base": 0.26000000536441803,
+          "commit": 7.399999991059303,
+          "phase": "mount",
+          "start": 6.784999996423721,
+          "step": "mount"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.26000000536441803,
+          "commit": 8.209999993443489,
+          "phase": "update",
+          "start": 8.125,
+          "step": "mount"
+        },
+        {
+          "actual": 0.08499997854232788,
+          "base": 0.14999999105930328,
+          "commit": 72.73999999463558,
+          "phase": "update",
+          "start": 72.59999999403954,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.09499996900558472,
+          "base": 0.15999998152256012,
+          "commit": 80.79999999701977,
+          "phase": "update",
+          "start": 80.66499999165535,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.07000002264976501,
+          "base": 0.16500000655651093,
+          "commit": 140.8100000023842,
+          "phase": "update",
+          "start": 140.7099999934435,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.13500000536441803,
+          "commit": 144.66499999165535,
+          "phase": "update",
+          "start": 144.56999999284744,
+          "step": "lasso"
+        },
+        {
+          "actual": 0,
+          "base": 0.13500000536441803,
+          "commit": 194.95499999821183,
+          "phase": "update",
+          "start": 194.91499999165535,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.04999999701976776,
+          "base": 0.1550000011920929,
+          "commit": 228.5649999976158,
+          "phase": "update",
+          "start": 228.47999998927116,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3099999874830246,
+          "base": 0.21000000834465027,
+          "commit": 278.3949999958277,
+          "phase": "update",
+          "start": 278.0649999976158,
+          "step": "menu"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.1300000101327896,
+          "commit": 289.84999999403954,
+          "phase": "update",
+          "start": 289.7549999952316,
+          "step": "menu"
+        },
+        {
+          "actual": 0.030000001192092896,
+          "base": 0.1300000101327896,
+          "commit": 341.5300000011921,
+          "phase": "update",
+          "start": 341.4699999988079,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.024999991059303284,
+          "base": 0.12000000476837158,
+          "commit": 341.9299999922514,
+          "phase": "update",
+          "start": 341.8999999910593,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4999999850988388,
+          "base": 0.2450000196695328,
+          "commit": 342.5199999958277,
+          "phase": "update",
+          "start": 342.0049999952316,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 0.1899999976158142,
+          "commit": 343.23499999940395,
+          "phase": "nested-update",
+          "start": 343.1199999898672,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.09000000357627869,
+          "base": 0.23000001907348633,
+          "commit": 382.1899999976158,
+          "phase": "update",
+          "start": 382.07500000298023,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.21000000834465027,
+          "commit": 389.66499999165535,
+          "phase": "update",
+          "start": 389.5849999934435,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.21000000834465027,
+          "commit": 441.41499999165535,
+          "phase": "update",
+          "start": 441.3349999934435,
+          "step": "rename"
+        },
+        {
+          "actual": 0.030000001192092896,
+          "base": 0.2150000035762787,
+          "commit": 441.8799999952316,
+          "phase": "update",
+          "start": 441.8449999988079,
+          "step": "rename"
+        },
+        {
+          "actual": 0.11499999463558196,
+          "base": 0.23999999463558197,
+          "commit": 445.9050000011921,
+          "phase": "update",
+          "start": 445.7749999910593,
+          "step": "rename"
+        },
+        {
+          "actual": 0.1899999976158142,
+          "base": 0.17000000178813934,
+          "commit": 463,
+          "phase": "update",
+          "start": 462.7699999958277,
+          "step": "rename"
+        },
+        {
+          "actual": 0.14000000059604645,
+          "base": 0.23000001907348633,
+          "commit": 508.7800000011921,
+          "phase": "update",
+          "start": 508.6199999898672,
+          "step": "grid"
+        },
+        {
+          "actual": 0.2849999964237213,
+          "base": 0.24000002443790436,
+          "commit": 558.9799999892712,
+          "phase": "update",
+          "start": 558.6649999916553,
+          "step": "columns"
+        },
+        {
+          "actual": 0.22499999403953552,
+          "base": 0.30000002682209015,
+          "commit": 608.6799999922514,
+          "phase": "update",
+          "start": 608.4249999970198,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.2900000363588333,
+          "commit": 609.4449999928474,
+          "phase": "update",
+          "start": 609.4099999964237,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.23499999940395355,
+          "commit": 624.9050000011921,
+          "phase": "update",
+          "start": 624.8049999922514,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.16500000655651093,
+          "base": 0.2350000292062759,
+          "commit": 625.2049999982119,
+          "phase": "update",
+          "start": 625.0399999916553,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.24000003933906555,
+          "commit": 625.9500000029802,
+          "phase": "update",
+          "start": 625.9249999970198,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 0.2450000196695328,
+          "commit": 641.5949999988079,
+          "phase": "update",
+          "start": 641.4899999946356,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1599999964237213,
+          "base": 0.24000000953674316,
+          "commit": 641.9200000017881,
+          "phase": "update",
+          "start": 641.734999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.09999997913837431,
+          "base": 0.26000000536441803,
+          "commit": 658.3149999976158,
+          "phase": "update",
+          "start": 658.1749999970198,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1900000125169754,
+          "base": 0.27000001072883606,
+          "commit": 658.6899999976158,
+          "phase": "update",
+          "start": 658.4899999946356,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.0899999737739563,
+          "base": 0.2449999749660492,
+          "commit": 674.9500000029802,
+          "phase": "update",
+          "start": 674.8049999922514,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1449999958276749,
+          "base": 0.255000039935112,
+          "commit": 675.2950000017881,
+          "phase": "update",
+          "start": 675.1149999946356,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.13999998569488523,
+          "base": 0.2850000113248825,
+          "commit": 691.6499999910593,
+          "phase": "update",
+          "start": 691.4649999886751,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.2850000113248825,
+          "commit": 691.875,
+          "phase": "update",
+          "start": 691.8499999940395,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.2900000065565109,
+          "commit": 692.2049999982119,
+          "phase": "update",
+          "start": 692.1749999970198,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.18999996781349185,
+          "base": 0.26499998569488525,
+          "commit": 742.1949999928474,
+          "phase": "update",
+          "start": 741.9500000029802,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.16500000655651093,
+          "base": 0.24000002443790436,
+          "commit": 758.9699999988079,
+          "phase": "update",
+          "start": 758.7399999946356,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.0599999874830246,
+          "base": 0.07999999821186066,
+          "commit": 808.7899999916553,
+          "phase": "update",
+          "start": 808.7000000029802,
+          "step": "close"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.07999999821186066,
+          "commit": 809.3449999988079,
+          "phase": "nested-update",
+          "start": 809.3299999982119,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.475000023841858,
+          "base": 1.1850000619888306,
+          "commit": 10.445000007748604,
+          "phase": "mount",
+          "start": 8.894999995827675,
+          "step": "mount"
+        },
+        {
+          "actual": 0.3349999934434891,
+          "base": 0.4050000011920929,
+          "commit": 71.54500000178814,
+          "phase": "update",
+          "start": 71.17499999701977,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.20999997854232788,
+          "base": 0.29499998688697815,
+          "commit": 79.56499999761581,
+          "phase": "update",
+          "start": 79.3200000077486,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.2149999886751175,
+          "base": 0.2850000113248825,
+          "commit": 144.04500000178814,
+          "phase": "update",
+          "start": 143.80500000715256,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.03999999165534973,
+          "base": 0.3100000023841858,
+          "commit": 227.51500000059605,
+          "phase": "update",
+          "start": 227.4450000077486,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3700000047683716,
+          "base": 0.510000005364418,
+          "commit": 277.4699999988079,
+          "phase": "update",
+          "start": 277.07500000298023,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06499998271465302,
+          "base": 0.3049999922513962,
+          "commit": 290.2800000011921,
+          "phase": "update",
+          "start": 290.21000000834465,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.3400000035762787,
+          "commit": 340.54500000178814,
+          "phase": "update",
+          "start": 340.4450000077486,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02500002086162567,
+          "base": 0.3050000071525574,
+          "commit": 340.83500000834465,
+          "phase": "update",
+          "start": 340.79999999701977,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.0049999952316284,
+          "base": 1.6000000089406967,
+          "commit": 343.22499999403954,
+          "phase": "update",
+          "start": 341.1650000065565,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0,
+          "base": 1.6000000089406967,
+          "commit": 344.54999999701977,
+          "phase": "nested-update",
+          "start": 344.5400000065565,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.23499999940395355,
+          "base": 1.5350000262260437,
+          "commit": 380.9699999988079,
+          "phase": "update",
+          "start": 380.71000000834465,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.21000000834465027,
+          "base": 1.4950000047683716,
+          "commit": 388.15000000596046,
+          "phase": "update",
+          "start": 387.93000000715256,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.27000001072883606,
+          "base": 1.5700000375509262,
+          "commit": 440.7650000005961,
+          "phase": "update",
+          "start": 440.46000000834465,
+          "step": "rename"
+        },
+        {
+          "actual": 0.10500000417232512,
+          "base": 1.600000038743019,
+          "commit": 445.4350000023842,
+          "phase": "update",
+          "start": 445.3200000077486,
+          "step": "rename"
+        },
+        {
+          "actual": 0.7249999791383743,
+          "base": 0.699999988079071,
+          "commit": 462.7399999946356,
+          "phase": "update",
+          "start": 461.9800000041723,
+          "step": "rename"
+        },
+        {
+          "actual": 0.4899999797344208,
+          "base": 0.7599999755620956,
+          "commit": 508.1950000077486,
+          "phase": "update",
+          "start": 507.6550000011921,
+          "step": "grid"
+        },
+        {
+          "actual": 0.7849999964237213,
+          "base": 0.9349999874830246,
+          "commit": 558.9099999964237,
+          "phase": "update",
+          "start": 558.0850000083447,
+          "step": "columns"
+        },
+        {
+          "actual": 0.6400000005960464,
+          "base": 1.084999993443489,
+          "commit": 608.109999999404,
+          "phase": "update",
+          "start": 607.4300000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 1.080000013113022,
+          "commit": 608.7950000017881,
+          "phase": "update",
+          "start": 608.765000000596,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.699999988079071,
+          "base": 1.165000006556511,
+          "commit": 623.9749999940395,
+          "phase": "update",
+          "start": 623.2300000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.024999991059303284,
+          "base": 1.1749999970197678,
+          "commit": 624.6599999964237,
+          "phase": "update",
+          "start": 624.6350000053644,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 1.1549999713897705,
+          "base": 1.639999970793724,
+          "commit": 641.8700000047684,
+          "phase": "update",
+          "start": 640.6850000023842,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.6950000077486038,
+          "base": 1.1749999523162842,
+          "commit": 657.1299999952316,
+          "phase": "update",
+          "start": 656.3799999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 1.4100000113248825,
+          "base": 1.8750000149011612,
+          "commit": 675.4300000071526,
+          "phase": "update",
+          "start": 673.9650000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.25999999046325684,
+          "base": 1.844999998807907,
+          "commit": 690.8200000077486,
+          "phase": "update",
+          "start": 690.5400000065565,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 1.8500000089406967,
+          "commit": 741.1449999958277,
+          "phase": "update",
+          "start": 741.0349999964237,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.16500000655651093,
+          "base": 1.8700000494718552,
+          "commit": 758.0499999970198,
+          "phase": "update",
+          "start": 757.8649999946356,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.1900000125169754,
+          "base": 0.20500001311302185,
+          "commit": 807.9050000011921,
+          "phase": "update",
+          "start": 807.6850000023842,
+          "step": "close"
+        },
+        {
+          "actual": 0.005000010132789612,
+          "base": 0.20500001311302185,
+          "commit": 809.1700000017881,
+          "phase": "nested-update",
+          "start": 809.1550000011921,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.2400000095367432,
+          "base": 0.9400000125169754,
+          "commit": 7.909999996423721,
+          "phase": "mount",
+          "start": 6.604999989271164,
+          "step": "mount"
+        },
+        {
+          "actual": 0.33500000834465027,
+          "base": 0.4050000309944153,
+          "commit": 56.09499999880791,
+          "phase": "update",
+          "start": 55.71999999880791,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.2199999988079071,
+          "base": 0.2900000065565109,
+          "commit": 64.44999998807907,
+          "phase": "update",
+          "start": 64.19999998807907,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.23499999940395355,
+          "base": 0.310000017285347,
+          "commit": 127.20999999344347,
+          "phase": "update",
+          "start": 126.96499998867512,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.04499998688697815,
+          "base": 0.33500000834465027,
+          "commit": 211.1799999922514,
+          "phase": "update",
+          "start": 211.10499998927116,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.38999998569488525,
+          "base": 0.5400000065565109,
+          "commit": 262.09999999403954,
+          "phase": "update",
+          "start": 261.6799999922514,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.33000002801418304,
+          "commit": 274.5849999934435,
+          "phase": "update",
+          "start": 274.5199999958277,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.3500000387430191,
+          "commit": 324.7699999958277,
+          "phase": "update",
+          "start": 324.67499999701977,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.3250000327825546,
+          "commit": 325.0849999934435,
+          "phase": "update",
+          "start": 325.03999999165535,
+          "step": "open-folder"
+        },
+        {
+          "actual": 1.6349999904632568,
+          "base": 1.229999989271164,
+          "commit": 327.06999999284744,
+          "phase": "update",
+          "start": 325.3949999958277,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0,
+          "base": 1.229999989271164,
+          "commit": 328.3399999886751,
+          "phase": "nested-update",
+          "start": 328.32499998807907,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.25,
+          "base": 1.1899999529123306,
+          "commit": 366.3549999892712,
+          "phase": "update",
+          "start": 366.06999999284744,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.1849999874830246,
+          "base": 1.1199999451637268,
+          "commit": 373.7149999886751,
+          "phase": "update",
+          "start": 373.5049999952316,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.2749999910593033,
+          "base": 1.204999953508377,
+          "commit": 424.9799999892712,
+          "phase": "update",
+          "start": 424.6799999922514,
+          "step": "rename"
+        },
+        {
+          "actual": 0.0949999988079071,
+          "base": 1.2399999648332596,
+          "commit": 429.3349999934435,
+          "phase": "update",
+          "start": 429.2199999988079,
+          "step": "rename"
+        },
+        {
+          "actual": 0.6949999779462814,
+          "base": 0.6599999517202377,
+          "commit": 447.25,
+          "phase": "update",
+          "start": 446.5150000005961,
+          "step": "rename"
+        },
+        {
+          "actual": 0.45000000298023224,
+          "base": 0.7099999785423279,
+          "commit": 492.419999986887,
+          "phase": "update",
+          "start": 491.92499999701977,
+          "step": "grid"
+        },
+        {
+          "actual": 0.75,
+          "base": 0.8900000154972076,
+          "commit": 541.984999999404,
+          "phase": "update",
+          "start": 541.2049999982119,
+          "step": "columns"
+        },
+        {
+          "actual": 0.635000005364418,
+          "base": 1.0599999874830246,
+          "commit": 592.2599999904633,
+          "phase": "update",
+          "start": 591.5899999886751,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000015497207642,
+          "base": 1.0450000017881391,
+          "commit": 592.9449999928474,
+          "phase": "update",
+          "start": 592.919999986887,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.6550000160932541,
+          "base": 1.0650000125169754,
+          "commit": 608.0949999988079,
+          "phase": "update",
+          "start": 607.419999986887,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000015497207642,
+          "base": 1.0650000274181366,
+          "commit": 608.7599999904633,
+          "phase": "update",
+          "start": 608.7249999940395,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.675000011920929,
+          "base": 1.1200000494718552,
+          "commit": 625.6299999952316,
+          "phase": "update",
+          "start": 624.9099999964237,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.6299999952316284,
+          "base": 1.0699999779462814,
+          "commit": 642.8799999952316,
+          "phase": "update",
+          "start": 642.1649999916553,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.7749999910593033,
+          "base": 1.2300000041723251,
+          "commit": 658.2999999970198,
+          "phase": "update",
+          "start": 657.4699999988079,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.28999999165534973,
+          "base": 1.2899999767541883,
+          "commit": 675.1449999958277,
+          "phase": "update",
+          "start": 674.8299999982119,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.09000000357627869,
+          "base": 1.2999999821186066,
+          "commit": 725.2449999898672,
+          "phase": "update",
+          "start": 725.1349999904633,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.17500001192092896,
+          "base": 1.3199999630451202,
+          "commit": 741.9649999886751,
+          "phase": "update",
+          "start": 741.7749999910593,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.23499999940395355,
+          "base": 0.2499999850988388,
+          "commit": 792.184999987483,
+          "phase": "update",
+          "start": 791.934999987483,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.2499999850988388,
+          "commit": 793.4049999862909,
+          "phase": "nested-update",
+          "start": 793.3949999958277,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5700000077486038,
+          "base": 0.2750000059604645,
+          "commit": 7.714999988675117,
+          "phase": "mount",
+          "start": 7.0899999886751175,
+          "step": "mount"
+        },
+        {
+          "actual": 0.06499998271465302,
+          "base": 0.26500000059604645,
+          "commit": 8.560000002384186,
+          "phase": "update",
+          "start": 8.469999998807907,
+          "step": "mount"
+        },
+        {
+          "actual": 0.11500000953674316,
+          "base": 0.17500002682209015,
+          "commit": 72.70000000298023,
+          "phase": "update",
+          "start": 72.54999999701977,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.13500000536441803,
+          "commit": 80.26500000059605,
+          "phase": "update",
+          "start": 80.17499999701977,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.11499999463558196,
+          "base": 0.17500002682209015,
+          "commit": 140.69499999284744,
+          "phase": "update",
+          "start": 140.5649999976158,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.07000000774860382,
+          "base": 0.125,
+          "commit": 144.38499999046326,
+          "phase": "update",
+          "start": 144.29500000178814,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.005000010132789612,
+          "base": 0.125,
+          "commit": 194.1499999910593,
+          "phase": "update",
+          "start": 194.1199999898672,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.04999999701976776,
+          "base": 0.1449999958276749,
+          "commit": 227.76999999582767,
+          "phase": "update",
+          "start": 227.69499999284744,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3149999976158142,
+          "base": 0.20500002801418304,
+          "commit": 277.7549999952316,
+          "phase": "update",
+          "start": 277.42499999701977,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.12000001966953278,
+          "commit": 288.9699999988079,
+          "phase": "update",
+          "start": 288.89000000059605,
+          "step": "menu"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 0.12000003457069396,
+          "commit": 340.82500000298023,
+          "phase": "update",
+          "start": 340.7699999958277,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.12000001966953278,
+          "commit": 341.25999999046326,
+          "phase": "update",
+          "start": 341.2199999988079,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4299999922513962,
+          "base": 0.1899999976158142,
+          "commit": 341.7749999910593,
+          "phase": "update",
+          "start": 341.31999999284744,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.07000000774860382,
+          "base": 0.14500001072883606,
+          "commit": 342.3649999946356,
+          "phase": "nested-update",
+          "start": 342.26500000059605,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 0.1900000274181366,
+          "commit": 381.0150000005961,
+          "phase": "update",
+          "start": 380.9050000011921,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.17000001668930054,
+          "commit": 388.17499999701977,
+          "phase": "update",
+          "start": 388.1049999892712,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.04500001668930054,
+          "base": 0.14500002562999725,
+          "commit": 440.7549999952316,
+          "phase": "update",
+          "start": 440.6850000023842,
+          "step": "rename"
+        },
+        {
+          "actual": 0.03500001132488251,
+          "base": 0.1650000363588333,
+          "commit": 441.2549999952316,
+          "phase": "update",
+          "start": 441.20499999821186,
+          "step": "rename"
+        },
+        {
+          "actual": 0.125,
+          "base": 0.20000003278255463,
+          "commit": 445.1400000005961,
+          "phase": "update",
+          "start": 445.0049999952316,
+          "step": "rename"
+        },
+        {
+          "actual": 0.1849999874830246,
+          "base": 0.15000000596046448,
+          "commit": 462.20000000298023,
+          "phase": "update",
+          "start": 461.9699999988079,
+          "step": "rename"
+        },
+        {
+          "actual": 0.12000000476837158,
+          "base": 0.17500002682209015,
+          "commit": 508.0349999964237,
+          "phase": "update",
+          "start": 507.8949999958277,
+          "step": "grid"
+        },
+        {
+          "actual": 0.30000001192092896,
+          "base": 0.20999999344348907,
+          "commit": 558.4149999916553,
+          "phase": "update",
+          "start": 558.0949999988079,
+          "step": "columns"
+        },
+        {
+          "actual": 0.22500000894069672,
+          "base": 0.26499998569488525,
+          "commit": 607.9249999970198,
+          "phase": "update",
+          "start": 607.6649999916553,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.25,
+          "commit": 608.734999999404,
+          "phase": "update",
+          "start": 608.6949999928474,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08000001311302185,
+          "base": 0.2199999839067459,
+          "commit": 624.4799999892712,
+          "phase": "update",
+          "start": 624.375,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.15000000596046448,
+          "base": 0.2149999886751175,
+          "commit": 624.8149999976158,
+          "phase": "update",
+          "start": 624.6449999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.2199999988079071,
+          "commit": 625.5499999970198,
+          "phase": "update",
+          "start": 625.5199999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08000001311302185,
+          "base": 0.2199999988079071,
+          "commit": 641.0699999928474,
+          "phase": "update",
+          "start": 640.9649999886751,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1550000011920929,
+          "base": 0.20499999821186063,
+          "commit": 641.4050000011921,
+          "phase": "update",
+          "start": 641.2249999940395,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.12000000476837158,
+          "base": 0.2549999803304672,
+          "commit": 657.7049999982119,
+          "phase": "update",
+          "start": 657.5549999922514,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.20000001788139343,
+          "base": 0.23999999463558197,
+          "commit": 658.1199999898672,
+          "phase": "update",
+          "start": 657.8999999910593,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.14000003039836884,
+          "base": 0.2800000160932541,
+          "commit": 674.4249999970198,
+          "phase": "update",
+          "start": 674.2449999898672,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.19499999284744263,
+          "base": 0.2849999964237213,
+          "commit": 674.8999999910593,
+          "phase": "update",
+          "start": 674.6550000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.17000001668930054,
+          "base": 0.26999998092651367,
+          "commit": 691.0799999982119,
+          "phase": "update",
+          "start": 690.8799999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.2799999862909317,
+          "commit": 691.3499999940395,
+          "phase": "update",
+          "start": 691.3100000023842,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.2799999862909317,
+          "commit": 691.8049999922514,
+          "phase": "update",
+          "start": 691.7800000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.18000002205371857,
+          "base": 0.24000002443790436,
+          "commit": 741.5499999970198,
+          "phase": "update",
+          "start": 741.3199999928474,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.17499996721744537,
+          "base": 0.20999999344348907,
+          "commit": 758.3949999958277,
+          "phase": "update",
+          "start": 758.1550000011921,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.07499998807907104,
+          "base": 0.08499999344348907,
+          "commit": 808.109999999404,
+          "phase": "update",
+          "start": 808.015000000596,
+          "step": "close"
+        },
+        {
+          "actual": 0.009999990463256836,
+          "base": 0.08499999344348907,
+          "commit": 808.6649999916553,
+          "phase": "nested-update",
+          "start": 808.6449999958277,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.2500000447034836,
+          "base": 0.9700000137090684,
+          "commit": 8.74499998986721,
+          "phase": "mount",
+          "start": 7.434999987483025,
+          "step": "mount"
+        },
+        {
+          "actual": 0.3050000071525574,
+          "base": 0.3800000101327896,
+          "commit": 72.44999998807907,
+          "phase": "update",
+          "start": 72.09999999403954,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.18000000715255737,
+          "base": 0.25,
+          "commit": 80.36999998986721,
+          "phase": "update",
+          "start": 80.15999999642372,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.2200000137090683,
+          "base": 0.2900000214576721,
+          "commit": 144.26499998569489,
+          "phase": "update",
+          "start": 144.00999999046326,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.04999998211860657,
+          "base": 0.310000017285347,
+          "commit": 227.91499999165535,
+          "phase": "update",
+          "start": 227.8449999988079,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.375,
+          "base": 0.5000000298023224,
+          "commit": 277.684999987483,
+          "phase": "update",
+          "start": 277.294999986887,
+          "step": "menu"
+        },
+        {
+          "actual": 0.05499999225139618,
+          "base": 0.3050000071525574,
+          "commit": 290.7549999952316,
+          "phase": "update",
+          "start": 290.6799999922514,
+          "step": "menu"
+        },
+        {
+          "actual": 0.060000017285346985,
+          "base": 0.33000002801418304,
+          "commit": 340.2149999886751,
+          "phase": "update",
+          "start": 340.1299999952316,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.30500002205371857,
+          "commit": 340.5049999952316,
+          "phase": "update",
+          "start": 340.4649999886751,
+          "step": "open-folder"
+        },
+        {
+          "actual": 4.929999992251396,
+          "base": 3.5849999338388443,
+          "commit": 346.1299999952316,
+          "phase": "update",
+          "start": 340.84999999403954,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 3.5849999338388443,
+          "commit": 350.91499999165535,
+          "phase": "nested-update",
+          "start": 350.8949999958277,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.3050000220537186,
+          "base": 3.1000000089406967,
+          "commit": 400.324999988079,
+          "phase": "update",
+          "start": 397.7449999898672,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 3.025000035762787,
+          "base": 3.824999988079071,
+          "commit": 412.7149999886751,
+          "phase": "update",
+          "start": 409.5049999952316,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.725000083446503,
+          "base": 2.5300000309944153,
+          "commit": 459.04999999701977,
+          "phase": "update",
+          "start": 457.125,
+          "step": "rename"
+        },
+        {
+          "actual": 0.11499999463558196,
+          "base": 2.560000032186508,
+          "commit": 464.375,
+          "phase": "update",
+          "start": 464.22499999403954,
+          "step": "rename"
+        },
+        {
+          "actual": 2.1449999511241913,
+          "base": 2.010000005364418,
+          "commit": 484.45499999821186,
+          "phase": "update",
+          "start": 482.07999999821186,
+          "step": "rename"
+        },
+        {
+          "actual": 2.424999937415123,
+          "base": 2.5499999821186066,
+          "commit": 543.0249999910593,
+          "phase": "update",
+          "start": 540.359999999404,
+          "step": "grid"
+        },
+        {
+          "actual": 3.830000028014183,
+          "base": 2.955000102519989,
+          "commit": 611.875,
+          "phase": "update",
+          "start": 607.8399999886751,
+          "step": "columns"
+        },
+        {
+          "actual": 2.0349999964237213,
+          "base": 2.3700000792741776,
+          "commit": 676.4249999970198,
+          "phase": "update",
+          "start": 674.1399999856949,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.03000001609325409,
+          "base": 2.375000074505806,
+          "commit": 678.25,
+          "phase": "update",
+          "start": 678.1899999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.3650000244379044,
+          "base": 2.7200000286102295,
+          "commit": 709.9149999916553,
+          "phase": "update",
+          "start": 707.2599999904633,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.014999985694885254,
+          "base": 2.7300000190734863,
+          "commit": 711.5199999958277,
+          "phase": "update",
+          "start": 711.4899999946356,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.590000033378601,
+          "base": 2.9000000655651093,
+          "commit": 743.184999987483,
+          "phase": "update",
+          "start": 740.3649999946356,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.504999965429306,
+          "base": 2.885000005364418,
+          "commit": 776.3949999958277,
+          "phase": "update",
+          "start": 773.5949999988079,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.2549999952316284,
+          "base": 2.610000044107437,
+          "commit": 809.4799999892712,
+          "phase": "update",
+          "start": 806.9699999988079,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.2300000041723251,
+          "base": 2.5500000566244125,
+          "commit": 840.3149999976158,
+          "phase": "update",
+          "start": 840.059999987483,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.10999999940395357,
+          "base": 2.575000047683716,
+          "commit": 891.9949999898672,
+          "phase": "update",
+          "start": 891.8699999898672,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.17499999701976776,
+          "base": 2.575000062584877,
+          "commit": 908.2299999892712,
+          "phase": "update",
+          "start": 908.0499999970198,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.2199999988079071,
+          "base": 0.23499999940395355,
+          "commit": 957.8799999952316,
+          "phase": "update",
+          "start": 957.6399999856948,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.23499999940395355,
+          "commit": 961.2899999916552,
+          "phase": "nested-update",
+          "start": 961.2749999910592,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5499999970197678,
+          "base": 0.2600000202655792,
+          "commit": 9.609999999403954,
+          "phase": "mount",
+          "start": 9,
+          "step": "mount"
+        },
+        {
+          "actual": 0.060000017285346985,
+          "base": 0.2600000351667404,
+          "commit": 10.46000000834465,
+          "phase": "update",
+          "start": 10.375,
+          "step": "mount"
+        },
+        {
+          "actual": 0.10000000894069672,
+          "base": 0.17000000178813934,
+          "commit": 72.06500001251698,
+          "phase": "update",
+          "start": 71.93000000715256,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.08499999344348907,
+          "base": 0.15000000596046448,
+          "commit": 80.04000000655651,
+          "phase": "update",
+          "start": 79.92000000178814,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.07000000774860382,
+          "base": 0.1550000160932541,
+          "commit": 140.6300000101328,
+          "phase": "update",
+          "start": 140.53500001132488,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.15000000596046448,
+          "commit": 144.07500000298023,
+          "phase": "update",
+          "start": 143.9750000089407,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.005000010132789612,
+          "base": 0.15000000596046448,
+          "commit": 194.21500000357628,
+          "phase": "update",
+          "start": 194.18000000715256,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.0599999874830246,
+          "base": 0.16999998688697815,
+          "commit": 227.74500000476837,
+          "phase": "update",
+          "start": 227.66000001132488,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.2849999964237213,
+          "base": 0.19999998807907104,
+          "commit": 276.8800000101328,
+          "phase": "update",
+          "start": 276.5600000023842,
+          "step": "menu"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.13500002026557922,
+          "commit": 288.35999999940395,
+          "phase": "update",
+          "start": 288.2800000011921,
+          "step": "menu"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.12000000476837158,
+          "commit": 340.75,
+          "phase": "update",
+          "start": 340.690000012517,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.13500000536441803,
+          "commit": 341.190000012517,
+          "phase": "update",
+          "start": 341.15000000596046,
+          "step": "open-folder"
+        },
+        {
+          "actual": 1.9699999541044235,
+          "base": 0.6999999433755875,
+          "commit": 343.4350000023842,
+          "phase": "update",
+          "start": 341.26500000059605,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4249999523162842,
+          "base": 0.4349999874830246,
+          "commit": 346.0100000053644,
+          "phase": "nested-update",
+          "start": 345.3700000047684,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.44999995827674866,
+          "base": 0.5099999606609344,
+          "commit": 399.1550000011921,
+          "phase": "update",
+          "start": 398.5050000101328,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.3600000739097595,
+          "base": 0.40000002086162567,
+          "commit": 407.5400000065565,
+          "phase": "update",
+          "start": 406.9800000041723,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.4049999713897705,
+          "base": 0.4949999898672104,
+          "commit": 458.1550000011921,
+          "phase": "update",
+          "start": 457.57500000298023,
+          "step": "rename"
+        },
+        {
+          "actual": 0.08000001311302185,
+          "base": 0.4450000524520874,
+          "commit": 458.9150000065565,
+          "phase": "update",
+          "start": 458.7650000005961,
+          "step": "rename"
+        },
+        {
+          "actual": 0.15000000596046448,
+          "base": 0.4750000387430191,
+          "commit": 463.2300000041723,
+          "phase": "update",
+          "start": 463.065000012517,
+          "step": "rename"
+        },
+        {
+          "actual": 0.5499999970197678,
+          "base": 0.4049999564886093,
+          "commit": 480.7900000065565,
+          "phase": "update",
+          "start": 480.0900000035763,
+          "step": "rename"
+        },
+        {
+          "actual": 0.40000002086162567,
+          "base": 0.3900000005960465,
+          "commit": 525.4050000011921,
+          "phase": "update",
+          "start": 524.8650000095367,
+          "step": "grid"
+        },
+        {
+          "actual": 1.340000033378601,
+          "base": 0.5250001102685928,
+          "commit": 575.9900000095367,
+          "phase": "update",
+          "start": 574.455000013113,
+          "step": "columns"
+        },
+        {
+          "actual": 0.555000051856041,
+          "base": 0.5350000411272049,
+          "commit": 625.1950000077486,
+          "phase": "update",
+          "start": 624.4800000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.10500000417232512,
+          "base": 0.5250000208616257,
+          "commit": 627.8700000047684,
+          "phase": "update",
+          "start": 627.690000012517,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4100000262260437,
+          "base": 0.5100000649690628,
+          "commit": 658.2000000029802,
+          "phase": "update",
+          "start": 657.625,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4100000262260437,
+          "base": 0.43500007688999176,
+          "commit": 659.3400000035763,
+          "phase": "update",
+          "start": 658.734999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.4450000822544098,
+          "commit": 661.7700000107288,
+          "phase": "update",
+          "start": 661.7400000095367,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4099999517202378,
+          "base": 0.4999999552965164,
+          "commit": 691.5050000101328,
+          "phase": "update",
+          "start": 690.9050000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.489999994635582,
+          "base": 0.4999999850988388,
+          "commit": 692.5850000083447,
+          "phase": "update",
+          "start": 691.9800000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4500000327825546,
+          "base": 0.505000039935112,
+          "commit": 724.6600000113249,
+          "phase": "update",
+          "start": 724.0200000107288,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.42500004172325134,
+          "base": 0.45500004291534424,
+          "commit": 725.830000013113,
+          "phase": "update",
+          "start": 725.1450000107288,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4999999850988388,
+          "base": 0.6049999445676804,
+          "commit": 758.1200000047684,
+          "phase": "update",
+          "start": 757.4300000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.47000008821487427,
+          "base": 0.5000000447034836,
+          "commit": 759.2850000113249,
+          "phase": "update",
+          "start": 758.6200000047684,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5299999862909317,
+          "base": 0.6199999898672104,
+          "commit": 791.3200000077486,
+          "phase": "update",
+          "start": 790.6300000101328,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.014999985694885254,
+          "base": 0.6249999701976776,
+          "commit": 791.8500000089407,
+          "phase": "update",
+          "start": 791.815000012517,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.6299999803304672,
+          "commit": 792.2550000101328,
+          "phase": "update",
+          "start": 792.2300000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4700000137090683,
+          "base": 0.4300000071525574,
+          "commit": 842.1850000023842,
+          "phase": "update",
+          "start": 841.4950000047684,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.49000006914138794,
+          "base": 0.4750000536441803,
+          "commit": 859.25,
+          "phase": "update",
+          "start": 858.515000000596,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.07000000774860382,
+          "base": 0.09000001847743988,
+          "commit": 908.3400000035764,
+          "phase": "update",
+          "start": 908.25,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.09000001847743988,
+          "commit": 909.7150000035764,
+          "phase": "nested-update",
+          "start": 909.6950000077486,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5699999928474426,
+          "base": 0.2799999862909317,
+          "commit": 6.754999995231628,
+          "phase": "mount",
+          "start": 6.125,
+          "step": "mount"
+        },
+        {
+          "actual": 0.0599999874830246,
+          "base": 0.26499995589256287,
+          "commit": 7.509999990463257,
+          "phase": "update",
+          "start": 7.439999997615814,
+          "step": "mount"
+        },
+        {
+          "actual": 0.10999999940395357,
+          "base": 0.19499999284744263,
+          "commit": 56.04500000178814,
+          "phase": "update",
+          "start": 55.90500000119209,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.08999998867511749,
+          "base": 0.16499999165534973,
+          "commit": 63.564999997615814,
+          "phase": "update",
+          "start": 63.44499999284744,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.16499999165534973,
+          "commit": 124.2199999988079,
+          "phase": "update",
+          "start": 124.125,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.16499999165534973,
+          "commit": 127.83499999344347,
+          "phase": "update",
+          "start": 127.73499999940395,
+          "step": "lasso"
+        },
+        {
+          "actual": 0,
+          "base": 0.16499999165534973,
+          "commit": 177.95499999821186,
+          "phase": "update",
+          "start": 177.91499999165535,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.17999999225139618,
+          "commit": 211.72999998927116,
+          "phase": "update",
+          "start": 211.6550000011921,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3150000125169754,
+          "base": 0.23499999940395355,
+          "commit": 261.85499998927116,
+          "phase": "update",
+          "start": 261.5249999910593,
+          "step": "menu"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.1599999964237213,
+          "commit": 273.04999999701977,
+          "phase": "update",
+          "start": 272.95499999821186,
+          "step": "menu"
+        },
+        {
+          "actual": 0.020000025629997253,
+          "base": 0.14500001072883606,
+          "commit": 324.6199999898672,
+          "phase": "update",
+          "start": 324.559999987483,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.0299999862909317,
+          "base": 0.1549999862909317,
+          "commit": 325.0349999964237,
+          "phase": "update",
+          "start": 324.9949999898672,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.0000000596046448,
+          "base": 0.6100001037120819,
+          "commit": 327.28999999165535,
+          "phase": "update",
+          "start": 325.10499998927116,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.435000017285347,
+          "base": 0.45499998331069946,
+          "commit": 329.8649999946356,
+          "phase": "nested-update",
+          "start": 329.2199999988079,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.48500001430511475,
+          "base": 0.5500000566244125,
+          "commit": 383.34999999403954,
+          "phase": "update",
+          "start": 382.67499999701977,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.40000002086162567,
+          "base": 0.489999994635582,
+          "commit": 391.9299999922514,
+          "phase": "update",
+          "start": 391.3549999892712,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.369999960064888,
+          "base": 0.4400000125169754,
+          "commit": 441.2849999964237,
+          "phase": "update",
+          "start": 440.684999987483,
+          "step": "rename"
+        },
+        {
+          "actual": 0.09000004827976227,
+          "base": 0.42500004172325134,
+          "commit": 442.0899999886751,
+          "phase": "update",
+          "start": 441.9299999922514,
+          "step": "rename"
+        },
+        {
+          "actual": 0.1550000011920929,
+          "base": 0.4650000333786011,
+          "commit": 446.3649999946356,
+          "phase": "update",
+          "start": 446.1799999922514,
+          "step": "rename"
+        },
+        {
+          "actual": 0.5349999815225601,
+          "base": 0.4049999564886093,
+          "commit": 464.06999999284744,
+          "phase": "update",
+          "start": 463.3649999946356,
+          "step": "rename"
+        },
+        {
+          "actual": 0.42000000178813934,
+          "base": 0.429999977350235,
+          "commit": 509,
+          "phase": "update",
+          "start": 508.42000000178814,
+          "step": "grid"
+        },
+        {
+          "actual": 1.3800000101327896,
+          "base": 0.564999982714653,
+          "commit": 562.0300000011921,
+          "phase": "update",
+          "start": 560.484999999404,
+          "step": "columns"
+        },
+        {
+          "actual": 0.5849999934434891,
+          "base": 0.6049999594688416,
+          "commit": 625.2049999982119,
+          "phase": "update",
+          "start": 624.4499999880791,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.09999996423721312,
+          "base": 0.5449999570846558,
+          "commit": 627.9549999982119,
+          "phase": "update",
+          "start": 627.7800000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4450000077486038,
+          "base": 0.5500000268220901,
+          "commit": 658.75,
+          "phase": "update",
+          "start": 658.1449999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.48000001907348633,
+          "base": 0.5050000101327896,
+          "commit": 659.9499999880791,
+          "phase": "update",
+          "start": 659.3049999922514,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000015497207642,
+          "base": 0.5150000154972076,
+          "commit": 662.4899999946356,
+          "phase": "update",
+          "start": 662.4649999886751,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4649999886751175,
+          "base": 0.560000017285347,
+          "commit": 692.1299999952316,
+          "phase": "update",
+          "start": 691.484999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.47499997913837433,
+          "base": 0.5099999904632568,
+          "commit": 693.2800000011921,
+          "phase": "update",
+          "start": 692.6299999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4650000482797622,
+          "base": 0.5900000184774399,
+          "commit": 725.2599999904633,
+          "phase": "update",
+          "start": 724.5899999886751,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4450000077486038,
+          "base": 0.46000002324581146,
+          "commit": 726.4149999916553,
+          "phase": "update",
+          "start": 725.75,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.510000005364418,
+          "base": 0.6349999755620956,
+          "commit": 758.6299999952316,
+          "phase": "update",
+          "start": 757.9149999916553,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5099999457597733,
+          "base": 0.5249999612569809,
+          "commit": 759.875,
+          "phase": "update",
+          "start": 759.1799999922514,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4900000393390655,
+          "base": 0.5600000768899918,
+          "commit": 791.9399999976158,
+          "phase": "update",
+          "start": 791.25,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 0.5600000768899918,
+          "commit": 792.4699999988079,
+          "phase": "update",
+          "start": 792.4399999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.5600000619888306,
+          "commit": 792.8449999988079,
+          "phase": "update",
+          "start": 792.8299999982119,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5250000655651093,
+          "base": 0.5150000751018524,
+          "commit": 843,
+          "phase": "update",
+          "start": 842.309999987483,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.5799999982118607,
+          "base": 0.5400000214576721,
+          "commit": 859.809999987483,
+          "phase": "update",
+          "start": 859.0549999922514,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.08999998867511749,
+          "commit": 908.8349999934436,
+          "phase": "update",
+          "start": 908.7399999946356,
+          "step": "close"
+        },
+        {
+          "actual": 0,
+          "base": 0.08999998867511749,
+          "commit": 910.2999999970198,
+          "phase": "nested-update",
+          "start": 910.280000001192,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.1850000023841858,
+          "base": 0.9150000065565108,
+          "commit": 11.280000001192091,
+          "phase": "mount",
+          "start": 10.030000001192091,
+          "step": "mount"
+        },
+        {
+          "actual": 0.3200000077486038,
+          "base": 0.3900000005960465,
+          "commit": 72.43999999761581,
+          "phase": "update",
+          "start": 72.07999999821186,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.22499997913837433,
+          "base": 0.29499997198581696,
+          "commit": 80.49500000476837,
+          "phase": "update",
+          "start": 80.25,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.19500000774860385,
+          "base": 0.2749999910593033,
+          "commit": 144.4050000011921,
+          "phase": "update",
+          "start": 144.15999999642372,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.05499999225139618,
+          "base": 0.3049999922513962,
+          "commit": 228.21500000357628,
+          "phase": "update",
+          "start": 228.14000000059605,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.36000001430511475,
+          "base": 0.4950000047683716,
+          "commit": 277.01500000059605,
+          "phase": "update",
+          "start": 276.6350000053644,
+          "step": "menu"
+        },
+        {
+          "actual": 0.05500000715255737,
+          "base": 0.28999999165534973,
+          "commit": 290.2250000089407,
+          "phase": "update",
+          "start": 290.1550000011921,
+          "step": "menu"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.32500000298023224,
+          "commit": 340.76500000059605,
+          "phase": "update",
+          "start": 340.67000000178814,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 0.2900000065565109,
+          "commit": 341.0700000077486,
+          "phase": "update",
+          "start": 341.0349999964237,
+          "step": "open-folder"
+        },
+        {
+          "actual": 4.870000034570694,
+          "base": 3.389999970793724,
+          "commit": 346.5050000101328,
+          "phase": "update",
+          "start": 341.40000000596046,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0,
+          "base": 3.389999970793724,
+          "commit": 351.4150000065565,
+          "phase": "nested-update",
+          "start": 351.40000000596046,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.125000014901161,
+          "base": 2.8600000590085983,
+          "commit": 400.3800000101328,
+          "phase": "update",
+          "start": 397.99000000953674,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.625,
+          "base": 2.405000001192093,
+          "commit": 411.3900000005961,
+          "phase": "update",
+          "start": 409.55500000715256,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.7249999940395355,
+          "base": 2.460000112652778,
+          "commit": 459.7349999994039,
+          "phase": "update",
+          "start": 457.7199999988079,
+          "step": "rename"
+        },
+        {
+          "actual": 0.11499999463558196,
+          "base": 2.5050000995397568,
+          "commit": 465.30500000715256,
+          "phase": "update",
+          "start": 465.1599999964237,
+          "step": "rename"
+        },
+        {
+          "actual": 2.0350000262260437,
+          "base": 1.924999997019768,
+          "commit": 484.4450000077486,
+          "phase": "update",
+          "start": 482.1950000077486,
+          "step": "rename"
+        },
+        {
+          "actual": 2.2550000697374344,
+          "base": 2.3100000619888306,
+          "commit": 543.9200000017881,
+          "phase": "update",
+          "start": 541.4099999964237,
+          "step": "grid"
+        },
+        {
+          "actual": 3.1150000393390656,
+          "base": 2.310000017285347,
+          "commit": 611.5949999988079,
+          "phase": "update",
+          "start": 608.2900000065565,
+          "step": "columns"
+        },
+        {
+          "actual": 1.7599999755620956,
+          "base": 1.969999983906746,
+          "commit": 676.5700000077486,
+          "phase": "update",
+          "start": 674.5799999982119,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.03500001132488251,
+          "base": 1.9899999797344208,
+          "commit": 678.3700000047684,
+          "phase": "update",
+          "start": 678.2999999970198,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 1.9749999791383743,
+          "base": 2.25,
+          "commit": 709.8949999958277,
+          "phase": "update",
+          "start": 707.6500000059605,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 2.2550000101327896,
+          "commit": 711.4750000089407,
+          "phase": "update",
+          "start": 711.4500000029802,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.0850000232458115,
+          "base": 2.365000009536743,
+          "commit": 743.375,
+          "phase": "update",
+          "start": 741.0100000053644,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.2049999833106995,
+          "base": 2.475000023841858,
+          "commit": 776.5799999982119,
+          "phase": "update",
+          "start": 774.0750000029802,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.175000011920929,
+          "base": 2.4500000178813934,
+          "commit": 809.6350000053644,
+          "phase": "update",
+          "start": 807.2199999988079,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1799999624490738,
+          "base": 2.389999970793724,
+          "commit": 840.7849999964237,
+          "phase": "update",
+          "start": 840.5550000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.10000000894069672,
+          "base": 2.4099999517202377,
+          "commit": 892.484999999404,
+          "phase": "update",
+          "start": 892.3650000095367,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.14999999105930328,
+          "base": 2.3999999314546585,
+          "commit": 908.8250000029802,
+          "phase": "update",
+          "start": 908.6449999958276,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.19999998807907104,
+          "base": 0.19999998807907104,
+          "commit": 958.6650000065564,
+          "phase": "update",
+          "start": 958.4450000077486,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.19999998807907104,
+          "commit": 962.079999998212,
+          "phase": "nested-update",
+          "start": 962.0649999976158,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.6550000309944153,
+          "base": 0.3150000423192978,
+          "commit": 7.784999996423721,
+          "phase": "mount",
+          "start": 7.054999992251396,
+          "step": "mount"
+        },
+        {
+          "actual": 0.1199999898672104,
+          "base": 0.3400000184774399,
+          "commit": 8.679999992251396,
+          "phase": "update",
+          "start": 8.534999996423721,
+          "step": "mount"
+        },
+        {
+          "actual": 0.12999999523162842,
+          "base": 0.20999999344348907,
+          "commit": 71.87999999523163,
+          "phase": "update",
+          "start": 71.72999998927116,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.10000000894069672,
+          "base": 0.17999999225139618,
+          "commit": 79.94499999284744,
+          "phase": "update",
+          "start": 79.8049999922514,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.09000000357627869,
+          "base": 0.17999999225139618,
+          "commit": 141.44999998807907,
+          "phase": "update",
+          "start": 141.35499998927116,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.08000001311302185,
+          "base": 0.16500000655651093,
+          "commit": 145.1550000011921,
+          "phase": "update",
+          "start": 145.0549999922514,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.16500000655651093,
+          "commit": 195.17499999701977,
+          "phase": "update",
+          "start": 195.14000000059605,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.19499999284744263,
+          "commit": 228.69499999284744,
+          "phase": "update",
+          "start": 228.6149999946356,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3200000077486038,
+          "base": 0.2199999988079071,
+          "commit": 278.56999999284744,
+          "phase": "update",
+          "start": 278.2399999946356,
+          "step": "menu"
+        },
+        {
+          "actual": 0.08000001311302185,
+          "base": 0.1599999964237213,
+          "commit": 290.16499999165535,
+          "phase": "update",
+          "start": 290.04999999701977,
+          "step": "menu"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.1499999761581421,
+          "commit": 341.70499999821186,
+          "phase": "update",
+          "start": 341.63499999046326,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.1549999862909317,
+          "commit": 342.125,
+          "phase": "update",
+          "start": 342.0849999934435,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4900000095367432,
+          "base": 0.27500002086162567,
+          "commit": 342.7099999934435,
+          "phase": "update",
+          "start": 342.19999998807907,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.08499999344348907,
+          "base": 0.1950000375509262,
+          "commit": 343.41499999165535,
+          "phase": "nested-update",
+          "start": 343.29999999701977,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.09999999403953552,
+          "base": 0.2550000250339508,
+          "commit": 382.3149999976158,
+          "phase": "update",
+          "start": 382.1899999976158,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.21000003814697263,
+          "commit": 390.1499999910593,
+          "phase": "update",
+          "start": 390.0649999976158,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.05500000715255737,
+          "base": 0.20500002801418304,
+          "commit": 441.5899999886751,
+          "phase": "update",
+          "start": 441.5049999952316,
+          "step": "rename"
+        },
+        {
+          "actual": 0.024999991059303284,
+          "base": 0.20500001311302185,
+          "commit": 442.1149999946356,
+          "phase": "update",
+          "start": 442.0649999976158,
+          "step": "rename"
+        },
+        {
+          "actual": 0.14000000059604645,
+          "base": 0.2450000196695328,
+          "commit": 446.1199999898672,
+          "phase": "update",
+          "start": 445.9699999988079,
+          "step": "rename"
+        },
+        {
+          "actual": 0.20499999821186063,
+          "base": 0.18500001728534696,
+          "commit": 463.4949999898672,
+          "phase": "update",
+          "start": 463.25,
+          "step": "rename"
+        },
+        {
+          "actual": 0.12000000476837158,
+          "base": 0.20500001311302185,
+          "commit": 508.8999999910593,
+          "phase": "update",
+          "start": 508.7549999952316,
+          "step": "grid"
+        },
+        {
+          "actual": 0.30000002682209015,
+          "base": 0.2500000447034836,
+          "commit": 559.1499999910593,
+          "phase": "update",
+          "start": 558.8249999880791,
+          "step": "columns"
+        },
+        {
+          "actual": 0.2549999952316284,
+          "base": 0.30000001192092896,
+          "commit": 608.7249999940395,
+          "phase": "update",
+          "start": 608.4449999928474,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.29999999701976776,
+          "commit": 609.5600000023842,
+          "phase": "update",
+          "start": 609.5199999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 0.23500004410743713,
+          "commit": 624.109999999404,
+          "phase": "update",
+          "start": 624.0049999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1300000101327896,
+          "base": 0.22000005841255188,
+          "commit": 624.390000000596,
+          "phase": "update",
+          "start": 624.2449999898672,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.2250000685453415,
+          "commit": 625.0899999886751,
+          "phase": "update",
+          "start": 625.0649999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.11499997973442078,
+          "base": 0.2550000101327896,
+          "commit": 641.8799999952316,
+          "phase": "update",
+          "start": 641.7449999898672,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.18999996781349185,
+          "base": 0.2449999898672104,
+          "commit": 642.265000000596,
+          "phase": "update",
+          "start": 642.0600000023842,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.0950000137090683,
+          "base": 0.2500000298023224,
+          "commit": 658.3449999988079,
+          "phase": "update",
+          "start": 658.2149999886751,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.17499998211860657,
+          "base": 0.2550000250339508,
+          "commit": 658.7149999886751,
+          "phase": "update",
+          "start": 658.5099999904633,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.13500000536441803,
+          "base": 0.27000004053115845,
+          "commit": 675.125,
+          "phase": "update",
+          "start": 674.9599999934435,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.17499999701976776,
+          "base": 0.27000004053115845,
+          "commit": 675.5099999904633,
+          "phase": "update",
+          "start": 675.2950000017881,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.12999999523162842,
+          "base": 0.26500003039836884,
+          "commit": 691.8149999976158,
+          "phase": "update",
+          "start": 691.640000000596,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 0.27000002562999725,
+          "commit": 692.0199999958277,
+          "phase": "update",
+          "start": 691.984999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.26500003039836884,
+          "commit": 692.390000000596,
+          "phase": "update",
+          "start": 692.3699999898672,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.19499999284744263,
+          "base": 0.2900000065565109,
+          "commit": 742.3649999946356,
+          "phase": "update",
+          "start": 742.1149999946356,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.24000000953674316,
+          "base": 0.29500003159046173,
+          "commit": 759.1799999922514,
+          "phase": "update",
+          "start": 758.8999999910593,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.0949999988079071,
+          "base": 0.10500000417232512,
+          "commit": 809.0349999964237,
+          "phase": "update",
+          "start": 808.9249999970198,
+          "step": "close"
+        },
+        {
+          "actual": 0.005000010132789612,
+          "base": 0.10500000417232512,
+          "commit": 809.6449999958277,
+          "phase": "nested-update",
+          "start": 809.625,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.1700000166893003,
+          "base": 0.9150000363588332,
+          "commit": 11.825000002980232,
+          "phase": "mount",
+          "start": 10.57999999821186,
+          "step": "mount"
+        },
+        {
+          "actual": 0.33500000834465027,
+          "base": 0.39500002562999725,
+          "commit": 72.39499999582767,
+          "phase": "update",
+          "start": 72.01500000059605,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.2150000035762787,
+          "base": 0.26999999582767487,
+          "commit": 80.43999999761581,
+          "phase": "update",
+          "start": 80.1950000077486,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.24000000953674316,
+          "base": 0.3149999976158142,
+          "commit": 144.32500000298023,
+          "phase": "update",
+          "start": 144.0649999976158,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.034999996423721313,
+          "base": 0.32999999821186066,
+          "commit": 227.98000000417233,
+          "phase": "update",
+          "start": 227.92000000178817,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3900000005960465,
+          "base": 0.5250000059604645,
+          "commit": 278.14000000059605,
+          "phase": "update",
+          "start": 277.7300000041723,
+          "step": "menu"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.35499998927116394,
+          "commit": 291.93000000715256,
+          "phase": "update",
+          "start": 291.83500000834465,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06499999761581421,
+          "base": 0.3650000095367432,
+          "commit": 340.375,
+          "phase": "update",
+          "start": 340.29500000178814,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02500002086162567,
+          "base": 0.3400000035762787,
+          "commit": 340.6650000065565,
+          "phase": "update",
+          "start": 340.6299999952316,
+          "step": "open-folder"
+        },
+        {
+          "actual": 1.46500001847744,
+          "base": 1.095000058412552,
+          "commit": 342.4800000041723,
+          "phase": "update",
+          "start": 340.9750000089407,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 1.095000058412552,
+          "commit": 343.57999999821186,
+          "phase": "nested-update",
+          "start": 343.5700000077486,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.22499999403953552,
+          "base": 1.0450000315904615,
+          "commit": 381.3949999958277,
+          "phase": "update",
+          "start": 381.1350000053644,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.20000000298023224,
+          "base": 1.0150000303983688,
+          "commit": 388.6599999964237,
+          "phase": "update",
+          "start": 388.45000000298023,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.2900000065565109,
+          "base": 1.1050000339746475,
+          "commit": 440.8100000023842,
+          "phase": "update",
+          "start": 440.4849999994039,
+          "step": "rename"
+        },
+        {
+          "actual": 0.12000000476837158,
+          "base": 1.150000050663948,
+          "commit": 445.2650000005961,
+          "phase": "update",
+          "start": 445.1400000005961,
+          "step": "rename"
+        },
+        {
+          "actual": 0.7199999988079071,
+          "base": 0.6949999928474426,
+          "commit": 463.20000000298023,
+          "phase": "update",
+          "start": 462.4450000077486,
+          "step": "rename"
+        },
+        {
+          "actual": 0.4450000077486038,
+          "base": 0.7200000137090683,
+          "commit": 508.17000000178814,
+          "phase": "update",
+          "start": 507.6850000023842,
+          "step": "grid"
+        },
+        {
+          "actual": 0.8350000083446503,
+          "base": 0.9800000488758088,
+          "commit": 558.7399999946356,
+          "phase": "update",
+          "start": 557.8799999952316,
+          "step": "columns"
+        },
+        {
+          "actual": 0.6450000107288361,
+          "base": 1.130000039935112,
+          "commit": 608.1700000017881,
+          "phase": "update",
+          "start": 607.484999999404,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 1.1150000244379044,
+          "commit": 608.890000000596,
+          "phase": "update",
+          "start": 608.8550000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.6099999994039536,
+          "base": 1.1300000250339508,
+          "commit": 624.7750000059605,
+          "phase": "update",
+          "start": 624.1299999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.014999985694885254,
+          "base": 1.1300000101327896,
+          "commit": 625.4549999982119,
+          "phase": "update",
+          "start": 625.4249999970198,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.7049999833106995,
+          "base": 1.195000022649765,
+          "commit": 640.5049999952316,
+          "phase": "update",
+          "start": 639.7750000059605,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.8349999934434891,
+          "base": 1.360000029206276,
+          "commit": 658.2399999946356,
+          "phase": "update",
+          "start": 657.3700000047684,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.9149999916553496,
+          "base": 1.4100000113248825,
+          "commit": 674.9549999982119,
+          "phase": "update",
+          "start": 673.9899999946356,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.2799999862909317,
+          "base": 1.4000000059604645,
+          "commit": 690.5700000077486,
+          "phase": "update",
+          "start": 690.2549999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.0949999988079071,
+          "base": 1.405000016093254,
+          "commit": 741.140000000596,
+          "phase": "update",
+          "start": 741.0250000059605,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.16500000655651093,
+          "base": 1.395000010728836,
+          "commit": 758.359999999404,
+          "phase": "update",
+          "start": 758.1899999976158,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.24000000953674316,
+          "base": 0.26500000059604645,
+          "commit": 808.0100000053644,
+          "phase": "update",
+          "start": 807.7450000047684,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.26500000059604645,
+          "commit": 809.3050000071526,
+          "phase": "nested-update",
+          "start": 809.2900000065565,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.260000005364418,
+          "base": 0.9500000029802322,
+          "commit": 8.165000006556511,
+          "phase": "mount",
+          "start": 6.814999997615814,
+          "step": "mount"
+        },
+        {
+          "actual": 0.3499999940395355,
+          "base": 0.38999998569488525,
+          "commit": 55.96000000834465,
+          "phase": "update",
+          "start": 55.57500000298023,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.20500001311302185,
+          "base": 0.25,
+          "commit": 64.07999999821186,
+          "phase": "update",
+          "start": 63.855000004172325,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.25,
+          "base": 0.304999977350235,
+          "commit": 127.4399999976158,
+          "phase": "update",
+          "start": 127.15999999642372,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.034999996423721313,
+          "base": 0.32499997317790985,
+          "commit": 211.5700000077486,
+          "phase": "update",
+          "start": 211.5,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.375,
+          "base": 0.5149999707937241,
+          "commit": 261.51500000059605,
+          "phase": "update",
+          "start": 261.1050000041723,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.31999997794628143,
+          "commit": 274.95000000298023,
+          "phase": "update",
+          "start": 274.86500000953674,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06499998271465302,
+          "base": 0.3449999690055847,
+          "commit": 323.6000000089407,
+          "phase": "update",
+          "start": 323.5,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.3099999725818634,
+          "commit": 323.9050000011921,
+          "phase": "update",
+          "start": 323.875,
+          "step": "open-folder"
+        },
+        {
+          "actual": 1.6100000143051147,
+          "base": 1.2049999684095385,
+          "commit": 325.90000000596046,
+          "phase": "update",
+          "start": 324.24000000953674,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0,
+          "base": 1.2049999684095385,
+          "commit": 327.125,
+          "phase": "nested-update",
+          "start": 327.10999999940395,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.2300000041723251,
+          "base": 1.1099999845027924,
+          "commit": 365.2800000011921,
+          "phase": "update",
+          "start": 365.0199999958277,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.20499999821186063,
+          "base": 1.084999978542328,
+          "commit": 372.875,
+          "phase": "update",
+          "start": 372.6599999964237,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.2850000113248825,
+          "base": 1.1649999916553495,
+          "commit": 424.6299999952316,
+          "phase": "update",
+          "start": 424.32500000298023,
+          "step": "rename"
+        },
+        {
+          "actual": 0.09999999403953552,
+          "base": 1.1949999928474426,
+          "commit": 429.3550000041723,
+          "phase": "update",
+          "start": 429.2450000047684,
+          "step": "rename"
+        },
+        {
+          "actual": 0.6599999964237213,
+          "base": 0.6249999850988388,
+          "commit": 446.6000000089407,
+          "phase": "update",
+          "start": 445.8799999952316,
+          "step": "rename"
+        },
+        {
+          "actual": 0.4450000077486038,
+          "base": 0.6599999815225601,
+          "commit": 494.25,
+          "phase": "update",
+          "start": 493.7699999958277,
+          "step": "grid"
+        },
+        {
+          "actual": 0.6950000077486038,
+          "base": 0.8099999874830246,
+          "commit": 542.2300000041723,
+          "phase": "update",
+          "start": 541.515000000596,
+          "step": "columns"
+        },
+        {
+          "actual": 0.5999999791383743,
+          "base": 0.9699999541044236,
+          "commit": 591.9099999964237,
+          "phase": "update",
+          "start": 591.2800000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.9549999535083772,
+          "commit": 592.5949999988079,
+          "phase": "update",
+          "start": 592.5649999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5399999767541885,
+          "base": 0.944999948143959,
+          "commit": 607.6000000089407,
+          "phase": "update",
+          "start": 607.0300000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.9549999535083772,
+          "commit": 608.1800000071526,
+          "phase": "update",
+          "start": 608.1550000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.7099999934434891,
+          "base": 1.0999999791383743,
+          "commit": 625.4300000071526,
+          "phase": "update",
+          "start": 624.6800000071526,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 1.3999999910593033,
+          "base": 1.7799999713897705,
+          "commit": 641.8550000041723,
+          "phase": "update",
+          "start": 640.3949999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.7700000107288361,
+          "base": 1.1699999570846558,
+          "commit": 657.7950000017881,
+          "phase": "update",
+          "start": 656.9800000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.2300000041723251,
+          "base": 1.1649999916553495,
+          "commit": 674.7150000035763,
+          "phase": "update",
+          "start": 674.4549999982119,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.10000000894069672,
+          "base": 1.1850000023841858,
+          "commit": 725.0700000077486,
+          "phase": "update",
+          "start": 724.9549999982119,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.17000001668930054,
+          "base": 1.1900000423192978,
+          "commit": 741.9500000029802,
+          "phase": "update",
+          "start": 741.765000000596,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.21000000834465027,
+          "base": 0.21500001847743988,
+          "commit": 791.8400000035763,
+          "phase": "update",
+          "start": 791.5949999988079,
+          "step": "close"
+        },
+        {
+          "actual": 0.004999995231628418,
+          "base": 0.21500001847743988,
+          "commit": 793.0349999964237,
+          "phase": "nested-update",
+          "start": 793.0250000059605,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5549999922513962,
+          "base": 0.2749999761581421,
+          "commit": 7.61999998986721,
+          "phase": "mount",
+          "start": 6.99499998986721,
+          "step": "mount"
+        },
+        {
+          "actual": 0.0650000125169754,
+          "base": 0.26000000536441803,
+          "commit": 8.465000003576279,
+          "phase": "update",
+          "start": 8.36999998986721,
+          "step": "mount"
+        },
+        {
+          "actual": 0.10500000417232512,
+          "base": 0.14999999105930328,
+          "commit": 72.4299999922514,
+          "phase": "update",
+          "start": 72.28999999165535,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 0.1449999958276749,
+          "commit": 80.72499999403954,
+          "phase": "update",
+          "start": 80.60999999940395,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 0.1499999761581421,
+          "commit": 140.62999999523163,
+          "phase": "update",
+          "start": 140.53499999642372,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.07500000298023224,
+          "base": 0.1300000101327896,
+          "commit": 144.37999999523163,
+          "phase": "update",
+          "start": 144.28499999642372,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.005000010132789612,
+          "base": 0.1300000101327896,
+          "commit": 194.21500000357628,
+          "phase": "update",
+          "start": 194.1799999922514,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.15000002086162567,
+          "commit": 227.66499999165535,
+          "phase": "update",
+          "start": 227.5849999934435,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.2550000101327896,
+          "base": 0.18000000715255737,
+          "commit": 277.1550000011921,
+          "phase": "update",
+          "start": 276.875,
+          "step": "menu"
+        },
+        {
+          "actual": 0.05499999225139618,
+          "base": 0.10499998927116394,
+          "commit": 287.0300000011921,
+          "phase": "update",
+          "start": 286.95000000298023,
+          "step": "menu"
+        },
+        {
+          "actual": 0.03499998152256012,
+          "base": 0.10999996960163116,
+          "commit": 340.5649999976158,
+          "phase": "update",
+          "start": 340.5049999952316,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 0.10499998927116394,
+          "commit": 340.9699999988079,
+          "phase": "update",
+          "start": 340.9399999976158,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.439999982714653,
+          "base": 0.22499999403953552,
+          "commit": 341.5,
+          "phase": "update",
+          "start": 341.03999999165535,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.1600000113248825,
+          "commit": 342.1499999910593,
+          "phase": "nested-update",
+          "start": 342.04500000178814,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.08500000834465027,
+          "base": 0.20500002801418304,
+          "commit": 381.2300000041723,
+          "phase": "update",
+          "start": 381.1299999952316,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.05500000715255737,
+          "base": 0.18500001728534696,
+          "commit": 388.3550000041723,
+          "phase": "update",
+          "start": 388.28999999165535,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.04500000178813934,
+          "base": 0.17000001668930054,
+          "commit": 440.67000000178814,
+          "phase": "update",
+          "start": 440.5949999988079,
+          "step": "rename"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 0.18500003218650815,
+          "commit": 441.17000000178814,
+          "phase": "update",
+          "start": 441.1149999946356,
+          "step": "rename"
+        },
+        {
+          "actual": 0.12999999523162842,
+          "base": 0.2250000238418579,
+          "commit": 445.3949999958277,
+          "phase": "update",
+          "start": 445.2650000005961,
+          "step": "rename"
+        },
+        {
+          "actual": 0.20499999821186063,
+          "base": 0.17000000178813934,
+          "commit": 462.3349999934435,
+          "phase": "update",
+          "start": 462.1099999994039,
+          "step": "rename"
+        },
+        {
+          "actual": 0.13500000536441803,
+          "base": 0.2199999988079071,
+          "commit": 508.0049999952316,
+          "phase": "update",
+          "start": 507.84999999403954,
+          "step": "grid"
+        },
+        {
+          "actual": 0.29999998211860657,
+          "base": 0.25,
+          "commit": 558.2800000011921,
+          "phase": "update",
+          "start": 557.9549999982119,
+          "step": "columns"
+        },
+        {
+          "actual": 0.2200000137090683,
+          "base": 0.2849999815225601,
+          "commit": 607.8849999904633,
+          "phase": "update",
+          "start": 607.6349999904633,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 0.2799999713897705,
+          "commit": 608.6700000017881,
+          "phase": "update",
+          "start": 608.6349999904633,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.09499998390674592,
+          "base": 0.2549999803304672,
+          "commit": 624.4050000011921,
+          "phase": "update",
+          "start": 624.2950000017881,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.17500001192092896,
+          "base": 0.2450000196695328,
+          "commit": 624.7549999952316,
+          "phase": "update",
+          "start": 624.5699999928474,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.2500000149011612,
+          "commit": 625.5049999952316,
+          "phase": "update",
+          "start": 625.4749999940395,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.22499997913837433,
+          "commit": 640.9299999922514,
+          "phase": "update",
+          "start": 640.8149999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.16499997675418854,
+          "base": 0.2299999892711639,
+          "commit": 641.2950000017881,
+          "phase": "update",
+          "start": 641.0999999940395,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.10500000417232512,
+          "base": 0.2549999952316284,
+          "commit": 657.6949999928474,
+          "phase": "update",
+          "start": 657.5499999970198,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1850000023841858,
+          "base": 0.25,
+          "commit": 658.0900000035763,
+          "phase": "update",
+          "start": 657.8799999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.13499999046325684,
+          "base": 0.2849999964237213,
+          "commit": 674.2599999904633,
+          "phase": "update",
+          "start": 674.0900000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.1899999976158142,
+          "base": 0.25999997556209564,
+          "commit": 674.6850000023842,
+          "phase": "update",
+          "start": 674.4800000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.14999999105930328,
+          "base": 0.2800000160932541,
+          "commit": 691.0750000029802,
+          "phase": "update",
+          "start": 690.8949999958277,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.010000020265579224,
+          "base": 0.2850000262260437,
+          "commit": 691.3100000023842,
+          "phase": "update",
+          "start": 691.2800000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.03500001132488251,
+          "base": 0.2850000113248825,
+          "commit": 691.7150000035763,
+          "phase": "update",
+          "start": 691.6649999916553,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.19499999284744263,
+          "base": 0.26000000536441803,
+          "commit": 741.4749999940395,
+          "phase": "update",
+          "start": 741.2399999946356,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.1900000274181366,
+          "base": 0.23000003397464752,
+          "commit": 758.2549999952316,
+          "phase": "update",
+          "start": 758.0349999964237,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.06499999761581421,
+          "base": 0.07999999821186066,
+          "commit": 807.9949999898672,
+          "phase": "update",
+          "start": 807.9099999964237,
+          "step": "close"
+        },
+        {
+          "actual": 0.005000010132789612,
+          "base": 0.07999999821186066,
+          "commit": 808.5750000029802,
+          "phase": "nested-update",
+          "start": 808.5600000023842,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 1.6050000041723251,
+          "base": 1.2799999862909317,
+          "commit": 9.90999999642372,
+          "phase": "mount",
+          "start": 8.25,
+          "step": "mount"
+        },
+        {
+          "actual": 0.32999999821186066,
+          "base": 0.3999999910593033,
+          "commit": 71.7800000011921,
+          "phase": "update",
+          "start": 71.41499999165535,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.2150000035762787,
+          "base": 0.29500003159046173,
+          "commit": 79.8449999988079,
+          "phase": "update",
+          "start": 79.59999999403954,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.22499999403953552,
+          "base": 0.3150000125169754,
+          "commit": 143.91499999165535,
+          "phase": "update",
+          "start": 143.65999999642372,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.034999996423721313,
+          "base": 0.33500000834465027,
+          "commit": 227.3499999940395,
+          "phase": "update",
+          "start": 227.28999999165535,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.3449999988079071,
+          "base": 0.5050000101327896,
+          "commit": 276.9299999922514,
+          "phase": "update",
+          "start": 276.56999999284744,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06499999761581421,
+          "base": 0.3400000035762787,
+          "commit": 288.8449999988079,
+          "phase": "update",
+          "start": 288.77500000596046,
+          "step": "menu"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.35499998927116394,
+          "commit": 340.29500000178814,
+          "phase": "update",
+          "start": 340.2150000035763,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.024999991059303284,
+          "base": 0.32499998807907104,
+          "commit": 340.57500000298023,
+          "phase": "update",
+          "start": 340.54500000178814,
+          "step": "open-folder"
+        },
+        {
+          "actual": 6.754999965429306,
+          "base": 5.125000074505806,
+          "commit": 347.9099999964237,
+          "phase": "update",
+          "start": 340.875,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0,
+          "base": 5.125000074505806,
+          "commit": 352.7199999988079,
+          "phase": "nested-update",
+          "start": 352.69499999284744,
+          "step": "open-folder"
+        },
+        {
+          "actual": 3.2400000393390656,
+          "base": 4.350000023841858,
+          "commit": 401.3400000035763,
+          "phase": "update",
+          "start": 397.8400000035763,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.940000057220459,
+          "base": 3.0800000578165054,
+          "commit": 413.19499999284744,
+          "phase": "update",
+          "start": 411.0549999922514,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 1.96500001847744,
+          "base": 3.1099999845027924,
+          "commit": 458.7549999952316,
+          "phase": "update",
+          "start": 456.5349999964237,
+          "step": "rename"
+        },
+        {
+          "actual": 0.12000000476837158,
+          "base": 3.1649999767541885,
+          "commit": 464.04999999701977,
+          "phase": "update",
+          "start": 463.8850000053644,
+          "step": "rename"
+        },
+        {
+          "actual": 2.3349999636411667,
+          "base": 2.214999958872795,
+          "commit": 485.1449999958277,
+          "phase": "update",
+          "start": 482.57500000298023,
+          "step": "rename"
+        },
+        {
+          "actual": 2.575000047683716,
+          "base": 2.67500002682209,
+          "commit": 543.4399999976158,
+          "phase": "update",
+          "start": 540.6500000059605,
+          "step": "grid"
+        },
+        {
+          "actual": 3.530000016093254,
+          "base": 2.6400000900030136,
+          "commit": 611.7249999940395,
+          "phase": "update",
+          "start": 607.9899999946356,
+          "step": "columns"
+        },
+        {
+          "actual": 1.9950000047683716,
+          "base": 2.3450000286102295,
+          "commit": 676.4050000011921,
+          "phase": "update",
+          "start": 674.2000000029802,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.02500000596046448,
+          "base": 2.3450000435113907,
+          "commit": 678.0849999934435,
+          "phase": "update",
+          "start": 678.0300000011921,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 3.31499995291233,
+          "base": 3.6099999397993088,
+          "commit": 710.7399999946356,
+          "phase": "update",
+          "start": 707.1799999922514,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 3.5999999344348907,
+          "commit": 712.3850000053644,
+          "phase": "update",
+          "start": 712.3550000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.179999962449074,
+          "base": 2.500000014901161,
+          "commit": 742.7800000011921,
+          "phase": "update",
+          "start": 740.3400000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.264999970793724,
+          "base": 2.559999942779541,
+          "commit": 776.0649999976158,
+          "phase": "update",
+          "start": 773.5849999934435,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 2.205000013113022,
+          "base": 2.549999967217446,
+          "commit": 809.2750000059605,
+          "phase": "update",
+          "start": 806.7899999916553,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.2199999988079071,
+          "base": 2.574999988079071,
+          "commit": 840.3649999946356,
+          "phase": "update",
+          "start": 840.0900000035763,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.08999998867511749,
+          "base": 2.5849999487400055,
+          "commit": 891.6649999916553,
+          "phase": "update",
+          "start": 891.5499999970198,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.1550000160932541,
+          "base": 2.564999982714653,
+          "commit": 908.405000001192,
+          "phase": "update",
+          "start": 908.2300000041724,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.20000001788139343,
+          "base": 0.23000001907348633,
+          "commit": 958.0900000035764,
+          "phase": "update",
+          "start": 957.8649999946356,
+          "step": "close"
+        },
+        {
+          "actual": 0.009999990463256836,
+          "base": 0.23000001907348633,
+          "commit": 961.5399999916552,
+          "phase": "nested-update",
+          "start": 961.530000001192,
+          "step": "close"
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "commits": [
+        {
+          "actual": 0.5349999964237213,
+          "base": 0.26499998569488525,
+          "commit": 7.25,
+          "phase": "mount",
+          "start": 6.680000007152557,
+          "step": "mount"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.25999997556209564,
+          "commit": 8.495000004768372,
+          "phase": "update",
+          "start": 8.400000005960464,
+          "step": "mount"
+        },
+        {
+          "actual": 0.10000000894069672,
+          "base": 0.16500000655651093,
+          "commit": 72.75499999523163,
+          "phase": "update",
+          "start": 72.61499999463558,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.09999999403953552,
+          "base": 0.1550000011920929,
+          "commit": 80.73999999463558,
+          "phase": "update",
+          "start": 80.60999999940395,
+          "step": "desktop-selection"
+        },
+        {
+          "actual": 0.11000001430511476,
+          "base": 0.1849999874830246,
+          "commit": 140.9050000011921,
+          "phase": "update",
+          "start": 140.77500000596046,
+          "step": "lasso"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.13499997556209564,
+          "commit": 144.51999999582767,
+          "phase": "update",
+          "start": 144.43000000715256,
+          "step": "lasso"
+        },
+        {
+          "actual": 0,
+          "base": 0.13499997556209564,
+          "commit": 194.4749999940395,
+          "phase": "update",
+          "start": 194.4399999976158,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.06000000238418579,
+          "base": 0.1549999862909317,
+          "commit": 227.95000000298023,
+          "phase": "update",
+          "start": 227.87999999523163,
+          "step": "item-drag"
+        },
+        {
+          "actual": 0.310000017285347,
+          "base": 0.20000000298023224,
+          "commit": 278.0300000011921,
+          "phase": "update",
+          "start": 277.6899999976158,
+          "step": "menu"
+        },
+        {
+          "actual": 0.07999999821186066,
+          "base": 0.14000000059604645,
+          "commit": 288.84999999403954,
+          "phase": "update",
+          "start": 288.7600000053644,
+          "step": "menu"
+        },
+        {
+          "actual": 0.02000001072883606,
+          "base": 0.1300000250339508,
+          "commit": 340.9950000047684,
+          "phase": "update",
+          "start": 340.93000000715256,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.019999995827674866,
+          "base": 0.1300000101327896,
+          "commit": 341.43000000715256,
+          "phase": "update",
+          "start": 341.40000000596046,
+          "step": "open-folder"
+        },
+        {
+          "actual": 2.005000025033951,
+          "base": 0.680000051856041,
+          "commit": 343.7199999988079,
+          "phase": "update",
+          "start": 341.4899999946356,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.4050000309944153,
+          "base": 0.3750000447034836,
+          "commit": 346.32999999821186,
+          "phase": "nested-update",
+          "start": 345.69499999284744,
+          "step": "open-folder"
+        },
+        {
+          "actual": 0.5249999612569809,
+          "base": 0.5249999612569809,
+          "commit": 399.6099999994039,
+          "phase": "update",
+          "start": 398.95499999821186,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.41999998688697815,
+          "base": 0.4600000083446502,
+          "commit": 408.3149999976158,
+          "phase": "update",
+          "start": 407.7650000005961,
+          "step": "folder-selection"
+        },
+        {
+          "actual": 0.4050000458955765,
+          "base": 0.4700000584125519,
+          "commit": 458.47499999403954,
+          "phase": "update",
+          "start": 457.8850000053644,
+          "step": "rename"
+        },
+        {
+          "actual": 0.0950000137090683,
+          "base": 0.4600001126527786,
+          "commit": 459.29500000178814,
+          "phase": "update",
+          "start": 459.1449999958277,
+          "step": "rename"
+        },
+        {
+          "actual": 0.1550000011920929,
+          "base": 0.4900001287460327,
+          "commit": 463.6050000041723,
+          "phase": "update",
+          "start": 463.42000000178814,
+          "step": "rename"
+        },
+        {
+          "actual": 0.5250000059604645,
+          "base": 0.3999999910593033,
+          "commit": 481.5349999964237,
+          "phase": "update",
+          "start": 480.8349999934435,
+          "step": "rename"
+        },
+        {
+          "actual": 0.42000001668930054,
+          "base": 0.42499999701976776,
+          "commit": 524.7950000017881,
+          "phase": "update",
+          "start": 524.2300000041723,
+          "step": "grid"
+        },
+        {
+          "actual": 1.3849999755620956,
+          "base": 0.5249999612569809,
+          "commit": 576.7099999934435,
+          "phase": "update",
+          "start": 575.1749999970198,
+          "step": "columns"
+        },
+        {
+          "actual": 0.5049999803304672,
+          "base": 0.5149999558925629,
+          "commit": 625.4599999934435,
+          "phase": "update",
+          "start": 624.7549999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.06999999284744263,
+          "base": 0.4899999648332596,
+          "commit": 628.0949999988079,
+          "phase": "update",
+          "start": 627.9399999976158,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4000000059604645,
+          "base": 0.4999999701976776,
+          "commit": 658.3199999928474,
+          "phase": "update",
+          "start": 657.7450000047684,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4699999988079071,
+          "base": 0.4950000196695328,
+          "commit": 659.4950000047684,
+          "phase": "update",
+          "start": 658.8349999934435,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.5050000250339508,
+          "commit": 662.6149999946356,
+          "phase": "update",
+          "start": 662.5799999982119,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5,
+          "base": 0.5549999922513962,
+          "commit": 691.9449999928474,
+          "phase": "update",
+          "start": 691.265000000596,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4899999797344208,
+          "base": 0.4700000286102295,
+          "commit": 693.0999999940395,
+          "phase": "update",
+          "start": 692.4549999982119,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.47999998927116394,
+          "base": 0.5450000166893005,
+          "commit": 724.9500000029802,
+          "phase": "update",
+          "start": 724.2549999952316,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5450000166893005,
+          "base": 0.4950000494718552,
+          "commit": 726.2549999952316,
+          "phase": "update",
+          "start": 725.5250000059605,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.48499995470047,
+          "base": 0.5599999725818634,
+          "commit": 758.3649999946356,
+          "phase": "update",
+          "start": 757.6599999964237,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.5600000321865082,
+          "base": 0.5300000011920929,
+          "commit": 759.6550000011921,
+          "phase": "update",
+          "start": 758.9200000017881,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.4700000435113907,
+          "base": 0.5350000709295273,
+          "commit": 791.6650000065565,
+          "phase": "update",
+          "start": 790.9599999934435,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.015000000596046448,
+          "base": 0.5450000613927841,
+          "commit": 792.2199999988079,
+          "phase": "update",
+          "start": 792.1850000023842,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.005000010132789612,
+          "base": 0.5400000661611557,
+          "commit": 792.6350000053644,
+          "phase": "update",
+          "start": 792.6050000041723,
+          "step": "deep-columns"
+        },
+        {
+          "actual": 0.550000011920929,
+          "base": 0.5300000309944153,
+          "commit": 842.765000000596,
+          "phase": "update",
+          "start": 842.0600000023842,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.585000067949295,
+          "base": 0.5450000613927841,
+          "commit": 859.390000000596,
+          "phase": "update",
+          "start": 858.6149999946356,
+          "step": "maximize-restore"
+        },
+        {
+          "actual": 0.10999998450279236,
+          "base": 0.12999998033046722,
+          "commit": 908.6299999952316,
+          "phase": "update",
+          "start": 908.4950000047684,
+          "step": "close"
+        },
+        {
+          "actual": 0.01000000536441803,
+          "base": 0.12999998033046722,
+          "commit": 909.9800000041724,
+          "phase": "nested-update",
+          "start": 909.9599999934436,
+          "step": "close"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+.idea/
+tests/__screenshots__/
+.codex/*
+!.codex/hooks.json
+.vitest/

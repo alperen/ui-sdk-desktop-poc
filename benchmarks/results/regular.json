@@ -1,0 +1,194 @@
+{
+  "environment": {
+    "react": "19.3.1",
+    "sdk": "0.1.0-beta.5",
+    "agentBrowser": "agent-browser 0.43.0",
+    "viewport": [
+      1000,
+      700
+    ],
+    "browser": "Chromium 158"
+  },
+  "results": [
+    {
+      "round": 1,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2455732,
+      "folder": 3349427,
+      "closed": 3185464,
+      "openFrameMs": 13.810000002384186
+    },
+    {
+      "round": 1,
+      "size": 4,
+      "app": "react",
+      "desktop": 1583085,
+      "folder": 1980669,
+      "closed": 1969854,
+      "openFrameMs": 15.32999999821186
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2463141,
+      "folder": 6443024,
+      "closed": 3551076,
+      "openFrameMs": 15.995000004768372
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "react",
+      "desktop": 1599993,
+      "folder": 2983071,
+      "closed": 2210728,
+      "openFrameMs": 16.655000001192093
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "react",
+      "desktop": 1599954,
+      "folder": 2980012,
+      "closed": 2209989,
+      "openFrameMs": 16.549999997019768
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2463149,
+      "folder": 6452304,
+      "closed": 3570408,
+      "openFrameMs": 15.685000002384186
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "react",
+      "desktop": 1583109,
+      "folder": 1980701,
+      "closed": 1970806,
+      "openFrameMs": 16.03499999642372
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2455676,
+      "folder": 3349423,
+      "closed": 3184072,
+      "openFrameMs": 13.969999998807909
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2455645,
+      "folder": 3349404,
+      "closed": 3184029,
+      "openFrameMs": 12.949999988079073
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "react",
+      "desktop": 1583085,
+      "folder": 1980709,
+      "closed": 1970006,
+      "openFrameMs": 14.75
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2463148,
+      "folder": 6443399,
+      "closed": 3550279,
+      "openFrameMs": 15.75500001013279
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "react",
+      "desktop": 1599994,
+      "folder": 2980472,
+      "closed": 2210109,
+      "openFrameMs": 16.359999999403954
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "react",
+      "desktop": 1599994,
+      "folder": 2983072,
+      "closed": 2210509,
+      "openFrameMs": 16.140000000596046
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2463092,
+      "folder": 6443399,
+      "closed": 3550411,
+      "openFrameMs": 16.25
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "react",
+      "desktop": 1583046,
+      "folder": 1980630,
+      "closed": 1969815,
+      "openFrameMs": 15.225000008940697
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2455686,
+      "folder": 3349429,
+      "closed": 3183998,
+      "openFrameMs": 13.959999993443487
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "sdk",
+      "desktop": 2455748,
+      "folder": 3349423,
+      "closed": 3184104,
+      "openFrameMs": 13.435000002384186
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "react",
+      "desktop": 1583086,
+      "folder": 1980670,
+      "closed": 1969855,
+      "openFrameMs": 15.324999988079073
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "sdk",
+      "desktop": 2463148,
+      "folder": 6443175,
+      "closed": 3550207,
+      "openFrameMs": 15.995000004768372
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "react",
+      "desktop": 1599954,
+      "folder": 2983032,
+      "closed": 2210469,
+      "openFrameMs": 15.815000012516975
+    }
+  ]
+}

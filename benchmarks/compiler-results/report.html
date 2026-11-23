@@ -1,0 +1,300 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Same desktop, three implementations</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f6f5ef;color:#18362f;font:16px/1.55 system-ui,sans-serif}main{max-width:1060px;margin:auto;padding:clamp(16px,4vw,52px)}header{border-bottom:1px solid #cbd3c9;padding-bottom:20px}header small{font:600 .8rem monospace;letter-spacing:.1em;color:#175d4c}h1,h2{font-family:Georgia,serif;line-height:1.07;letter-spacing:-.035em}h1{font-size:clamp(2.6rem,6vw,5rem);margin:.25em 0}h2{font-size:2.3rem;margin:24px 0 12px}p{max-width:80ch}fieldset{border:0;padding:0;margin:22px 0}legend{font-weight:650}label{display:inline-block;padding:.45em .8em .45em 0;cursor:pointer}input{accent-color:#08664d}.hero{background:#15382e;color:#effbf2;padding:clamp(16px,3vw,32px);border-radius:12px}.hero h3,.hero p{margin:0 0 8px}.hero small{color:#c2d4c6}.bar{display:grid;grid-template-columns:8em 1fr 6em;gap:10px;align-items:center;margin:10px 0;font-variant-numeric:tabular-nums}.bar b{text-align:right}.rail{background:#49645b;height:12px;display:block}.rail i{display:block;height:100%;filter:brightness(1.65)}.scroll{overflow-x:auto;margin:24px 0}table{border-collapse:collapse;width:100%;background:#fcfcf8;font-size:.9rem;font-variant-numeric:tabular-nums}caption{text-align:left;font-size:1.18rem;font-weight:700;padding:0 0 8px}td,th{padding:8px;border-bottom:1px solid #d5dcd2;text-align:right}th:first-child{text-align:left}tbody th{font-weight:500}.winner{color:#06644b;font-weight:650}summary{cursor:pointer;font-weight:650;padding:.6em 0}details{border-top:1px solid #cbd3c9}body:has(#size4:checked) #items-100,body:has(#size100:checked) #items-4{display:none}@media(max-width:540px){.bar{font-size:.8rem;grid-template-columns:7.2em 1fr 5em}td,th{padding:5px}table{font-size:.8rem}}</style></head><body><main>
+<header><small>DESKTOP PERFORMANCE BENCHMARK</small><h1>Same desktop, three implementations</h1><p><b>UI SDK</b> uses the SDK with the compiler off. <b>Plain React</b> uses the independent React implementation with the compiler off. <b>React Compiler</b> uses that same independent implementation with compilation enabled.</p></header>
+<fieldset><legend>Photos folder size</legend><label><input id="size4" name="size" type="radio"> 4 items</label><label><input id="size100" name="size" type="radio" checked> 100 items</label></fieldset>
+<section class="sample" id="items-4"><h2>4-item folder</h2><div class="hero"><h3>Median render time</h3><p>All 12 interactions · five rounds · lower is faster</p><div class="bar"><span>UI SDK</span><span class="rail"><i style="width:87.9166666418314%;background:#995134"></i></span><b>10.55 ms</b></div><div class="bar"><span>Plain React</span><span class="rail"><i style="width:40.54166699449221%;background:#326995"></i></span><b>4.87 ms</b></div><div class="bar"><span>React Compiler</span><span class="rail"><i style="width:34.66666725774606%;background:#087258"></i></span><b>4.16 ms</b></div><small>Bar scale: 0–12 ms</small></div>
+<div class="scroll"><table><caption>Five individual rounds</caption><thead><tr><th scope="col">Render time · ms</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th><th scope="col">Fastest</th></tr></thead><tbody><tr><th scope="row">Round 1</th><td>9.76</td><td>4.51</td><td>5.16</td><td class="winner">Plain React</td></tr>
+<tr><th scope="row">Round 2</th><td>13.12</td><td>5.97</td><td>4.16</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Round 3</th><td>10.15</td><td>5.27</td><td>4.02</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Round 4</th><td>10.55</td><td>4.87</td><td>4.17</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Round 5</th><td>10.96</td><td>4.79</td><td>4.06</td><td class="winner">React Compiler</td></tr></tbody></table></div>
+<div class="scroll"><table><caption>Render time by interaction</caption><thead><tr><th scope="col">Five-round median · ms</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th><th scope="col">Fastest</th></tr></thead><tbody><tr><th scope="row">Select all desktop items and clear selection</th><td>0.545</td><td>0.185</td><td>0.125</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Marquee selection</th><td>0.230</td><td>0.165</td><td>0.170</td><td class="winner">Plain React</td></tr>
+<tr><th scope="row">Drag the selected file</th><td>0.050</td><td>0.050</td><td>0.050</td><td class="winner">Tie: UI SDK / Plain React / React Compiler</td></tr>
+<tr><th scope="row">Open and close the context menu</th><td>0.490</td><td>0.355</td><td>0.245</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Open Photos</th><td>1.620</td><td>0.615</td><td>0.610</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Select all folder items and clear selection</th><td>0.440</td><td>0.160</td><td>0.070</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Rename a file with the keyboard</th><td>1.070</td><td>0.440</td><td>0.375</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Switch to grid view</th><td>0.485</td><td>0.125</td><td>0.095</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Switch to column view</th><td>0.805</td><td>0.310</td><td>0.315</td><td class="winner">Plain React</td></tr>
+<tr><th scope="row">Open five nested folders and select the final file</th><td>4.355</td><td>1.970</td><td>1.945</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Maximize and restore the window</th><td>0.265</td><td>0.435</td><td>0.115</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Close the window</th><td>0.235</td><td>0.100</td><td>0.055</td><td class="winner">React Compiler</td></tr></tbody></table></div>
+<div class="scroll"><table><caption>Rendering, input and memory</caption><thead><tr><th scope="col">Measurement</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">Total React render time · ms</th><td>10.55</td><td>4.87</td><td>4.16</td></tr>
+<tr><th scope="row">Update commits</th><td>29</td><td>38</td><td>38</td></tr>
+<tr><th scope="row">Component function calls</th><td>1,731</td><td>1,948</td><td>765</td></tr>
+<tr><th scope="row">Input event processing · ms</th><td>28.40</td><td>16.80</td><td>15.59</td></tr>
+<tr><th scope="row">Style, layout and paint · ms</th><td>13.50</td><td>12.27</td><td>12.06</td></tr>
+<tr><th scope="row">Desktop JS heap · MiB</th><td>2.34</td><td>1.51</td><td>1.54</td></tr>
+<tr><th scope="row">Open-folder JS heap · MiB</th><td>3.20</td><td>1.89</td><td>1.89</td></tr>
+<tr><th scope="row">Heap after closing · MiB</th><td>3.04</td><td>1.88</td><td>1.87</td></tr>
+<tr><th scope="row">Double-click to first paint opportunity · ms</th><td>13.01</td><td>15.87</td><td>14.85</td></tr></tbody></table></div>
+<details><summary>Memoization costs and cache hits</summary><div class="scroll"><table><caption>Memoization</caption><thead><tr><th scope="col">Measurement</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">useMemo calls</th><td>1,202</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">useMemo hits</th><td>955</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">useMemo computations</th><td>247</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">useMemo total · ms</th><td>0.340</td><td>0.000</td><td>0.000</td></tr>
+<tr><th scope="row">Factory time · ms</th><td>0.050</td><td>0.000</td><td>0.000</td></tr>
+<tr><th scope="row">useCallback calls</th><td>1,009</td><td>14</td><td>0</td></tr>
+<tr><th scope="row">useCallback hits</th><td>819</td><td>12</td><td>0</td></tr>
+<tr><th scope="row">useCallback total · ms</th><td>0.230</td><td>0.020</td><td>0.000</td></tr>
+<tr><th scope="row">React.memo comparisons</th><td>0</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">Comparison time · ms</th><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+<tr><th scope="row">Compiler cache accesses</th><td>0</td><td>0</td><td>809</td></tr>
+<tr><th scope="row">Cache access time · ms</th><td>0.000</td><td>0.000</td><td>0.225</td></tr>
+<tr><th scope="row">Compiler block checks</th><td>0</td><td>0</td><td>4,005</td></tr>
+<tr><th scope="row">Block check time · ms</th><td>0.000</td><td>0.000</td><td>0.580</td></tr>
+<tr><th scope="row">Cache hits</th><td>0</td><td>0</td><td>1,997</td></tr>
+<tr><th scope="row">Recomputations</th><td>0</td><td>0</td><td>2,008</td></tr></tbody></table></div></details>
+<details><summary>Component calls and render time</summary><p>A dash means the component was absent from that implementation’s records.</p><div class="scroll"><table><caption>Function body calls</caption><thead><tr><th scope="col">Component</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">(anonymous)</th><td>55</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">App.Item</th><td>103</td><td>192</td><td>123</td></tr>
+<tr><th scope="row">App.Window</th><td>4</td><td>7</td><td>7</td></tr>
+<tr><th scope="row">AppLayout</th><td>3</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Button</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ChevronRight</th><td>31</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnView</th><td>1</td><td>3</td><td>1</td></tr>
+<tr><th scope="row">Columns</th><td>6</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">Columns3</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnsColumn</th><td>23</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Connected</th><td>103</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ContextMenu</th><td>—</td><td>1</td><td>1</td></tr>
+<tr><th scope="row">ContextTriggerPart</th><td>105</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ControlIcon</th><td>—</td><td>115</td><td>69</td></tr>
+<tr><th scope="row">Copy</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Desktop</th><td>—</td><td>5</td><td>5</td></tr>
+<tr><th scope="row">Editor</th><td>—</td><td>1</td><td>1</td></tr>
+<tr><th scope="row">FileIcon</th><td>103</td><td>192</td><td>19</td></tr>
+<tr><th scope="row">FileList</th><td>—</td><td>78</td><td>64</td></tr>
+<tr><th scope="row">FileListItem</th><td>114</td><td>216</td><td>180</td></tr>
+<tr><th scope="row">FileListLasso</th><td>—</td><td>77</td><td>63</td></tr>
+<tr><th scope="row">FileListProvider</th><td>1</td><td>1</td><td>1</td></tr>
+<tr><th scope="row">FileListView</th><td>35</td><td>74</td><td>61</td></tr>
+<tr><th scope="row">FileWindow</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">HandleScope</th><td>138</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Item</th><td>103</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ItemIcon</th><td>103</td><td>193</td><td>31</td></tr>
+<tr><th scope="row">ItemInput</th><td>104</td><td>193</td><td>31</td></tr>
+<tr><th scope="row">ItemLabel</th><td>104</td><td>193</td><td>31</td></tr>
+<tr><th scope="row">ItemRoot</th><td>—</td><td>193</td><td>31</td></tr>
+<tr><th scope="row">ItemStatus</th><td>103</td><td>193</td><td>31</td></tr>
+<tr><th scope="row">LayoutGrid</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">List</th><td>39</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ListLasso</th><td>35</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Menu</th><td>35</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContent</th><td>37</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContextTrigger</th><td>103</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuItem</th><td>2</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Popup</th><td>1</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControl</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlInput</th><td>12</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlItem</th><td>12</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Square</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">TreeEffect</th><td>1</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ViewLayoutControl</th><td>4</td><td>7</td><td>3</td></tr>
+<tr><th scope="row">Window</th><td>6</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowContent</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowHandle</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowManagerProvider</th><td>5</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowMaximize</th><td>6</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowResizeHandle</th><td>48</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Workspace</th><td>3</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">X</th><td>4</td><td>—</td><td>—</td></tr></tbody></table></div><div class="scroll"><table><caption>Function body time (ms)</caption><thead><tr><th scope="col">Component</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">(anonymous)</th><td>0.435</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">App.Item</th><td>0.125</td><td>0.100</td><td>0.265</td></tr>
+<tr><th scope="row">App.Window</th><td>0.045</td><td>0.265</td><td>0.270</td></tr>
+<tr><th scope="row">AppLayout</th><td>0.015</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Button</th><td>0.090</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ChevronRight</th><td>0.015</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnView</th><td>0.005</td><td>0.005</td><td>0.010</td></tr>
+<tr><th scope="row">Columns</th><td>0.200</td><td>0.175</td><td>0.160</td></tr>
+<tr><th scope="row">Columns3</th><td>0.000</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnsColumn</th><td>0.220</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Connected</th><td>0.140</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ContextMenu</th><td>—</td><td>0.025</td><td>0.025</td></tr>
+<tr><th scope="row">ContextTriggerPart</th><td>0.645</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ControlIcon</th><td>—</td><td>0.130</td><td>0.125</td></tr>
+<tr><th scope="row">Copy</th><td>0.000</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Desktop</th><td>—</td><td>0.105</td><td>0.105</td></tr>
+<tr><th scope="row">Editor</th><td>—</td><td>0.010</td><td>0.015</td></tr>
+<tr><th scope="row">FileIcon</th><td>0.045</td><td>0.070</td><td>0.020</td></tr>
+<tr><th scope="row">FileList</th><td>—</td><td>0.410</td><td>0.450</td></tr>
+<tr><th scope="row">FileListItem</th><td>0.900</td><td>0.255</td><td>0.560</td></tr>
+<tr><th scope="row">FileListLasso</th><td>—</td><td>0.020</td><td>0.055</td></tr>
+<tr><th scope="row">FileListProvider</th><td>0.005</td><td>0.010</td><td>0.015</td></tr>
+<tr><th scope="row">FileListView</th><td>0.225</td><td>0.300</td><td>0.495</td></tr>
+<tr><th scope="row">FileWindow</th><td>0.080</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">HandleScope</th><td>0.090</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Item</th><td>0.285</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ItemIcon</th><td>0.385</td><td>0.045</td><td>0.020</td></tr>
+<tr><th scope="row">ItemInput</th><td>0.255</td><td>0.050</td><td>0.020</td></tr>
+<tr><th scope="row">ItemLabel</th><td>0.370</td><td>0.040</td><td>0.025</td></tr>
+<tr><th scope="row">ItemRoot</th><td>—</td><td>0.085</td><td>0.040</td></tr>
+<tr><th scope="row">ItemStatus</th><td>0.225</td><td>0.035</td><td>0.025</td></tr>
+<tr><th scope="row">LayoutGrid</th><td>0.005</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">List</th><td>0.510</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ListLasso</th><td>0.115</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Menu</th><td>0.755</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContent</th><td>0.240</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContextTrigger</th><td>0.040</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuItem</th><td>0.085</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Popup</th><td>0.020</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControl</th><td>0.180</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlInput</th><td>0.105</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlItem</th><td>0.160</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Square</th><td>0.000</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">TreeEffect</th><td>0.000</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ViewLayoutControl</th><td>0.015</td><td>0.035</td><td>0.030</td></tr>
+<tr><th scope="row">Window</th><td>0.275</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowContent</th><td>0.020</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowHandle</th><td>0.045</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowManagerProvider</th><td>0.035</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowMaximize</th><td>0.065</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowResizeHandle</th><td>0.320</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Workspace</th><td>0.020</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">X</th><td>0.000</td><td>—</td><td>—</td></tr></tbody></table></div></details></section><section class="sample" id="items-100"><h2>100-item folder</h2><div class="hero"><h3>Median render time</h3><p>All 12 interactions · five rounds · lower is faster</p><div class="bar"><span>UI SDK</span><span class="rail"><i style="width:87.36250031739473%;background:#995134"></i></span><b>34.95 ms</b></div><div class="bar"><span>Plain React</span><span class="rail"><i style="width:38.71250007301569%;background:#326995"></i></span><b>15.49 ms</b></div><div class="bar"><span>React Compiler</span><span class="rail"><i style="width:27.012500017881393%;background:#087258"></i></span><b>10.81 ms</b></div><small>Bar scale: 0–40 ms</small></div>
+<div class="scroll"><table><caption>Five individual rounds</caption><thead><tr><th scope="col">Render time · ms</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th><th scope="col">Fastest</th></tr></thead><tbody><tr><th scope="row">Round 1</th><td>34.50</td><td>16.28</td><td>12.87</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Round 2</th><td>38.53</td><td>16.60</td><td>10.81</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Round 3</th><td>34.95</td><td>15.05</td><td>10.60</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Round 4</th><td>35.74</td><td>15.49</td><td>9.00</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Round 5</th><td>34.88</td><td>15.47</td><td>11.12</td><td class="winner">React Compiler</td></tr></tbody></table></div>
+<div class="scroll"><table><caption>Render time by interaction</caption><thead><tr><th scope="col">Five-round median · ms</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th><th scope="col">Fastest</th></tr></thead><tbody><tr><th scope="row">Select all desktop items and clear selection</th><td>0.550</td><td>0.195</td><td>0.130</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Marquee selection</th><td>0.230</td><td>0.165</td><td>0.145</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Drag the selected file</th><td>0.050</td><td>0.045</td><td>0.060</td><td class="winner">Plain React</td></tr>
+<tr><th scope="row">Open and close the context menu</th><td>0.470</td><td>0.350</td><td>0.255</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Open Photos</th><td>6.660</td><td>2.890</td><td>3.220</td><td class="winner">Plain React</td></tr>
+<tr><th scope="row">Select all folder items and clear selection</th><td>4.915</td><td>1.155</td><td>0.360</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Rename a file with the keyboard</th><td>4.055</td><td>1.465</td><td>1.015</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Switch to grid view</th><td>2.520</td><td>0.510</td><td>0.485</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Switch to column view</th><td>3.495</td><td>1.525</td><td>1.650</td><td class="winner">Plain React</td></tr>
+<tr><th scope="row">Open five nested folders and select the final file</th><td>12.105</td><td>5.885</td><td>3.145</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Maximize and restore the window</th><td>0.295</td><td>1.255</td><td>0.115</td><td class="winner">React Compiler</td></tr>
+<tr><th scope="row">Close the window</th><td>0.245</td><td>0.100</td><td>0.075</td><td class="winner">React Compiler</td></tr></tbody></table></div>
+<div class="scroll"><table><caption>Rendering, input and memory</caption><thead><tr><th scope="col">Measurement</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">Total React render time · ms</th><td>34.95</td><td>15.49</td><td>10.81</td></tr>
+<tr><th scope="row">Update commits</th><td>29</td><td>38</td><td>38</td></tr>
+<tr><th scope="row">Component function calls</th><td>15,555</td><td>17,500</td><td>6,141</td></tr>
+<tr><th scope="row">Input event processing · ms</th><td>71.34</td><td>39.77</td><td>35.13</td></tr>
+<tr><th scope="row">Style, layout and paint · ms</th><td>22.58</td><td>27.00</td><td>26.11</td></tr>
+<tr><th scope="row">Desktop JS heap · MiB</th><td>2.35</td><td>1.53</td><td>1.56</td></tr>
+<tr><th scope="row">Open-folder JS heap · MiB</th><td>6.15</td><td>2.84</td><td>2.73</td></tr>
+<tr><th scope="row">Heap after closing · MiB</th><td>3.40</td><td>2.11</td><td>2.12</td></tr>
+<tr><th scope="row">Double-click to first paint opportunity · ms</th><td>16.15</td><td>16.39</td><td>16.16</td></tr></tbody></table></div>
+<details><summary>Memoization costs and cache hits</summary><div class="scroll"><table><caption>Memoization</caption><thead><tr><th scope="col">Measurement</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">useMemo calls</th><td>10,418</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">useMemo hits</th><td>8,539</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">useMemo computations</th><td>1,879</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">useMemo total · ms</th><td>2.285</td><td>0.000</td><td>0.000</td></tr>
+<tr><th scope="row">Factory time · ms</th><td>0.285</td><td>0.000</td><td>0.000</td></tr>
+<tr><th scope="row">useCallback calls</th><td>9,073</td><td>14</td><td>0</td></tr>
+<tr><th scope="row">useCallback hits</th><td>7,539</td><td>12</td><td>0</td></tr>
+<tr><th scope="row">useCallback total · ms</th><td>1.565</td><td>0.010</td><td>0.000</td></tr>
+<tr><th scope="row">React.memo comparisons</th><td>0</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">Comparison time · ms</th><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+<tr><th scope="row">Compiler cache accesses</th><td>0</td><td>0</td><td>5,801</td></tr>
+<tr><th scope="row">Cache access time · ms</th><td>0.000</td><td>0.000</td><td>0.965</td></tr>
+<tr><th scope="row">Compiler block checks</th><td>0</td><td>0</td><td>32,037</td></tr>
+<tr><th scope="row">Block check time · ms</th><td>0.000</td><td>0.000</td><td>3.080</td></tr>
+<tr><th scope="row">Cache hits</th><td>0</td><td>0</td><td>15,341</td></tr>
+<tr><th scope="row">Recomputations</th><td>0</td><td>0</td><td>16,696</td></tr></tbody></table></div></details>
+<details><summary>Component calls and render time</summary><p>A dash means the component was absent from that implementation’s records.</p><div class="scroll"><table><caption>Function body calls</caption><thead><tr><th scope="col">Component</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">(anonymous)</th><td>55</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">App.Item</th><td>1,255</td><td>2,112</td><td>1,467</td></tr>
+<tr><th scope="row">App.Window</th><td>4</td><td>7</td><td>7</td></tr>
+<tr><th scope="row">AppLayout</th><td>3</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Button</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ChevronRight</th><td>31</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnView</th><td>1</td><td>3</td><td>1</td></tr>
+<tr><th scope="row">Columns</th><td>6</td><td>14</td><td>12</td></tr>
+<tr><th scope="row">Columns3</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnsColumn</th><td>23</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Connected</th><td>1,255</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ContextMenu</th><td>—</td><td>1</td><td>1</td></tr>
+<tr><th scope="row">ContextTriggerPart</th><td>1,257</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ControlIcon</th><td>—</td><td>115</td><td>69</td></tr>
+<tr><th scope="row">Copy</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Desktop</th><td>—</td><td>5</td><td>5</td></tr>
+<tr><th scope="row">Editor</th><td>—</td><td>1</td><td>1</td></tr>
+<tr><th scope="row">FileIcon</th><td>1,255</td><td>2,112</td><td>211</td></tr>
+<tr><th scope="row">FileList</th><td>—</td><td>78</td><td>64</td></tr>
+<tr><th scope="row">FileListItem</th><td>1,266</td><td>2,328</td><td>2,100</td></tr>
+<tr><th scope="row">FileListLasso</th><td>—</td><td>77</td><td>63</td></tr>
+<tr><th scope="row">FileListProvider</th><td>1</td><td>1</td><td>1</td></tr>
+<tr><th scope="row">FileListView</th><td>35</td><td>74</td><td>61</td></tr>
+<tr><th scope="row">FileWindow</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">HandleScope</th><td>1,290</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Item</th><td>1,255</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ItemIcon</th><td>1,255</td><td>2,113</td><td>415</td></tr>
+<tr><th scope="row">ItemInput</th><td>1,256</td><td>2,113</td><td>415</td></tr>
+<tr><th scope="row">ItemLabel</th><td>1,256</td><td>2,113</td><td>415</td></tr>
+<tr><th scope="row">ItemRoot</th><td>—</td><td>2,113</td><td>415</td></tr>
+<tr><th scope="row">ItemStatus</th><td>1,255</td><td>2,113</td><td>415</td></tr>
+<tr><th scope="row">LayoutGrid</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">List</th><td>39</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ListLasso</th><td>35</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Menu</th><td>35</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContent</th><td>37</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContextTrigger</th><td>1,255</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuItem</th><td>2</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Popup</th><td>1</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControl</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlInput</th><td>12</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlItem</th><td>12</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Square</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">TreeEffect</th><td>1</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ViewLayoutControl</th><td>4</td><td>7</td><td>3</td></tr>
+<tr><th scope="row">Window</th><td>6</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowContent</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowHandle</th><td>4</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowManagerProvider</th><td>5</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowMaximize</th><td>6</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowResizeHandle</th><td>48</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Workspace</th><td>3</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">X</th><td>4</td><td>—</td><td>—</td></tr></tbody></table></div><div class="scroll"><table><caption>Function body time (ms)</caption><thead><tr><th scope="col">Component</th><th scope="col">UI SDK</th><th scope="col">Plain React</th><th scope="col">React Compiler</th></tr></thead><tbody><tr><th scope="row">(anonymous)</th><td>0.465</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">App.Item</th><td>0.700</td><td>0.590</td><td>2.535</td></tr>
+<tr><th scope="row">App.Window</th><td>0.050</td><td>0.315</td><td>0.305</td></tr>
+<tr><th scope="row">AppLayout</th><td>0.010</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Button</th><td>0.085</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ChevronRight</th><td>0.010</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnView</th><td>0.005</td><td>0.000</td><td>0.005</td></tr>
+<tr><th scope="row">Columns</th><td>0.215</td><td>0.215</td><td>0.195</td></tr>
+<tr><th scope="row">Columns3</th><td>0.005</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ColumnsColumn</th><td>0.275</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Connected</th><td>0.845</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ContextMenu</th><td>—</td><td>0.025</td><td>0.025</td></tr>
+<tr><th scope="row">ContextTriggerPart</th><td>3.995</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ControlIcon</th><td>—</td><td>0.155</td><td>0.110</td></tr>
+<tr><th scope="row">Copy</th><td>0.000</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Desktop</th><td>—</td><td>0.105</td><td>0.110</td></tr>
+<tr><th scope="row">Editor</th><td>—</td><td>0.005</td><td>0.015</td></tr>
+<tr><th scope="row">FileIcon</th><td>0.285</td><td>0.395</td><td>0.145</td></tr>
+<tr><th scope="row">FileList</th><td>—</td><td>0.480</td><td>0.560</td></tr>
+<tr><th scope="row">FileListItem</th><td>5.540</td><td>1.160</td><td>4.945</td></tr>
+<tr><th scope="row">FileListLasso</th><td>—</td><td>0.020</td><td>0.040</td></tr>
+<tr><th scope="row">FileListProvider</th><td>0.010</td><td>0.010</td><td>0.015</td></tr>
+<tr><th scope="row">FileListView</th><td>0.380</td><td>0.540</td><td>0.655</td></tr>
+<tr><th scope="row">FileWindow</th><td>0.075</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">HandleScope</th><td>0.645</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Item</th><td>2.310</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ItemIcon</th><td>3.190</td><td>0.305</td><td>0.210</td></tr>
+<tr><th scope="row">ItemInput</th><td>2.110</td><td>0.245</td><td>0.160</td></tr>
+<tr><th scope="row">ItemLabel</th><td>2.820</td><td>0.315</td><td>0.225</td></tr>
+<tr><th scope="row">ItemRoot</th><td>—</td><td>0.625</td><td>0.225</td></tr>
+<tr><th scope="row">ItemStatus</th><td>1.990</td><td>0.260</td><td>0.225</td></tr>
+<tr><th scope="row">LayoutGrid</th><td>0.010</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">List</th><td>0.510</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ListLasso</th><td>0.105</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Menu</th><td>1.010</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContent</th><td>0.235</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuContextTrigger</th><td>0.275</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">MenuItem</th><td>0.105</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Popup</th><td>0.020</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControl</th><td>0.200</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlInput</th><td>0.090</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">SegmentedControlItem</th><td>0.140</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Square</th><td>0.005</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">TreeEffect</th><td>0.005</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">ViewLayoutControl</th><td>0.010</td><td>0.030</td><td>0.025</td></tr>
+<tr><th scope="row">Window</th><td>0.255</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowContent</th><td>0.020</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowHandle</th><td>0.040</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowManagerProvider</th><td>0.035</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowMaximize</th><td>0.060</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">WindowResizeHandle</th><td>0.305</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">Workspace</th><td>0.020</td><td>—</td><td>—</td></tr>
+<tr><th scope="row">X</th><td>0.000</td><td>—</td><td>—</td></tr></tbody></table></div></details></section>
+<h2>Method</h2><p>The three series come from the same paired measurement session. The compiler-off controls and the compiled React build ran the same 12 interactions in Chromium 158 at 1000 × 700. Warm-ups were excluded. Each sequence included 26 behavior checks.</p><p>Render time sums the root Profiler’s actualDuration after the initial mount. Each interaction has its own five-round median. The full-sequence median uses each round’s total. Winners use the precision shown in the table. Small differences can vary between runs.</p><p>Input processing and rendering come from production Chrome traces and can overlap. Heap was measured after garbage collection. The first paint opportunity follows the folder double-click. Memoization and component counters ran in a separate diagnostic build, where clock reads affect short timings.</p></main></body></html>

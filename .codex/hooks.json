@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "pnpm exec lefthook run agent-stop",
+            "type": "command"
+          }
+        ]
+      }
+    ]
+  }
+}

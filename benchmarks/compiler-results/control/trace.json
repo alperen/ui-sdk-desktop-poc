@@ -1,0 +1,3835 @@
+{
+  "environment": {
+    "react": "19.3.1",
+    "sdk": "0.1.0-beta.5",
+    "agentBrowser": "agent-browser 0.43.0",
+    "viewport": [
+      1000,
+      700
+    ],
+    "browser": "Chromium 158",
+    "compiler": "off"
+  },
+  "results": [
+    {
+      "round": 1,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 26.127,
+      "renderingMs": 13.058,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.177,
+          "renderingMs": 0.358,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.745,
+          "renderingMs": 0.463,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.129,
+          "renderingMs": 1.011,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 3.072,
+          "renderingMs": 1.365,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 3.095,
+          "renderingMs": 0.998,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.881,
+          "renderingMs": 0.217,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 2.653,
+          "renderingMs": 0.924,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.964,
+          "renderingMs": 1.093,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 1.617,
+          "renderingMs": 1.011,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 8.149,
+          "renderingMs": 3.019,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.887,
+          "renderingMs": 1.857,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.758,
+          "renderingMs": 0.742,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 16.67,
+      "renderingMs": 12.271,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 0.822,
+          "renderingMs": 0.339,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.474,
+          "renderingMs": 0.349,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.796,
+          "renderingMs": 0.597,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.33,
+          "renderingMs": 0.465,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 1.731,
+          "renderingMs": 0.851,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.615,
+          "renderingMs": 0.18,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 1.912,
+          "renderingMs": 0.984,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.41,
+          "renderingMs": 1.044,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 0.926,
+          "renderingMs": 0.991,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 5.992,
+          "renderingMs": 4.141,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.914,
+          "renderingMs": 1.852,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 0.748,
+          "renderingMs": 0.478,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 68.341,
+      "renderingMs": 22.575,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.296,
+          "renderingMs": 0.361,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.764,
+          "renderingMs": 0.45,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.318,
+          "renderingMs": 1.12,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 2.978,
+          "renderingMs": 1.205,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 11.32,
+          "renderingMs": 2.428,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 7.472,
+          "renderingMs": 1.044,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 7.118,
+          "renderingMs": 1.966,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 3.775,
+          "renderingMs": 3.247,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 9.864,
+          "renderingMs": 2.72,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 17.071,
+          "renderingMs": 3.726,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.999,
+          "renderingMs": 3.097,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 4.366,
+          "renderingMs": 1.211,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 39.373,
+      "renderingMs": 27.151,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 8,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 0.827,
+          "renderingMs": 0.345,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.458,
+          "renderingMs": 0.354,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.832,
+          "renderingMs": 0.664,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.368,
+          "renderingMs": 0.478,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 5.979,
+          "renderingMs": 2.478,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 2.017,
+          "renderingMs": 0.853,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.301,
+          "renderingMs": 1.912,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 8,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 1.02,
+          "renderingMs": 2.849,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 3.755,
+          "renderingMs": 2.204,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 16.585,
+          "renderingMs": 12.021,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.873,
+          "renderingMs": 2.488,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.358,
+          "renderingMs": 0.505,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 43.033,
+      "renderingMs": 27,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.038,
+          "renderingMs": 0.355,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.722,
+          "renderingMs": 0.355,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.062,
+          "renderingMs": 0.634,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.637,
+          "renderingMs": 0.463,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 6.585,
+          "renderingMs": 2.46,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 2.549,
+          "renderingMs": 0.881,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.659,
+          "renderingMs": 1.881,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 1.034,
+          "renderingMs": 2.889,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 3.826,
+          "renderingMs": 2.189,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 17.67,
+          "renderingMs": 11.989,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.838,
+          "renderingMs": 2.429,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.413,
+          "renderingMs": 0.475,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 80.312,
+      "renderingMs": 22.323,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 2.055,
+          "renderingMs": 0.367,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 1.219,
+          "renderingMs": 0.444,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.653,
+          "renderingMs": 1.178,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 6.377,
+          "renderingMs": 1.419,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 14.173,
+          "renderingMs": 2.413,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 7.939,
+          "renderingMs": 0.932,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 8.318,
+          "renderingMs": 1.986,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 4.049,
+          "renderingMs": 3.258,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 10.659,
+          "renderingMs": 2.594,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 17.9,
+          "renderingMs": 3.583,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.118,
+          "renderingMs": 2.942,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 4.852,
+          "renderingMs": 1.207,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 18.385,
+      "renderingMs": 12.017,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.193,
+          "renderingMs": 0.358,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.693,
+          "renderingMs": 0.342,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.125,
+          "renderingMs": 0.653,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.604,
+          "renderingMs": 0.464,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 1.99,
+          "renderingMs": 0.781,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.613,
+          "renderingMs": 0.15,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 1.999,
+          "renderingMs": 0.897,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.457,
+          "renderingMs": 1.04,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 1.168,
+          "renderingMs": 1.109,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 5.843,
+          "renderingMs": 4.051,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.916,
+          "renderingMs": 1.701,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 0.784,
+          "renderingMs": 0.471,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 36.491,
+      "renderingMs": 13.501,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 2.06,
+          "renderingMs": 0.375,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 1.22,
+          "renderingMs": 0.44,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.525,
+          "renderingMs": 1.104,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 6.076,
+          "renderingMs": 1.372,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 5.404,
+          "renderingMs": 1.13,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.975,
+          "renderingMs": 0.21,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.351,
+          "renderingMs": 0.988,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 1.266,
+          "renderingMs": 1.128,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 2.359,
+          "renderingMs": 1.143,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 9.28,
+          "renderingMs": 3,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.022,
+          "renderingMs": 1.914,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.953,
+          "renderingMs": 0.697,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 28.013,
+      "renderingMs": 13.42,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.294,
+          "renderingMs": 0.347,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.714,
+          "renderingMs": 0.473,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.182,
+          "renderingMs": 0.98,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 3.094,
+          "renderingMs": 1.341,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 3.53,
+          "renderingMs": 1.016,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.929,
+          "renderingMs": 0.226,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 2.759,
+          "renderingMs": 0.947,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 1.042,
+          "renderingMs": 1.065,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 1.758,
+          "renderingMs": 1.161,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 9.02,
+          "renderingMs": 3.205,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.966,
+          "renderingMs": 1.933,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.725,
+          "renderingMs": 0.726,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 16.847,
+      "renderingMs": 12.026,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 0.853,
+          "renderingMs": 0.313,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.508,
+          "renderingMs": 0.35,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.82,
+          "renderingMs": 0.62,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.201,
+          "renderingMs": 0.404,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 1.814,
+          "renderingMs": 0.84,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.691,
+          "renderingMs": 0.162,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 1.915,
+          "renderingMs": 0.914,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.442,
+          "renderingMs": 1.041,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 0.876,
+          "renderingMs": 1.035,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 6.105,
+          "renderingMs": 3.953,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.917,
+          "renderingMs": 1.914,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 0.705,
+          "renderingMs": 0.48,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 68.596,
+      "renderingMs": 22.193,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.392,
+          "renderingMs": 0.371,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.789,
+          "renderingMs": 0.46,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.118,
+          "renderingMs": 0.965,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 3.097,
+          "renderingMs": 1.352,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 12.094,
+          "renderingMs": 2.62,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 7.401,
+          "renderingMs": 0.971,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 6.931,
+          "renderingMs": 1.932,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 3.854,
+          "renderingMs": 3.425,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 9.684,
+          "renderingMs": 2.693,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 16.926,
+          "renderingMs": 3.461,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.007,
+          "renderingMs": 2.752,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 4.303,
+          "renderingMs": 1.191,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 39.772,
+      "renderingMs": 26.271,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 0.837,
+          "renderingMs": 0.338,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.538,
+          "renderingMs": 0.35,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.816,
+          "renderingMs": 0.604,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.226,
+          "renderingMs": 0.43,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 5.841,
+          "renderingMs": 2.237,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 2.312,
+          "renderingMs": 0.528,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.156,
+          "renderingMs": 1.785,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.966,
+          "renderingMs": 2.908,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 3.589,
+          "renderingMs": 2.081,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 17.193,
+          "renderingMs": 11.803,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.873,
+          "renderingMs": 2.71,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.425,
+          "renderingMs": 0.497,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 39.672,
+      "renderingMs": 26.811,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 0.836,
+          "renderingMs": 0.339,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.448,
+          "renderingMs": 0.327,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.762,
+          "renderingMs": 0.614,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.208,
+          "renderingMs": 0.439,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 6.241,
+          "renderingMs": 2.352,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 1.995,
+          "renderingMs": 0.548,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.194,
+          "renderingMs": 1.887,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 1.007,
+          "renderingMs": 2.857,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 4.051,
+          "renderingMs": 2.166,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 16.706,
+          "renderingMs": 11.985,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.823,
+          "renderingMs": 2.758,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.401,
+          "renderingMs": 0.539,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 72.012,
+      "renderingMs": 22.868,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.292,
+          "renderingMs": 0.373,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.739,
+          "renderingMs": 0.481,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.114,
+          "renderingMs": 0.991,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 3.408,
+          "renderingMs": 1.514,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 11.689,
+          "renderingMs": 2.586,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 7.299,
+          "renderingMs": 1.069,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 8.043,
+          "renderingMs": 2.009,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 3.906,
+          "renderingMs": 3.39,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 10.108,
+          "renderingMs": 2.702,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 19.084,
+          "renderingMs": 3.863,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.961,
+          "renderingMs": 2.684,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 4.369,
+          "renderingMs": 1.206,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 16.489,
+      "renderingMs": 12.386,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 0.913,
+          "renderingMs": 0.322,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.62,
+          "renderingMs": 0.434,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.865,
+          "renderingMs": 0.658,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.457,
+          "renderingMs": 0.606,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 1.739,
+          "renderingMs": 0.852,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.678,
+          "renderingMs": 0.173,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 1.882,
+          "renderingMs": 0.9,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.448,
+          "renderingMs": 1.107,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 0.853,
+          "renderingMs": 1.092,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 5.523,
+          "renderingMs": 4.006,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.825,
+          "renderingMs": 1.761,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 0.686,
+          "renderingMs": 0.475,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 28.398,
+      "renderingMs": 13.954,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.399,
+          "renderingMs": 0.421,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.785,
+          "renderingMs": 0.479,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.183,
+          "renderingMs": 1.014,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 3.274,
+          "renderingMs": 1.387,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 3.454,
+          "renderingMs": 1.133,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 1.074,
+          "renderingMs": 0.343,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.374,
+          "renderingMs": 0.997,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.974,
+          "renderingMs": 1.165,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 1.663,
+          "renderingMs": 1.17,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 8.478,
+          "renderingMs": 3.15,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.988,
+          "renderingMs": 1.942,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.752,
+          "renderingMs": 0.753,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 28.437,
+      "renderingMs": 13.595,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 8,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.561,
+          "renderingMs": 0.396,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.818,
+          "renderingMs": 0.494,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.091,
+          "renderingMs": 0.908,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 2.934,
+          "renderingMs": 1.233,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 3.751,
+          "renderingMs": 1.034,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 1.097,
+          "renderingMs": 0.349,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.131,
+          "renderingMs": 1.145,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 8,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.968,
+          "renderingMs": 1.148,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 1.724,
+          "renderingMs": 1.182,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 8.635,
+          "renderingMs": 3.017,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.957,
+          "renderingMs": 1.875,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.77,
+          "renderingMs": 0.814,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 4,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 16.803,
+      "renderingMs": 13.001,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 0.911,
+          "renderingMs": 0.357,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.537,
+          "renderingMs": 0.376,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.867,
+          "renderingMs": 0.65,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.228,
+          "renderingMs": 0.435,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 1.719,
+          "renderingMs": 0.868,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 0.629,
+          "renderingMs": 0.165,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 1.788,
+          "renderingMs": 0.875,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 0.48,
+          "renderingMs": 1.366,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 0.897,
+          "renderingMs": 1.348,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 6.091,
+          "renderingMs": 4.275,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.887,
+          "renderingMs": 1.802,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 0.769,
+          "renderingMs": 0.484,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "sdk",
+      "checks": 26,
+      "inputMs": 71.335,
+      "renderingMs": 23.386,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 7,
+        "input": 11
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.435,
+          "renderingMs": 0.419,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.777,
+          "renderingMs": 0.466,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 1.182,
+          "renderingMs": 1.03,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 3.005,
+          "renderingMs": 1.321,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 11.999,
+          "renderingMs": 2.465,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 7.436,
+          "renderingMs": 0.976,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 6.749,
+          "renderingMs": 1.898,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 7,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 3.797,
+          "renderingMs": 3.255,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 10.774,
+          "renderingMs": 3.065,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "input": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 18.948,
+          "renderingMs": 4.103,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 0.932,
+          "renderingMs": 3.111,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 4.301,
+          "renderingMs": 1.277,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "size": 100,
+      "app": "react",
+      "checks": 26,
+      "inputMs": 40.798,
+      "renderingMs": 28.123,
+      "eventTypes": {
+        "keydown": 7,
+        "keyup": 7,
+        "pointermove": 19,
+        "mousemove": 19,
+        "pointerdown": 16,
+        "mousedown": 16,
+        "pointerup": 16,
+        "mouseup": 16,
+        "click": 15,
+        "contextmenu": 1,
+        "dblclick": 1,
+        "beforeinput": 9,
+        "input": 9
+      },
+      "steps": [
+        {
+          "name": "desktop-selection",
+          "inputMs": 1.006,
+          "renderingMs": 0.378,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "lasso",
+          "inputMs": 0.493,
+          "renderingMs": 0.382,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "item-drag",
+          "inputMs": 0.749,
+          "renderingMs": 0.62,
+          "eventTypes": {
+            "pointermove": 3,
+            "mousemove": 3,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "menu",
+          "inputMs": 1.226,
+          "renderingMs": 0.447,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "contextmenu": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "keydown": 1,
+            "keyup": 1
+          }
+        },
+        {
+          "name": "open-folder",
+          "inputMs": 6.309,
+          "renderingMs": 2.34,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "dblclick": 1
+          }
+        },
+        {
+          "name": "folder-selection",
+          "inputMs": 2.348,
+          "renderingMs": 0.892,
+          "eventTypes": {
+            "keydown": 2,
+            "keyup": 2
+          }
+        },
+        {
+          "name": "rename",
+          "inputMs": 3.277,
+          "renderingMs": 1.998,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1,
+            "keydown": 2,
+            "keyup": 2,
+            "beforeinput": 9,
+            "input": 9
+          }
+        },
+        {
+          "name": "grid",
+          "inputMs": 1.059,
+          "renderingMs": 3.35,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "columns",
+          "inputMs": 3.87,
+          "renderingMs": 2.561,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        },
+        {
+          "name": "deep-columns",
+          "inputMs": 17.354,
+          "renderingMs": 12.26,
+          "eventTypes": {
+            "pointermove": 6,
+            "mousemove": 6,
+            "pointerdown": 6,
+            "mousedown": 6,
+            "pointerup": 6,
+            "mouseup": 6,
+            "click": 6
+          }
+        },
+        {
+          "name": "maximize-restore",
+          "inputMs": 1.697,
+          "renderingMs": 2.343,
+          "eventTypes": {
+            "pointermove": 2,
+            "mousemove": 2,
+            "pointerdown": 2,
+            "mousedown": 2,
+            "pointerup": 2,
+            "mouseup": 2,
+            "click": 2
+          }
+        },
+        {
+          "name": "close",
+          "inputMs": 1.41,
+          "renderingMs": 0.552,
+          "eventTypes": {
+            "pointermove": 1,
+            "mousemove": 1,
+            "pointerdown": 1,
+            "mousedown": 1,
+            "pointerup": 1,
+            "mouseup": 1,
+            "click": 1
+          }
+        }
+      ]
+    }
+  ]
+}

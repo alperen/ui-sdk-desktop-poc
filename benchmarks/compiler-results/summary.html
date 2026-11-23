@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>React Compiler 1.0.0 enabled measurements</title><style>body{font:16px/1.55 system-ui;max-width:76rem;margin:2rem auto;padding:0 1rem;color:#19342c}section{overflow-x:auto}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{padding:.45rem;text-align:right;border-bottom:1px solid #ccd5cf}th:first-child,td:first-child{text-align:left}a{color:#00654d}</style><h1>React Compiler 1.0.0 enabled measurements</h1>
+<p>Times are in milliseconds and memory is in MiB. The rounds table shows individual runs. Other tables show five-run medians. Interaction totals exclude the initial desktop mount.</p>
+<section><h2>Compiler effect within the same session</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">Render (off)</th><th scope="col">Render (on)</th><th scope="col">Median time reduction</th><th scope="col">Rounds faster with compiler on</th><th scope="col">Input processing (off)</th><th scope="col">Input processing (on)</th><th scope="col">Heap (off) (MiB)</th><th scope="col">Heap (on) (MiB)</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>10.55</td><td>10.37</td><td>1.7%</td><td>4/5</td><td>28.40</td><td>26.70</td><td>3.20</td><td>3.14</td></tr>
+<tr><td>4</td><td>React only</td><td>4.87</td><td>4.16</td><td>14.5%</td><td>4/5</td><td>16.80</td><td>15.59</td><td>1.89</td><td>1.89</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>34.95</td><td>32.49</td><td>7.0%</td><td>4/5</td><td>71.34</td><td>64.58</td><td>6.15</td><td>6.16</td></tr>
+<tr><td>100</td><td>React only</td><td>15.49</td><td>10.81</td><td>30.2%</td><td>5/5</td><td>39.77</td><td>35.13</td><td>2.84</td><td>2.73</td></tr>
+</tbody></table></section>
+Percentages use the compiler-off median as the baseline. The win count compares paired rounds. <a href='control/summary.html'>All compiler-off control rounds</a>
+
+<section><h2>Paired rounds</h2><table><thead><tr><th scope="col">Round</th><th scope="col">Items</th><th scope="col">First to run</th><th scope="col">SDK render</th><th scope="col">React render</th><th scope="col">Faster render</th><th scope="col">SDK input processing</th><th scope="col">React input processing</th></tr></thead><tbody>
+<tr><td>1</td><td>4</td><td>UI SDK</td><td>12.77</td><td>5.16</td><td>React only</td><td>35.02</td><td>17.81</td></tr>
+<tr><td>2</td><td>4</td><td>React only</td><td>10.43</td><td>4.16</td><td>React only</td><td>26.70</td><td>15.48</td></tr>
+<tr><td>3</td><td>4</td><td>UI SDK</td><td>10.07</td><td>4.02</td><td>React only</td><td>26.01</td><td>15.14</td></tr>
+<tr><td>4</td><td>4</td><td>React only</td><td>10.37</td><td>4.17</td><td>React only</td><td>27.49</td><td>15.59</td></tr>
+<tr><td>5</td><td>4</td><td>UI SDK</td><td>8.78</td><td>4.06</td><td>React only</td><td>26.52</td><td>15.93</td></tr>
+<tr><td>1</td><td>100</td><td>UI SDK</td><td>35.09</td><td>12.87</td><td>React only</td><td>71.11</td><td>36.93</td></tr>
+<tr><td>2</td><td>100</td><td>React only</td><td>32.49</td><td>10.81</td><td>React only</td><td>64.58</td><td>32.28</td></tr>
+<tr><td>3</td><td>100</td><td>UI SDK</td><td>31.86</td><td>10.60</td><td>React only</td><td>63.68</td><td>35.13</td></tr>
+<tr><td>4</td><td>100</td><td>React only</td><td>33.03</td><td>9.00</td><td>React only</td><td>66.82</td><td>32.11</td></tr>
+<tr><td>5</td><td>100</td><td>UI SDK</td><td>32.21</td><td>11.12</td><td>React only</td><td>63.19</td><td>35.23</td></tr>
+</tbody></table></section>
+<section><h2>Full interaction sequence</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">Render</th><th scope="col">React commit</th><th scope="col">Function body calls</th><th scope="col">agent-browser render records</th><th scope="col">Recorded mounts / updates</th><th scope="col">Input processing</th><th scope="col">Style, layout and paint</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>10.37</td><td>29</td><td>1,297</td><td>4,004</td><td>1,149 / 2,855</td><td>26.70</td><td>13.62</td></tr>
+<tr><td>4</td><td>React only</td><td>4.16</td><td>38</td><td>765</td><td>3,392</td><td>1,701 / 1,691</td><td>15.59</td><td>12.06</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>32.49</td><td>29</td><td>11,857</td><td>25,892</td><td>7,293 / 18,599</td><td>64.58</td><td>22.78</td></tr>
+<tr><td>100</td><td>React only</td><td>10.81</td><td>38</td><td>6,141</td><td>23,360</td><td>14,469 / 8,891</td><td>35.13</td><td>26.11</td></tr>
+</tbody></table></section>
+<section><h2>React render time by interaction</h2><table><thead><tr><th scope="col">Step</th><th scope="col">SDK · 4</th><th scope="col">React · 4</th><th scope="col">SDK · 100</th><th scope="col">React · 100</th></tr></thead><tbody>
+<tr><td>Initial desktop mount</td><td>1.245</td><td>0.735</td><td>1.170</td><td>0.690</td></tr>
+<tr><td>Select all desktop items and clear selection</td><td>0.270</td><td>0.125</td><td>0.265</td><td>0.130</td></tr>
+<tr><td>Marquee selection</td><td>0.095</td><td>0.170</td><td>0.090</td><td>0.145</td></tr>
+<tr><td>Drag the selected file</td><td>0.060</td><td>0.050</td><td>0.060</td><td>0.060</td></tr>
+<tr><td>Open and close the context menu</td><td>0.510</td><td>0.245</td><td>0.485</td><td>0.255</td></tr>
+<tr><td>Open the Photos folder</td><td>1.985</td><td>0.610</td><td>6.925</td><td>3.220</td></tr>
+<tr><td>Select all folder items and clear selection</td><td>0.185</td><td>0.070</td><td>1.770</td><td>0.360</td></tr>
+<tr><td>Rename a file with the keyboard and save</td><td>0.815</td><td>0.375</td><td>3.295</td><td>1.015</td></tr>
+<tr><td>Switch to grid view</td><td>0.445</td><td>0.095</td><td>2.395</td><td>0.485</td></tr>
+<tr><td>Switch to column view</td><td>0.740</td><td>0.315</td><td>4.900</td><td>1.650</td></tr>
+<tr><td>Open five nested folders and select the file</td><td>4.620</td><td>1.945</td><td>12.225</td><td>3.145</td></tr>
+<tr><td>Maximize and restore the window</td><td>0.285</td><td>0.115</td><td>0.245</td><td>0.115</td></tr>
+<tr><td>Close the window</td><td>0.100</td><td>0.055</td><td>0.105</td><td>0.075</td></tr>
+</tbody></table></section>
+<section><h2>Memoization</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">useMemo calls</th><th scope="col">Hits</th><th scope="col">Calculations</th><th scope="col">useMemo ms</th><th scope="col">Calculation time (ms)</th><th scope="col">useCallback calls</th><th scope="col">Hits</th><th scope="col">useCallback ms</th><th scope="col">React.memo comparisons</th><th scope="col">Comparison time (ms)</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>903</td><td>656</td><td>247</td><td>0.300</td><td>0.050</td><td>747</td><td>557</td><td>0.185</td><td>0</td><td>0.000</td></tr>
+<tr><td>4</td><td>React only</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0.000</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>0.000</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>8,007</td><td>6,128</td><td>1,879</td><td>2.065</td><td>0.240</td><td>6,987</td><td>5,453</td><td>1.120</td><td>0</td><td>0.000</td></tr>
+<tr><td>100</td><td>React only</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0.000</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>0.000</td></tr>
+</tbody></table></section>
+<section><h2>Compiler-generated cache</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">Cache accesses</th><th scope="col">Access time (ms)</th><th scope="col">Block checks</th><th scope="col">Hits</th><th scope="col">Recomputations</th><th scope="col">Hit rate</th><th scope="col">Guard time (ms)</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>244</td><td>0.095</td><td>1,213</td><td>641</td><td>572</td><td>52.8%</td><td>0.190</td></tr>
+<tr><td>4</td><td>React only</td><td>809</td><td>0.225</td><td>4,005</td><td>1,997</td><td>2,008</td><td>49.9%</td><td>0.580</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>2,164</td><td>0.465</td><td>6,301</td><td>3,233</td><td>3,068</td><td>51.3%</td><td>0.675</td></tr>
+<tr><td>100</td><td>React only</td><td>5,801</td><td>0.965</td><td>32,037</td><td>15,341</td><td>16,696</td><td>47.9%</td><td>3.080</td></tr>
+</tbody></table></section>
+<section><h2>Component calls and body time with 100 items</h2><table><thead><tr><th scope="col">Component</th><th scope="col">SDK calls</th><th scope="col">SDK ms</th><th scope="col">React calls</th><th scope="col">React ms</th></tr></thead><tbody>
+<tr><td>App.Item</td><td>940</td><td>0.615</td><td>1,467</td><td>2.535</td></tr>
+<tr><td>FileListItem</td><td>1,159</td><td>6.165</td><td>2,100</td><td>4.945</td></tr>
+<tr><td>FileListView</td><td>35</td><td>0.515</td><td>61</td><td>0.655</td></tr>
+<tr><td>FileIcon</td><td>940</td><td>0.540</td><td>211</td><td>0.145</td></tr>
+<tr><td>ItemIcon</td><td>940</td><td>2.415</td><td>415</td><td>0.210</td></tr>
+<tr><td>ItemLabel</td><td>941</td><td>2.170</td><td>415</td><td>0.225</td></tr>
+<tr><td>ItemInput</td><td>941</td><td>1.755</td><td>415</td><td>0.160</td></tr>
+<tr><td>App.Window</td><td>4</td><td>0.070</td><td>7</td><td>0.305</td></tr>
+<tr><td>ColumnView</td><td>1</td><td>0.005</td><td>1</td><td>0.005</td></tr>
+<tr><td>HandleScope</td><td>975</td><td>0.500</td><td>—</td><td>—</td></tr>
+<tr><td>ContextTriggerPart</td><td>942</td><td>3.235</td><td>—</td><td>—</td></tr>
+</tbody></table></section>
+<section><h2>Memory and folder opening in the production build</h2><table><thead><tr><th scope="col">Items</th><th scope="col">Application</th><th scope="col">Desktop heap</th><th scope="col">Open-folder heap</th><th scope="col">Heap increase on open</th><th scope="col">Heap after closing</th><th scope="col">Double-click to first paint opportunity (ms)</th></tr></thead><tbody>
+<tr><td>4</td><td>UI SDK</td><td>2.36</td><td>3.14</td><td>0.78</td><td>2.97</td><td>14.93</td></tr>
+<tr><td>4</td><td>React only</td><td>1.54</td><td>1.89</td><td>0.34</td><td>1.87</td><td>14.85</td></tr>
+<tr><td>100</td><td>UI SDK</td><td>2.37</td><td>6.16</td><td>3.79</td><td>3.35</td><td>16.35</td></tr>
+<tr><td>100</td><td>React only</td><td>1.56</td><td>2.73</td><td>1.17</td><td>2.12</td><td>16.16</td></tr>
+</tbody></table></section>
+<p><a href="components.csv">Component data (CSV)</a> · <a href="./index.html">Methodology</a></p></html>
